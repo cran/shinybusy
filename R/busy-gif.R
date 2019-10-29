@@ -1,5 +1,5 @@
 
-#' @title Busy indicator (GIF)
+#' @title Automatic busy indicator (GIF)
 #'
 #' @description Make a GIF play when server is busy and stop when idle.
 #'
@@ -18,36 +18,69 @@
 #' @importFrom htmltools validateCssUnit attachDependencies tags
 #' @importFrom jsonlite toJSON
 #'
-#' @examples
-#' if (interactive()) {
-#'   library(shiny)
-#'   library(shinybusy)
-#'
-#'   ui <- fluidPage(
-#'
-#'     # Use this function somewhere in UI
-#'     add_busy_gif(
-#'       src = "https://jeroen.github.io/images/banana.gif",
-#'       height = 70, width = 70
-#'     ),
-#'
-#'     actionButton("sleep", "Long calculation")
-#'   )
-#'
-#'   server <- function(input, output, session) {
-#'
-#'     observeEvent(input$sleep, {
-#'       Sys.sleep(5)
-#'     })
-#'
-#'   }
-#'
-#'   shinyApp(ui, server)
-#' }
+#' @example examples/add_busy_gif.R
 add_busy_gif <- function(src, timeout = 100,
                          position = c("top-right", "top-left", "bottom-right", "bottom-left", "full-page", "free"),
                          margins = c(10, 10), overlay_color = "rgba(0, 0, 0, 0.5)", overlay_css = NULL,
                          height = "50px", width = "50px") {
+  busy_gif(
+    src = src, timeout = timeout,
+    position = position, margins = margins,
+    overlay_color = overlay_color, overlay_css = overlay_css,
+    height = height, width = width, type = "auto"
+  )
+}
+
+
+#' Manual busy indicator (GIF)
+#'
+#' @inheritParams add_busy_gif
+#'
+#' @export
+#'
+#' @name manual-gif
+#'
+#' @example examples/use_busy_gif.R
+use_busy_gif <- function(src, timeout = 100,
+                         position = c("top-right", "top-left", "bottom-right", "bottom-left", "full-page", "free"),
+                         margins = c(10, 10), overlay_color = "rgba(0, 0, 0, 0.5)", overlay_css = NULL,
+                         height = "50px", width = "50px") {
+  busy_gif(
+    src = src, timeout = timeout,
+    position = position, margins = margins,
+    overlay_color = overlay_color, overlay_css = overlay_css,
+    height = height, width = width, type = "manual"
+  )
+}
+
+#' @param session Shiny session.
+#'
+#' @export
+#'
+#' @rdname manual-gif
+play_gif <- function(session = shiny::getDefaultReactiveDomain()) {
+  session$sendCustomMessage(
+    type =  "shinybusy-play-gif",
+    message = dropNulls(list())
+  )
+}
+
+
+#' @export
+#'
+#' @rdname manual-gif
+stop_gif <- function(session = shiny::getDefaultReactiveDomain()) {
+  session$sendCustomMessage(
+    type = "shinybusy-stop-gif",
+    message = dropNulls(list())
+  )
+}
+
+
+busy_gif <- function(src, timeout = 100,
+                     position = c("top-right", "top-left", "bottom-right", "bottom-left", "full-page", "free"),
+                     margins = c(10, 10), overlay_color = "rgba(0, 0, 0, 0.5)", overlay_css = NULL,
+                     height = "50px", width = "50px", type = "auto") {
   stopifnot(length(margins) == 2)
   marg1 <- validateCssUnit(margins[1])
   marg2 <- validateCssUnit(margins[2])
@@ -88,7 +121,7 @@ add_busy_gif <- function(src, timeout = 100,
       `data-for` = "shinybusy",
       toJSON(list(
         timeout = timeout, mode = "gif",
-        position = position
+        position = position, type = type
       ), auto_unbox = TRUE, json_verbatim = TRUE)
     )
   )

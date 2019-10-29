@@ -1,11 +1,21 @@
 
 #' @importFrom htmltools htmlDependency
-spinner_dependencies <- function() {
+spinkit_dependencies <- function() {
   htmlDependency(
-    name = "spin", version = "0.1.0",
+    name = "spinkit", version = "0.1.0",
     src = list(href = "shinybusy", file = "assets"),
     package = "shinybusy",
-    stylesheet = "spinner/spin.min.css"
+    stylesheet = "spinkit/spin.min.css"
+  )
+}
+
+#' @importFrom htmltools htmlDependency
+epic_spinners_dependencies <- function() {
+  htmlDependency(
+    name = "epic-spinners", version = "1.1.0",
+    src = list(href = "shinybusy", file = "assets"),
+    package = "shinybusy",
+    stylesheet = "epic-spinners/epic-spinners.css"
   )
 }
 
@@ -18,6 +28,18 @@ shinybusy_dependencies <- function() {
     package = "shinybusy",
     script = "js/shinybusy.js",
     stylesheet = "css/shinybusy.css"
+  )
+}
+
+#' @importFrom utils packageVersion
+#' @importFrom htmltools htmlDependency
+autospin_dependencies <- function() {
+  htmlDependency(
+    name = "shinybusy-autospin", version = packageVersion("shinybusy"),
+    src = list(href = "shinybusy", file = "assets"),
+    package = "shinybusy",
+    script = "js/autospin.js",
+    stylesheet = "css/autospin.css"
   )
 }
 

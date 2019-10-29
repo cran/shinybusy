@@ -2,7 +2,7 @@
 % Please edit documentation in R/busy-spinner.R
 \name{add_busy_spinner}
 \alias{add_busy_spinner}
-\title{Busy indicator (spinner)}
+\title{Automatic busy indicator (spinner)}
 \usage{
 add_busy_spinner(spin = "double-bounce", color = "#112446",
   timeout = 100, position = c("top-right", "top-left", "bottom-right",
@@ -10,8 +10,8 @@ add_busy_spinner(spin = "double-bounce", color = "#112446",
   height = "50px", width = "50px")
 }
 \arguments{
-\item{spin}{Style of the spinner, choice between : \code{circle}, \code{bounce}, \code{folding-cube},
-\code{rotating-plane}, \code{cube-grid}, \code{fading-circle}, \code{double-bounce}, \code{dots}, \code{cube}.}
+\item{spin}{Style of the spinner, see \code{\link{spin_epic}} or \code{\link{spin_kit}}
+for possible choices. Note that for \code{spin_epic}, height and width are ignored.}
 
 \item{color}{Color for the spinner, in a valid CSS format.}
 
@@ -38,7 +38,9 @@ if (interactive()) {
   ui <- fluidPage(
 
     # Use this function somewhere in UI
-    add_busy_spinner(spin = "fading-circle"),
+    add_busy_spinner(spin = "double-bounce"),
+    # or use a different spinner
+    # add_busy_spinner(spin = "radar", margins = c(10, 20)),
 
     headerPanel('Iris k-means clustering'),
 
@@ -69,7 +71,8 @@ if (interactive()) {
 
     output$plot1 <- renderPlot({
       palette(c("#E41A1C", "#377EB8", "#4DAF4A", "#984EA3",
-                "#FF7F00", "#FFFF33", "#A65628", "#F781BF", "#999999"))
+                "#FF7F00", "#FFFF33", "#A65628", "#F781BF",
+                "#999999"))
 
       par(mar = c(5.1, 4.1, 0, 1))
       plot(selectedData(),
