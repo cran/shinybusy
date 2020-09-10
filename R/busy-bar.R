@@ -41,7 +41,7 @@ use_busy_bar <- function(color = "#112446", centered = FALSE, height = "8px") {
 #'
 update_busy_bar <- function(value, session = shiny::getDefaultReactiveDomain()) {
   session$sendCustomMessage(
-    type =  "update-nanobar",
+    type =  "shinybusy-update-nanobar",
     message = list(value = value)
   )
 }
@@ -72,8 +72,8 @@ busy_bar <- function(timeout = 1000, color = "#112446", height = "8px", centered
   attachDependencies(
     x = nanobar_tag,
     value = list(
-      nanobar_dependencies(),
-      shinybusy_dependencies()
+      html_dependency_nanobar(),
+      html_dependency_shinybusy()
     )
   )
 }

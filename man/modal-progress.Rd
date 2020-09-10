@@ -8,20 +8,39 @@
 \alias{update_modal_progress}
 \title{Show a modal with a progress bar}
 \usage{
-show_modal_progress_line(value = 0, text = "auto", color = "#112446",
-  stroke_width = 4, easing = "linear", duration = 1000,
-  trail_color = "#eee", trail_width = 1, height = "15px",
-  session = shiny::getDefaultReactiveDomain())
+show_modal_progress_line(
+  value = 0,
+  text = "auto",
+  color = "#112446",
+  stroke_width = 4,
+  easing = "linear",
+  duration = 1000,
+  trail_color = "#eee",
+  trail_width = 1,
+  height = "15px",
+  session = shiny::getDefaultReactiveDomain()
+)
 
-show_modal_progress_circle(value = 0, text = "auto",
-  color = "#112446", stroke_width = 4, easing = "linear",
-  duration = 1000, trail_color = "#eee", trail_width = 1,
-  height = "200px", session = shiny::getDefaultReactiveDomain())
+show_modal_progress_circle(
+  value = 0,
+  text = "auto",
+  color = "#112446",
+  stroke_width = 4,
+  easing = "linear",
+  duration = 1000,
+  trail_color = "#eee",
+  trail_width = 1,
+  height = "200px",
+  session = shiny::getDefaultReactiveDomain()
+)
 
 remove_modal_progress(session = getDefaultReactiveDomain())
 
-update_modal_progress(value, text = NULL,
-  session = shiny::getDefaultReactiveDomain())
+update_modal_progress(
+  value,
+  text = NULL,
+  session = shiny::getDefaultReactiveDomain()
+)
 }
 \arguments{
 \item{value}{Initial value or new value to set.}
@@ -47,7 +66,7 @@ update_modal_progress(value, text = NULL,
 }
 \description{
 Make a pop-up window appear from the server
- with a spinner during long computation, remove it when finished.
+with a spinner during long computation, remove it when finished.
 }
 \examples{
 if (interactive()) {

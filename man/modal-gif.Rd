@@ -6,8 +6,14 @@
 \alias{remove_modal_gif}
 \title{Show a modal with a GIF}
 \usage{
-show_modal_gif(src, text = NULL, height = "100px", width = "100px",
-  modal_size = "s", session = shiny::getDefaultReactiveDomain())
+show_modal_gif(
+  src,
+  text = NULL,
+  height = "100px",
+  width = "100px",
+  modal_size = "s",
+  session = shiny::getDefaultReactiveDomain()
+)
 
 remove_modal_gif(session = getDefaultReactiveDomain())
 }
@@ -24,7 +30,7 @@ remove_modal_gif(session = getDefaultReactiveDomain())
 }
 \description{
 Make a pop-up window appear from the server
- with a GIF during long computation, remove it when finished.
+with a GIF during long computation, remove it when finished.
 }
 \examples{
 if (interactive()) {
