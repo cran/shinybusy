@@ -73,3 +73,13 @@ knitr::include_graphics(path = "figures/modal_spinner.png")
 ## ---- echo=FALSE--------------------------------------------------------------
 knitr::include_graphics(path = "figures/modal_progress.png")
 
+## ----notifications, eval=FALSE------------------------------------------------
+#  # success notification
+#  notify_success("Well done!")
+#  
+#  # report failure
+#  report_failure(
+#    "Oups...",
+#    "Something went wrong"
+#  )
+

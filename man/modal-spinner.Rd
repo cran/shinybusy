@@ -4,6 +4,7 @@
 \alias{modal-spinner}
 \alias{show_modal_spinner}
 \alias{remove_modal_spinner}
+\alias{update_modal_spinner}
 \title{Show a modal with a spinner}
 \usage{
 show_modal_spinner(
@@ -14,9 +15,11 @@ show_modal_spinner(
 )
 
 remove_modal_spinner(session = getDefaultReactiveDomain())
+
+update_modal_spinner(text, session = shiny::getDefaultReactiveDomain())
 }
 \arguments{
-\item{spin}{Style of the spinner, see \link{spin_epic} or \link{spin_kit} for possible choices.}
+\item{spin}{Style of the spinner, see \code{\link[=spin_epic]{spin_epic()}} or \code{\link[=spin_kit]{spin_kit()}} for possible choices.}
 
 \item{color}{Color for the spinner, in a valid CSS format.}
 
