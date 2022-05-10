@@ -1,6 +1,6 @@
 Package: shinybusy
 Title: Busy Indicators and Notifications for 'Shiny' Applications
-Version: 0.3.0
+Version: 0.3.1
 Authors@R: c(person("Fanny", "Meyer", role = "aut"),
   person("Victor", "Perrier", email = "victor.perrier@dreamrs.fr", role = c("aut", "cre")),
   person("Silex Technologies", comment = "https://www.silex-ip.com", role = "fnd"))
@@ -16,10 +16,10 @@ BugReports: https://github.com/dreamRs/shinybusy/issues
 Suggests: testthat, covr, knitr, rmarkdown
 VignetteBuilder: knitr
 NeedsCompilation: no
-Packaged: 2022-02-22 20:38:34 UTC; perri
+Packaged: 2022-05-10 15:15:17 UTC; perri
 Author: Fanny Meyer [aut],
   Victor Perrier [aut, cre],
   Silex Technologies [fnd] (https://www.silex-ip.com)
 Maintainer: Victor Perrier <victor.perrier@dreamrs.fr>
 Repository: CRAN
-Date/Publication: 2022-02-22 21:00:03 UTC
+Date/Publication: 2022-05-10 16:00:02 UTC
