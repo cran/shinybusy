@@ -8,6 +8,12 @@
 \alias{html_dependency_freezeframe}
 \alias{html_dependency_nanobar}
 \alias{html_dependency_notiflix}
+\alias{html_dependency_startup}
+\alias{html_dependency_loading}
+\alias{html_dependency_busy}
+\alias{html_dependency_notify}
+\alias{html_dependency_report}
+\alias{html_dependency_block}
 \title{HTML dependencies used by shinybusy}
 \usage{
 html_dependency_spinkit()
@@ -21,6 +27,18 @@ html_dependency_freezeframe()
 html_dependency_nanobar()
 
 html_dependency_notiflix()
+
+html_dependency_startup()
+
+html_dependency_loading()
+
+html_dependency_busy()
+
+html_dependency_notify()
+
+html_dependency_report()
+
+html_dependency_block()
 }
 \value{
 an \code{\link[htmltools:htmlDependency]{htmltools::htmlDependency()}}.

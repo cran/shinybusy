@@ -14,28 +14,1243 @@
 
 <title>Spinners</title>
 
-<script src="data:application/javascript;base64,Ly8gUGFuZG9jIDIuOSBhZGRzIGF0dHJpYnV0ZXMgb24gYm90aCBoZWFkZXIgYW5kIGRpdi4gV2UgcmVtb3ZlIHRoZSBmb3JtZXIgKHRvCi8vIGJlIGNvbXBhdGlibGUgd2l0aCB0aGUgYmVoYXZpb3Igb2YgUGFuZG9jIDwgMi44KS4KZG9jdW1lbnQuYWRkRXZlbnRMaXN0ZW5lcignRE9NQ29udGVudExvYWRlZCcsIGZ1bmN0aW9uKGUpIHsKICB2YXIgaHMgPSBkb2N1bWVudC5xdWVyeVNlbGVjdG9yQWxsKCJkaXYuc2VjdGlvbltjbGFzcyo9J2xldmVsJ10gPiA6Zmlyc3QtY2hpbGQiKTsKICB2YXIgaSwgaCwgYTsKICBmb3IgKGkgPSAwOyBpIDwgaHMubGVuZ3RoOyBpKyspIHsKICAgIGggPSBoc1tpXTsKICAgIGlmICghL15oWzEtNl0kL2kudGVzdChoLnRhZ05hbWUpKSBjb250aW51ZTsgIC8vIGl0IHNob3VsZCBiZSBhIGhlYWRlciBoMS1oNgogICAgYSA9IGguYXR0cmlidXRlczsKICAgIHdoaWxlIChhLmxlbmd0aCA+IDApIGgucmVtb3ZlQXR0cmlidXRlKGFbMF0ubmFtZSk7CiAgfQp9KTsK"></script>
-<link href="data:text/css,%2Eflower%2Dspinner%2C%2Eflower%2Dspinner%20%2A%20%7Bbox%2Dsizing%3A%20border%2Dbox%3B%7D%2Eflower%2Dspinner%20%7Bheight%3A%2070px%3Bwidth%3A%2070px%3Bdisplay%3A%20flex%3Bflex%2Ddirection%3A%20row%3Balign%2Ditems%3A%20center%3Bjustify%2Dcontent%3A%20center%3B%7D%2Eflower%2Dspinner%20%2Edots%2Dcontainer%20%7Bheight%3A%20calc%2870px%20%2F%207%29%3Bwidth%3A%20calc%2870px%20%2F%207%29%3B%7D%2Eflower%2Dspinner%20%2Esmaller%2Ddot%20%7Bbackground%3A%20%23ff1d5e%3Bheight%3A%20100%25%3Bwidth%3A%20100%25%3Bborder%2Dradius%3A%2050%25%3Banimation%3A%20flower%2Dspinner%2Dsmaller%2Ddot%2Danimation%202%2E5s%200s%20infinite%20both%3B%7D%2Eflower%2Dspinner%20%2Ebigger%2Ddot%20%7Bbackground%3A%20%23ff1d5e%3Bheight%3A%20100%25%3Bwidth%3A%20100%25%3Bpadding%3A%2010%25%3Bborder%2Dradius%3A%2050%25%3Banimation%3A%20flower%2Dspinner%2Dbigger%2Ddot%2Danimation%202%2E5s%200s%20infinite%20both%3B%7D%40keyframes%20flower%2Dspinner%2Dbigger%2Ddot%2Danimation%20%7B0%25%2C%20100%25%20%7Bbox%2Dshadow%3A%200px%200px%200px%2C%200px%200px%200px%2C%200px%200px%200px%2C%200px%200px%200px%2C%200px%200px%200px%2C%200px%200px%200px%2C%200px%200px%200px%2C%200px%200px%200px%3B%7D50%25%20%7Btransform%3A%20rotate%28180deg%29%3B%7D25%25%2C75%25%20%7Bbox%2Dshadow%3A%2026px%200px%200px%2C%20%2D26px%200px%200px%2C%200px%2026px%200px%2C%200px%20%2D26px%200px%2C%2019px%20%2D19px%200px%2C%2019px%2019px%200px%2C%20%2D19px%20%2D19px%200px%2C%20%2D19px%2019px%200px%3B%7D100%25%20%7Btransform%3A%20rotate%28360deg%29%3Bbox%2Dshadow%3A%200px%200px%200px%2C%200px%200px%200px%2C%200px%200px%200px%2C%200px%200px%200px%2C%200px%200px%200px%2C%200px%200px%200px%2C%200px%200px%200px%2C%200px%200px%200px%3B%7D%7D%40keyframes%20flower%2Dspinner%2Dsmaller%2Ddot%2Danimation%20%7B0%25%2C%20100%25%20%7Bbox%2Dshadow%3A%200px%200px%200px%2C%200px%200px%200px%2C%200px%200px%200px%2C%200px%200px%200px%2C%200px%200px%200px%2C%200px%200px%200px%2C%200px%200px%200px%2C%200px%200px%200px%3B%7D25%25%2C75%25%20%7Bbox%2Dshadow%3A%2014px%200px%200px%2C%20%2D14px%200px%200px%2C%200px%2014px%200px%2C%200px%20%2D14px%200px%2C%2010px%20%2D10px%200px%2C%2010px%2010px%200px%2C%20%2D10px%20%2D10px%200px%2C%20%2D10px%2010px%200px%3B%7D100%25%20%7Bbox%2Dshadow%3A%200px%200px%200px%2C%200px%200px%200px%2C%200px%200px%200px%2C%200px%200px%200px%2C%200px%200px%200px%2C%200px%200px%200px%2C%200px%200px%200px%2C%200px%200px%200px%3B%7D%7D%2Epixel%2Dspinner%2C%2Epixel%2Dspinner%20%2A%20%7Bbox%2Dsizing%3A%20border%2Dbox%3B%7D%2Epixel%2Dspinner%20%7Bheight%3A%2070px%3Bwidth%3A%2070px%3Bdisplay%3A%20flex%3Bflex%2Ddirection%3A%20row%3Bjustify%2Dcontent%3A%20center%3Balign%2Ditems%3A%20center%3B%7D%2Epixel%2Dspinner%20%2Epixel%2Dspinner%2Dinner%20%7Bwidth%3A%20calc%2870px%20%2F%207%29%3Bheight%3A%20calc%2870px%20%2F%207%29%3Bbackground%2Dcolor%3A%20%23ff1d5e%3Bcolor%3A%20%23ff1d5e%3Bbox%2Dshadow%3A%2015px%2015px%200%200%2C%20%2D15px%20%2D15px%200%200%2C%2015px%20%2D15px%200%200%2C%20%2D15px%2015px%200%200%2C%200%2015px%200%200%2C%2015px%200%200%200%2C%20%2D15px%200%200%200%2C%200%20%2D15px%200%200%3Banimation%3A%20pixel%2Dspinner%2Danimation%202000ms%20linear%20infinite%3B%7D%40keyframes%20pixel%2Dspinner%2Danimation%20%7B50%25%20%7Bbox%2Dshadow%3A%2020px%2020px%200px%200px%2C%20%2D20px%20%2D20px%200px%200px%2C%2020px%20%2D20px%200px%200px%2C%20%2D20px%2020px%200px%200px%2C%200px%2010px%200px%200px%2C%2010px%200px%200px%200px%2C%20%2D10px%200px%200px%200px%2C%200px%20%2D10px%200px%200px%3B%7D75%25%20%7Bbox%2Dshadow%3A%2020px%2020px%200px%200px%2C%20%2D20px%20%2D20px%200px%200px%2C%2020px%20%2D20px%200px%200px%2C%20%2D20px%2020px%200px%200px%2C%200px%2010px%200px%200px%2C%2010px%200px%200px%200px%2C%20%2D10px%200px%200px%200px%2C%200px%20%2D10px%200px%200px%3B%7D100%25%20%7Btransform%3A%20rotate%28360deg%29%3B%7D%7D%2Ehollow%2Ddots%2Dspinner%2C%2Ehollow%2Ddots%2Dspinner%20%2A%20%7Bbox%2Dsizing%3A%20border%2Dbox%3B%7D%2Ehollow%2Ddots%2Dspinner%20%7Bheight%3A%2015px%3Bwidth%3A%20calc%2830px%20%2A%203%29%3B%7D%2Ehollow%2Ddots%2Dspinner%20%2Edot%20%7Bwidth%3A%2015px%3Bheight%3A%2015px%3Bmargin%3A%200%20calc%2815px%20%2F%202%29%3Bborder%3A%20calc%2815px%20%2F%205%29%20solid%20%23ff1d5e%3Bborder%2Dradius%3A%2050%25%3Bfloat%3A%20left%3Btransform%3A%20scale%280%29%3Banimation%3A%20hollow%2Ddots%2Dspinner%2Danimation%201000ms%20ease%20infinite%200ms%3B%7D%2Ehollow%2Ddots%2Dspinner%20%2Edot%3Anth%2Dchild%281%29%20%7Banimation%2Ddelay%3A%20calc%28300ms%20%2A%201%29%3B%7D%2Ehollow%2Ddots%2Dspinner%20%2Edot%3Anth%2Dchild%282%29%20%7Banimation%2Ddelay%3A%20calc%28300ms%20%2A%202%29%3B%7D%2Ehollow%2Ddots%2Dspinner%20%2Edot%3Anth%2Dchild%283%29%20%7Banimation%2Ddelay%3A%20calc%28300ms%20%2A%203%29%3B%7D%40keyframes%20hollow%2Ddots%2Dspinner%2Danimation%20%7B50%25%20%7Btransform%3A%20scale%281%29%3Bopacity%3A%201%3B%7D100%25%20%7Bopacity%3A%200%3B%7D%7D%2Eintersecting%2Dcircles%2Dspinner%2C%2Eintersecting%2Dcircles%2Dspinner%20%2A%20%7Bbox%2Dsizing%3A%20border%2Dbox%3B%7D%2Eintersecting%2Dcircles%2Dspinner%20%7Bheight%3A%2070px%3Bwidth%3A%2070px%3Bposition%3A%20relative%3Bdisplay%3A%20flex%3Bflex%2Ddirection%3A%20row%3Bjustify%2Dcontent%3A%20center%3Balign%2Ditems%3A%20center%3B%7D%2Eintersecting%2Dcircles%2Dspinner%20%2EspinnerBlock%20%7Banimation%3A%20intersecting%2Dcircles%2Dspinners%2Danimation%201200ms%20linear%20infinite%3Btransform%2Dorigin%3A%20center%3Bdisplay%3A%20block%3Bheight%3A%2035px%3Bwidth%3A%2035px%3B%7D%2Eintersecting%2Dcircles%2Dspinner%20%2Ecircle%20%7Bdisplay%3A%20block%3Bborder%3A%202px%20solid%20%23ff1d5e%3Bborder%2Dradius%3A%2050%25%3Bheight%3A%20100%25%3Bwidth%3A%20100%25%3Bposition%3A%20absolute%3Bleft%3A%200%3Btop%3A%200%3B%7D%2Eintersecting%2Dcircles%2Dspinner%20%2Ecircle%3Anth%2Dchild%281%29%20%7Bleft%3A%200%3Btop%3A%200%3B%7D%2Eintersecting%2Dcircles%2Dspinner%20%2Ecircle%3Anth%2Dchild%282%29%20%7Bleft%3A%20calc%2835px%20%2A%20%2D0%2E36%29%3Btop%3A%20calc%2835px%20%2A%200%2E2%29%3B%7D%2Eintersecting%2Dcircles%2Dspinner%20%2Ecircle%3Anth%2Dchild%283%29%20%7Bleft%3A%20calc%2835px%20%2A%20%2D0%2E36%29%3Btop%3A%20calc%2835px%20%2A%20%2D0%2E2%29%3B%7D%2Eintersecting%2Dcircles%2Dspinner%20%2Ecircle%3Anth%2Dchild%284%29%20%7Bleft%3A%200%3Btop%3A%20calc%2835px%20%2A%20%2D0%2E36%29%3B%7D%2Eintersecting%2Dcircles%2Dspinner%20%2Ecircle%3Anth%2Dchild%285%29%20%7Bleft%3A%20calc%2835px%20%2A%200%2E36%29%3Btop%3A%20calc%2835px%20%2A%20%2D0%2E2%29%3B%7D%2Eintersecting%2Dcircles%2Dspinner%20%2Ecircle%3Anth%2Dchild%286%29%20%7Bleft%3A%20calc%2835px%20%2A%200%2E36%29%3Btop%3A%20calc%2835px%20%2A%200%2E2%29%3B%7D%2Eintersecting%2Dcircles%2Dspinner%20%2Ecircle%3Anth%2Dchild%287%29%20%7Bleft%3A%200%3Btop%3A%20calc%2835px%20%2A%200%2E36%29%3B%7D%40keyframes%20intersecting%2Dcircles%2Dspinners%2Danimation%20%7Bfrom%20%7Btransform%3A%20rotate%280deg%29%3B%7Dto%20%7Btransform%3A%20rotate%28360deg%29%3B%7D%7D%2Eorbit%2Dspinner%2C%2Eorbit%2Dspinner%20%2A%20%7Bbox%2Dsizing%3A%20border%2Dbox%3B%7D%2Eorbit%2Dspinner%20%7Bheight%3A%2055px%3Bwidth%3A%2055px%3Bborder%2Dradius%3A%2050%25%3Bperspective%3A%20800px%3B%7D%2Eorbit%2Dspinner%20%2Eorbit%20%7Bposition%3A%20absolute%3Bbox%2Dsizing%3A%20border%2Dbox%3Bwidth%3A%20100%25%3Bheight%3A%20100%25%3Bborder%2Dradius%3A%2050%25%3B%7D%2Eorbit%2Dspinner%20%2Eorbit%3Anth%2Dchild%281%29%20%7Bleft%3A%200%25%3Btop%3A%200%25%3Banimation%3A%20orbit%2Dspinner%2Dorbit%2Done%2Danimation%201200ms%20linear%20infinite%3Bborder%2Dbottom%3A%203px%20solid%20%23ff1d5e%3B%7D%2Eorbit%2Dspinner%20%2Eorbit%3Anth%2Dchild%282%29%20%7Bright%3A%200%25%3Btop%3A%200%25%3Banimation%3A%20orbit%2Dspinner%2Dorbit%2Dtwo%2Danimation%201200ms%20linear%20infinite%3Bborder%2Dright%3A%203px%20solid%20%23ff1d5e%3B%7D%2Eorbit%2Dspinner%20%2Eorbit%3Anth%2Dchild%283%29%20%7Bright%3A%200%25%3Bbottom%3A%200%25%3Banimation%3A%20orbit%2Dspinner%2Dorbit%2Dthree%2Danimation%201200ms%20linear%20infinite%3Bborder%2Dtop%3A%203px%20solid%20%23ff1d5e%3B%7D%40keyframes%20orbit%2Dspinner%2Dorbit%2Done%2Danimation%20%7B0%25%20%7Btransform%3A%20rotateX%2835deg%29%20rotateY%28%2D45deg%29%20rotateZ%280deg%29%3B%7D100%25%20%7Btransform%3A%20rotateX%2835deg%29%20rotateY%28%2D45deg%29%20rotateZ%28360deg%29%3B%7D%7D%40keyframes%20orbit%2Dspinner%2Dorbit%2Dtwo%2Danimation%20%7B0%25%20%7Btransform%3A%20rotateX%2850deg%29%20rotateY%2810deg%29%20rotateZ%280deg%29%3B%7D100%25%20%7Btransform%3A%20rotateX%2850deg%29%20rotateY%2810deg%29%20rotateZ%28360deg%29%3B%7D%7D%40keyframes%20orbit%2Dspinner%2Dorbit%2Dthree%2Danimation%20%7B0%25%20%7Btransform%3A%20rotateX%2835deg%29%20rotateY%2855deg%29%20rotateZ%280deg%29%3B%7D100%25%20%7Btransform%3A%20rotateX%2835deg%29%20rotateY%2855deg%29%20rotateZ%28360deg%29%3B%7D%7D%2Eradar%2Dspinner%2C%20%2Eradar%2Dspinner%20%2A%20%7Bbox%2Dsizing%3A%20border%2Dbox%3B%7D%2Eradar%2Dspinner%20%7Bheight%3A%2060px%3Bwidth%3A%2060px%3Bposition%3A%20relative%3B%7D%2Eradar%2Dspinner%20%2Ecircle%20%7Bposition%3A%20absolute%3Bheight%3A%20100%25%3Bwidth%3A%20100%25%3Btop%3A%200%3Bleft%3A%200%3Banimation%3A%20radar%2Dspinner%2Danimation%202s%20infinite%3B%7D%2Eradar%2Dspinner%20%2Ecircle%3Anth%2Dchild%281%29%20%7Bpadding%3A%20calc%2860px%20%2A%205%20%2A%202%20%2A%200%20%2F%20110%29%3Banimation%2Ddelay%3A%20300ms%3B%7D%2Eradar%2Dspinner%20%2Ecircle%3Anth%2Dchild%282%29%20%7Bpadding%3A%20calc%2860px%20%2A%205%20%2A%202%20%2A%201%20%2F%20110%29%3Banimation%2Ddelay%3A%20300ms%3B%7D%2Eradar%2Dspinner%20%2Ecircle%3Anth%2Dchild%283%29%20%7Bpadding%3A%20calc%2860px%20%2A%205%20%2A%202%20%2A%202%20%2F%20110%29%3Banimation%2Ddelay%3A%20300ms%3B%7D%2Eradar%2Dspinner%20%2Ecircle%3Anth%2Dchild%284%29%20%7Bpadding%3A%20calc%2860px%20%2A%205%20%2A%202%20%2A%203%20%2F%20110%29%3Banimation%2Ddelay%3A%200ms%3B%7D%2Eradar%2Dspinner%20%2Ecircle%2Dinner%2C%20%2Eradar%2Dspinner%20%2Ecircle%2Dinner%2Dcontainer%20%7Bheight%3A%20100%25%3Bwidth%3A%20100%25%3Bborder%2Dradius%3A%2050%25%3Bborder%3A%20calc%2860px%20%2A%205%20%2F%20110%29%20solid%20transparent%3B%7D%2Eradar%2Dspinner%20%2Ecircle%2Dinner%20%7Bborder%2Dleft%2Dcolor%3A%20%23ff1d5e%3Bborder%2Dright%2Dcolor%3A%20%23ff1d5e%3B%7D%40keyframes%20radar%2Dspinner%2Danimation%20%7B50%25%20%7Btransform%3A%20rotate%28180deg%29%3B%7D100%25%20%7Btransform%3A%20rotate%280deg%29%3B%7D%7D%2Escaling%2Dsquares%2Dspinner%2C%20%2Escaling%2Dsquares%2Dspinner%20%2A%20%7Bbox%2Dsizing%3A%20border%2Dbox%3B%7D%2Escaling%2Dsquares%2Dspinner%20%7Bheight%3A%2065px%3Bwidth%3A%2065px%3Bposition%3A%20relative%3Bdisplay%3A%20flex%3Bflex%2Ddirection%3A%20row%3Balign%2Ditems%3A%20center%3Bjustify%2Dcontent%3A%20center%3Banimation%3A%20scaling%2Dsquares%2Danimation%201250ms%3Banimation%2Diteration%2Dcount%3A%20infinite%3Btransform%3A%20rotate%280deg%29%3B%7D%2Escaling%2Dsquares%2Dspinner%20%2Esquare%20%7Bheight%3A%20calc%2865px%20%2A%200%2E25%20%2F%201%2E3%29%3Bwidth%3A%20calc%2865px%20%2A%200%2E25%20%2F%201%2E3%29%3Bmargin%2Dright%3A%20auto%3Bmargin%2Dleft%3A%20auto%3Bborder%3A%20calc%2865px%20%2A%200%2E04%20%2F%201%2E3%29%20solid%20%23ff1d5e%3Bposition%3A%20absolute%3Banimation%2Dduration%3A%201250ms%3Banimation%2Diteration%2Dcount%3A%20infinite%3B%7D%2Escaling%2Dsquares%2Dspinner%20%2Esquare%3Anth%2Dchild%281%29%20%7Banimation%2Dname%3A%20scaling%2Dsquares%2Dspinner%2Danimation%2Dchild%2D1%3B%7D%2Escaling%2Dsquares%2Dspinner%20%2Esquare%3Anth%2Dchild%282%29%20%7Banimation%2Dname%3A%20scaling%2Dsquares%2Dspinner%2Danimation%2Dchild%2D2%3B%7D%2Escaling%2Dsquares%2Dspinner%20%2Esquare%3Anth%2Dchild%283%29%20%7Banimation%2Dname%3A%20scaling%2Dsquares%2Dspinner%2Danimation%2Dchild%2D3%3B%7D%2Escaling%2Dsquares%2Dspinner%20%2Esquare%3Anth%2Dchild%284%29%20%7Banimation%2Dname%3A%20scaling%2Dsquares%2Dspinner%2Danimation%2Dchild%2D4%3B%7D%40keyframes%20scaling%2Dsquares%2Danimation%20%7B50%25%20%7Btransform%3A%20rotate%2890deg%29%3B%7D100%25%20%7Btransform%3A%20rotate%28180deg%29%3B%7D%7D%40keyframes%20scaling%2Dsquares%2Dspinner%2Danimation%2Dchild%2D1%20%7B50%25%20%7Btransform%3A%20translate%28150%25%2C150%25%29%20scale%282%2C2%29%3B%7D%7D%40keyframes%20scaling%2Dsquares%2Dspinner%2Danimation%2Dchild%2D2%20%7B50%25%20%7Btransform%3A%20translate%28%2D150%25%2C150%25%29%20scale%282%2C2%29%3B%7D%7D%40keyframes%20scaling%2Dsquares%2Dspinner%2Danimation%2Dchild%2D3%20%7B50%25%20%7Btransform%3A%20translate%28%2D150%25%2C%2D150%25%29%20scale%282%2C2%29%3B%7D%7D%40keyframes%20scaling%2Dsquares%2Dspinner%2Danimation%2Dchild%2D4%20%7B50%25%20%7Btransform%3A%20translate%28150%25%2C%2D150%25%29%20scale%282%2C2%29%3B%7D%7D%2Ehalf%2Dcircle%2Dspinner%2C%20%2Ehalf%2Dcircle%2Dspinner%20%2A%20%7Bbox%2Dsizing%3A%20border%2Dbox%3B%7D%2Ehalf%2Dcircle%2Dspinner%20%7Bwidth%3A%2060px%3Bheight%3A%2060px%3Bborder%2Dradius%3A%20100%25%3Bposition%3A%20relative%3B%7D%2Ehalf%2Dcircle%2Dspinner%20%2Ecircle%20%7Bcontent%3A%20%22%22%3Bposition%3A%20absolute%3Bwidth%3A%20100%25%3Bheight%3A%20100%25%3Bborder%2Dradius%3A%20100%25%3Bborder%3A%20calc%2860px%20%2F%2010%29%20solid%20transparent%3B%7D%2Ehalf%2Dcircle%2Dspinner%20%2Ecircle%2Ecircle%2D1%20%7Bborder%2Dtop%2Dcolor%3A%20%23ff1d5e%3Banimation%3A%20half%2Dcircle%2Dspinner%2Danimation%201s%20infinite%3B%7D%2Ehalf%2Dcircle%2Dspinner%20%2Ecircle%2Ecircle%2D2%20%7Bborder%2Dbottom%2Dcolor%3A%20%23ff1d5e%3Banimation%3A%20half%2Dcircle%2Dspinner%2Danimation%201s%20infinite%20alternate%3B%7D%40keyframes%20half%2Dcircle%2Dspinner%2Danimation%20%7B0%25%20%7Btransform%3A%20rotate%280deg%29%3B%7D100%25%20%7Btransform%3A%20rotate%28360deg%29%3B%7D%7D%2Etrinity%2Drings%2Dspinner%2C%20%2Etrinity%2Drings%2Dspinner%20%2A%20%7Bbox%2Dsizing%3A%20border%2Dbox%3B%7D%2Etrinity%2Drings%2Dspinner%20%7Bheight%3A%2066px%3Bwidth%3A%2066px%3Bpadding%3A%203px%3Bposition%3A%20relative%3Bdisplay%3A%20flex%3Bjustify%2Dcontent%3A%20center%3Balign%2Ditems%3A%20center%3Bflex%2Ddirection%3A%20row%3Boverflow%3A%20hidden%3Bbox%2Dsizing%3A%20border%2Dbox%3B%7D%2Etrinity%2Drings%2Dspinner%20%2Ecircle%20%7Bposition%3A%20absolute%3Bdisplay%3A%20block%3Bborder%2Dradius%3A%2050%25%3Bborder%3A%203px%20solid%20%23ff1d5e%3Bopacity%3A%201%3B%7D%2Etrinity%2Drings%2Dspinner%20%2Ecircle%3Anth%2Dchild%281%29%20%7Bheight%3A%2060px%3Bwidth%3A%2060px%3Banimation%3A%20trinity%2Drings%2Dspinner%2Dcircle1%2Danimation%201%2E5s%20infinite%20linear%3Bborder%2Dwidth%3A%203px%3B%7D%2Etrinity%2Drings%2Dspinner%20%2Ecircle%3Anth%2Dchild%282%29%20%7Bheight%3A%20calc%2860px%20%2A%200%2E65%29%3Bwidth%3A%20calc%2860px%20%2A%200%2E65%29%3Banimation%3A%20trinity%2Drings%2Dspinner%2Dcircle2%2Danimation%201%2E5s%20infinite%20linear%3Bborder%2Dwidth%3A%202px%3B%7D%2Etrinity%2Drings%2Dspinner%20%2Ecircle%3Anth%2Dchild%283%29%20%7Bheight%3A%20calc%2860px%20%2A%200%2E1%29%3Bwidth%3A%20calc%2860px%20%2A%200%2E1%29%3Banimation%3A%20trinity%2Drings%2Dspinner%2Dcircle3%2Danimation%201%2E5s%20infinite%20linear%3Bborder%2Dwidth%3A%201px%3B%7D%40keyframes%20trinity%2Drings%2Dspinner%2Dcircle1%2Danimation%20%7B0%25%20%7Btransform%3A%20rotateZ%2820deg%29%20rotateY%280deg%29%3B%7D100%25%20%7Btransform%3A%20rotateZ%28100deg%29%20rotateY%28360deg%29%3B%7D%7D%40keyframes%20trinity%2Drings%2Dspinner%2Dcircle2%2Danimation%20%7B0%25%20%7Btransform%3A%20rotateZ%28100deg%29%20rotateX%280deg%29%3B%7D100%25%20%7Btransform%3A%20rotateZ%280deg%29%20rotateX%28360deg%29%3B%7D%7D%40keyframes%20trinity%2Drings%2Dspinner%2Dcircle3%2Danimation%20%7B0%25%20%7Btransform%3A%20rotateZ%28100deg%29%20rotateX%28%2D360deg%29%3B%7D100%25%20%7Btransform%3A%20rotateZ%28%2D360deg%29%20rotateX%28360deg%29%3B%7D%7D%2Efulfilling%2Dsquare%2Dspinner%20%2C%20%2Efulfilling%2Dsquare%2Dspinner%20%2A%20%7Bbox%2Dsizing%3A%20border%2Dbox%3B%7D%2Efulfilling%2Dsquare%2Dspinner%20%7Bheight%3A%2050px%3Bwidth%3A%2050px%3Bposition%3A%20relative%3Bborder%3A%204px%20solid%20%23ff1d5e%3Banimation%3A%20fulfilling%2Dsquare%2Dspinner%2Danimation%204s%20infinite%20ease%3B%7D%2Efulfilling%2Dsquare%2Dspinner%20%2Espinner%2Dinner%20%7Bvertical%2Dalign%3A%20top%3Bdisplay%3A%20inline%2Dblock%3Bbackground%2Dcolor%3A%20%23ff1d5e%3Bwidth%3A%20100%25%3Bopacity%3A%201%3Banimation%3A%20fulfilling%2Dsquare%2Dspinner%2Dinner%2Danimation%204s%20infinite%20ease%2Din%3B%7D%40keyframes%20fulfilling%2Dsquare%2Dspinner%2Danimation%20%7B0%25%20%7Btransform%3A%20rotate%280deg%29%3B%7D25%25%20%7Btransform%3A%20rotate%28180deg%29%3B%7D50%25%20%7Btransform%3A%20rotate%28180deg%29%3B%7D75%25%20%7Btransform%3A%20rotate%28360deg%29%3B%7D100%25%20%7Btransform%3A%20rotate%28360deg%29%3B%7D%7D%40keyframes%20fulfilling%2Dsquare%2Dspinner%2Dinner%2Danimation%20%7B0%25%20%7Bheight%3A%200%25%3B%7D25%25%20%7Bheight%3A%200%25%3B%7D50%25%20%7Bheight%3A%20100%25%3B%7D75%25%20%7Bheight%3A%20100%25%3B%7D100%25%20%7Bheight%3A%200%25%3B%7D%7D%2Ecircles%2Dto%2Drhombuses%2Dspinner%2C%20%2Ecircles%2Dto%2Drhombuses%2Dspinner%20%2A%20%7Bbox%2Dsizing%3A%20border%2Dbox%3B%7D%2Ecircles%2Dto%2Drhombuses%2Dspinner%20%7Bheight%3A%2015px%3Bwidth%3A%20calc%28%20%2815px%20%2B%2015px%20%2A%201%2E125%29%20%2A%203%29%3Bdisplay%3A%20flex%3Balign%2Ditems%3A%20center%3Bjustify%2Dcontent%3A%20center%3B%7D%2Ecircles%2Dto%2Drhombuses%2Dspinner%20%2Ecircle%20%7Bheight%3A%2015px%3Bwidth%3A%2015px%3Bmargin%2Dleft%3A%20calc%2815px%20%2A%201%2E125%29%3Btransform%3A%20rotate%2845deg%29%3Bborder%2Dradius%3A%2010%25%3Bborder%3A%203px%20solid%20%23ff1d5e%3Boverflow%3A%20hidden%3Bbackground%3A%20transparent%3Banimation%3A%20circles%2Dto%2Drhombuses%2Danimation%201200ms%20linear%20infinite%3B%7D%2Ecircles%2Dto%2Drhombuses%2Dspinner%20%2Ecircle%3Anth%2Dchild%281%29%20%7Banimation%2Ddelay%3A%20calc%28150ms%20%2A%201%29%3Bmargin%2Dleft%3A%200%3B%7D%2Ecircles%2Dto%2Drhombuses%2Dspinner%20%2Ecircle%3Anth%2Dchild%282%29%20%7Banimation%2Ddelay%3A%20calc%28150ms%20%2A%202%29%3B%7D%2Ecircles%2Dto%2Drhombuses%2Dspinner%20%2Ecircle%3Anth%2Dchild%283%29%20%7Banimation%2Ddelay%3A%20calc%28150ms%20%2A%203%29%3B%7D%40keyframes%20circles%2Dto%2Drhombuses%2Danimation%20%7B0%25%20%7Bborder%2Dradius%3A%2010%25%3B%7D17%2E5%25%20%7Bborder%2Dradius%3A%2010%25%3B%7D50%25%20%7Bborder%2Dradius%3A%20100%25%3B%7D93%2E5%25%20%7Bborder%2Dradius%3A%2010%25%3B%7D100%25%20%7Bborder%2Dradius%3A%2010%25%3B%7D%7D%40keyframes%20circles%2Dto%2Drhombuses%2Dbackground%2Danimation%20%7B50%25%20%7Bopacity%3A%200%2E4%3B%7D%7D%2Esemipolar%2Dspinner%2C%20%2Esemipolar%2Dspinner%20%2A%20%7Bbox%2Dsizing%3A%20border%2Dbox%3B%7D%2Esemipolar%2Dspinner%20%7Bheight%3A%2065px%3Bwidth%3A%2065px%3Bposition%3A%20relative%3B%7D%2Esemipolar%2Dspinner%20%2Ering%20%7Bborder%2Dradius%3A%2050%25%3Bposition%3A%20absolute%3Bborder%3A%20calc%2865px%20%2A%200%2E05%29%20solid%20transparent%3Bborder%2Dtop%2Dcolor%3A%20%23ff1d5e%3Bborder%2Dleft%2Dcolor%3A%20%23ff1d5e%3Banimation%3A%20semipolar%2Dspinner%2Danimation%202s%20infinite%3B%7D%2Esemipolar%2Dspinner%20%2Ering%3Anth%2Dchild%281%29%20%7Bheight%3A%20calc%2865px%20%2D%2065px%20%2A%200%2E2%20%2A%200%29%3Bwidth%3A%20calc%2865px%20%2D%2065px%20%2A%200%2E2%20%2A%200%29%3Btop%3A%20calc%2865px%20%2A%200%2E1%20%2A%200%29%3Bleft%3A%20calc%2865px%20%2A%200%2E1%20%2A%200%29%3Banimation%2Ddelay%3A%20calc%282000ms%20%2A%200%2E1%20%2A%204%29%3Bz%2Dindex%3A%205%3B%7D%2Esemipolar%2Dspinner%20%2Ering%3Anth%2Dchild%282%29%20%7Bheight%3A%20calc%2865px%20%2D%2065px%20%2A%200%2E2%20%2A%201%29%3Bwidth%3A%20calc%2865px%20%2D%2065px%20%2A%200%2E2%20%2A%201%29%3Btop%3A%20calc%2865px%20%2A%200%2E1%20%2A%201%29%3Bleft%3A%20calc%2865px%20%2A%200%2E1%20%2A%201%29%3Banimation%2Ddelay%3A%20calc%282000ms%20%2A%200%2E1%20%2A%203%29%3Bz%2Dindex%3A%204%3B%7D%2Esemipolar%2Dspinner%20%2Ering%3Anth%2Dchild%283%29%20%7Bheight%3A%20calc%2865px%20%2D%2065px%20%2A%200%2E2%20%2A%202%29%3Bwidth%3A%20calc%2865px%20%2D%2065px%20%2A%200%2E2%20%2A%202%29%3Btop%3A%20calc%2865px%20%2A%200%2E1%20%2A%202%29%3Bleft%3A%20calc%2865px%20%2A%200%2E1%20%2A%202%29%3Banimation%2Ddelay%3A%20calc%282000ms%20%2A%200%2E1%20%2A%202%29%3Bz%2Dindex%3A%203%3B%7D%2Esemipolar%2Dspinner%20%2Ering%3Anth%2Dchild%284%29%20%7Bheight%3A%20calc%2865px%20%2D%2065px%20%2A%200%2E2%20%2A%203%29%3Bwidth%3A%20calc%2865px%20%2D%2065px%20%2A%200%2E2%20%2A%203%29%3Btop%3A%20calc%2865px%20%2A%200%2E1%20%2A%203%29%3Bleft%3A%20calc%2865px%20%2A%200%2E1%20%2A%203%29%3Banimation%2Ddelay%3A%20calc%282000ms%20%2A%200%2E1%20%2A%201%29%3Bz%2Dindex%3A%202%3B%7D%2Esemipolar%2Dspinner%20%2Ering%3Anth%2Dchild%285%29%20%7Bheight%3A%20calc%2865px%20%2D%2065px%20%2A%200%2E2%20%2A%204%29%3Bwidth%3A%20calc%2865px%20%2D%2065px%20%2A%200%2E2%20%2A%204%29%3Btop%3A%20calc%2865px%20%2A%200%2E1%20%2A%204%29%3Bleft%3A%20calc%2865px%20%2A%200%2E1%20%2A%204%29%3Banimation%2Ddelay%3A%20calc%282000ms%20%2A%200%2E1%20%2A%200%29%3Bz%2Dindex%3A%201%3B%7D%40keyframes%20semipolar%2Dspinner%2Danimation%20%7B50%25%20%7Btransform%3A%20rotate%28360deg%29%20scale%280%2E7%29%3B%7D%7D%2Eself%2Dbuilding%2Dsquare%2Dspinner%2C%20%2Eself%2Dbuilding%2Dsquare%2Dspinner%20%2A%20%7Bbox%2Dsizing%3A%20border%2Dbox%3B%7D%2Eself%2Dbuilding%2Dsquare%2Dspinner%20%7Bheight%3A%2040px%3Bwidth%3A%2040px%3Btop%3A%20calc%28%20%2D10px%20%2A%202%20%2F%203%29%3B%7D%2Eself%2Dbuilding%2Dsquare%2Dspinner%20%2Esquare%20%7Bheight%3A%2010px%3Bwidth%3A%2010px%3Btop%3A%20calc%28%20%2D10px%20%2A%202%20%2F%203%29%3Bmargin%2Dright%3A%20calc%2810px%20%2F%203%29%3Bmargin%2Dtop%3A%20calc%2810px%20%2F%203%29%3Bbackground%3A%20%23ff1d5e%3Bfloat%3A%20left%3Bposition%3A%20relative%3Bopacity%3A%200%3Banimation%3A%20self%2Dbuilding%2Dsquare%2Dspinner%206s%20infinite%3B%7D%2Eself%2Dbuilding%2Dsquare%2Dspinner%20%2Esquare%3Anth%2Dchild%281%29%20%7Banimation%2Ddelay%3A%20calc%28300ms%20%2A%206%29%3B%7D%2Eself%2Dbuilding%2Dsquare%2Dspinner%20%2Esquare%3Anth%2Dchild%282%29%20%7Banimation%2Ddelay%3A%20calc%28300ms%20%2A%207%29%3B%7D%2Eself%2Dbuilding%2Dsquare%2Dspinner%20%2Esquare%3Anth%2Dchild%283%29%20%7Banimation%2Ddelay%3A%20calc%28300ms%20%2A%208%29%3B%7D%2Eself%2Dbuilding%2Dsquare%2Dspinner%20%2Esquare%3Anth%2Dchild%284%29%20%7Banimation%2Ddelay%3A%20calc%28300ms%20%2A%203%29%3B%7D%2Eself%2Dbuilding%2Dsquare%2Dspinner%20%2Esquare%3Anth%2Dchild%285%29%20%7Banimation%2Ddelay%3A%20calc%28300ms%20%2A%204%29%3B%7D%2Eself%2Dbuilding%2Dsquare%2Dspinner%20%2Esquare%3Anth%2Dchild%286%29%20%7Banimation%2Ddelay%3A%20calc%28300ms%20%2A%205%29%3B%7D%2Eself%2Dbuilding%2Dsquare%2Dspinner%20%2Esquare%3Anth%2Dchild%287%29%20%7Banimation%2Ddelay%3A%20calc%28300ms%20%2A%200%29%3B%7D%2Eself%2Dbuilding%2Dsquare%2Dspinner%20%2Esquare%3Anth%2Dchild%288%29%20%7Banimation%2Ddelay%3A%20calc%28300ms%20%2A%201%29%3B%7D%2Eself%2Dbuilding%2Dsquare%2Dspinner%20%2Esquare%3Anth%2Dchild%289%29%20%7Banimation%2Ddelay%3A%20calc%28300ms%20%2A%202%29%3B%7D%2Eself%2Dbuilding%2Dsquare%2Dspinner%20%2Eclear%20%7Bclear%3A%20both%3B%7D%40keyframes%20self%2Dbuilding%2Dsquare%2Dspinner%20%7B0%25%20%7Bopacity%3A%200%3B%7D5%25%20%7Bopacity%3A%201%3Btop%3A%200%3B%7D50%2E9%25%20%7Bopacity%3A%201%3Btop%3A%200%3B%7D55%2E9%25%20%7Bopacity%3A%200%3Btop%3A%20inherit%3B%7D%7D%2Eswapping%2Dsquares%2Dspinner%2C%20%2Eswapping%2Dsquares%2Dspinner%20%2A%20%7Bbox%2Dsizing%3A%20border%2Dbox%3B%7D%2Eswapping%2Dsquares%2Dspinner%20%7Bheight%3A%2065px%3Bwidth%3A%2065px%3Bposition%3A%20relative%3Bdisplay%3A%20flex%3Bflex%2Ddirection%3A%20row%3Bjustify%2Dcontent%3A%20center%3Balign%2Ditems%3A%20center%3B%7D%2Eswapping%2Dsquares%2Dspinner%20%2Esquare%20%7Bheight%3A%20calc%2865px%20%2A%200%2E25%20%2F%201%2E3%29%3Bwidth%3A%20calc%2865px%20%2A%200%2E25%20%2F%201%2E3%29%3Banimation%2Dduration%3A%201000ms%3Bborder%3A%20calc%2865px%20%2A%200%2E04%20%2F%201%2E3%29%20solid%20%23ff1d5e%3Bmargin%2Dright%3A%20auto%3Bmargin%2Dleft%3A%20auto%3Bposition%3A%20absolute%3Banimation%2Diteration%2Dcount%3A%20infinite%3B%7D%2Eswapping%2Dsquares%2Dspinner%20%2Esquare%3Anth%2Dchild%281%29%20%7Banimation%2Dname%3A%20swapping%2Dsquares%2Danimation%2Dchild%2D1%3Banimation%2Ddelay%3A%20500ms%3B%7D%2Eswapping%2Dsquares%2Dspinner%20%2Esquare%3Anth%2Dchild%282%29%20%7Banimation%2Dname%3A%20swapping%2Dsquares%2Danimation%2Dchild%2D2%3Banimation%2Ddelay%3A%200ms%3B%7D%2Eswapping%2Dsquares%2Dspinner%20%2Esquare%3Anth%2Dchild%283%29%20%7Banimation%2Dname%3A%20swapping%2Dsquares%2Danimation%2Dchild%2D3%3Banimation%2Ddelay%3A%20500ms%3B%7D%2Eswapping%2Dsquares%2Dspinner%20%2Esquare%3Anth%2Dchild%284%29%20%7Banimation%2Dname%3A%20swapping%2Dsquares%2Danimation%2Dchild%2D4%3Banimation%2Ddelay%3A%200ms%3B%7D%40keyframes%20swapping%2Dsquares%2Danimation%2Dchild%2D1%20%7B50%25%20%7Btransform%3A%20translate%28150%25%2C150%25%29%20scale%282%2C2%29%3B%7D%7D%40keyframes%20swapping%2Dsquares%2Danimation%2Dchild%2D2%20%7B50%25%20%7Btransform%3A%20translate%28%2D150%25%2C150%25%29%20scale%282%2C2%29%3B%7D%7D%40keyframes%20swapping%2Dsquares%2Danimation%2Dchild%2D3%20%7B50%25%20%7Btransform%3A%20translate%28%2D150%25%2C%2D150%25%29%20scale%282%2C2%29%3B%7D%7D%40keyframes%20swapping%2Dsquares%2Danimation%2Dchild%2D4%20%7B50%25%20%7Btransform%3A%20translate%28150%25%2C%2D150%25%29%20scale%282%2C2%29%3B%7D%7D%2Efulfilling%2Dbouncing%2Dcircle%2Dspinner%2C%20%2Efulfilling%2Dbouncing%2Dcircle%2Dspinner%20%2A%20%7Bbox%2Dsizing%3A%20border%2Dbox%3B%7D%2Efulfilling%2Dbouncing%2Dcircle%2Dspinner%20%7Bheight%3A%2060px%3Bwidth%3A%2060px%3Bposition%3A%20relative%3Banimation%3A%20fulfilling%2Dbouncing%2Dcircle%2Dspinner%2Danimation%20infinite%204000ms%20ease%3B%7D%2Efulfilling%2Dbouncing%2Dcircle%2Dspinner%20%2Eorbit%20%7Bheight%3A%2060px%3Bwidth%3A%2060px%3Bposition%3A%20absolute%3Btop%3A%200%3Bleft%3A%200%3Bborder%2Dradius%3A%2050%25%3Bborder%3A%20calc%2860px%20%2A%200%2E03%29%20solid%20%23ff1d5e%3Banimation%3A%20fulfilling%2Dbouncing%2Dcircle%2Dspinner%2Dorbit%2Danimation%20infinite%204000ms%20ease%3B%7D%2Efulfilling%2Dbouncing%2Dcircle%2Dspinner%20%2Ecircle%20%7Bheight%3A%2060px%3Bwidth%3A%2060px%3Bcolor%3A%20%23ff1d5e%3Bdisplay%3A%20block%3Bborder%2Dradius%3A%2050%25%3Bposition%3A%20relative%3Bborder%3A%20calc%2860px%20%2A%200%2E1%29%20solid%20%23ff1d5e%3Banimation%3A%20fulfilling%2Dbouncing%2Dcircle%2Dspinner%2Dcircle%2Danimation%20infinite%204000ms%20ease%3Btransform%3A%20rotate%280deg%29%20scale%281%29%3B%7D%40keyframes%20fulfilling%2Dbouncing%2Dcircle%2Dspinner%2Danimation%20%7B0%25%20%7Btransform%3A%20rotate%280deg%29%3B%7D100%25%20%7Btransform%3A%20rotate%28360deg%29%3B%7D%7D%40keyframes%20fulfilling%2Dbouncing%2Dcircle%2Dspinner%2Dorbit%2Danimation%20%7B0%25%20%7Btransform%3A%20scale%281%29%3B%7D50%25%20%7Btransform%3A%20scale%281%29%3B%7D62%2E5%25%20%7Btransform%3A%20scale%280%2E8%29%3B%7D75%25%20%7Btransform%3A%20scale%281%29%3B%7D87%2E5%25%20%7Btransform%3A%20scale%280%2E8%29%3B%7D100%25%20%7Btransform%3A%20scale%281%29%3B%7D%7D%40keyframes%20fulfilling%2Dbouncing%2Dcircle%2Dspinner%2Dcircle%2Danimation%20%7B0%25%20%7Btransform%3A%20scale%281%29%3Bborder%2Dcolor%3A%20transparent%3Bborder%2Dtop%2Dcolor%3A%20inherit%3B%7D16%2E7%25%20%7Bborder%2Dcolor%3A%20transparent%3Bborder%2Dtop%2Dcolor%3A%20initial%3Bborder%2Dright%2Dcolor%3A%20initial%3B%7D33%2E4%25%20%7Bborder%2Dcolor%3A%20transparent%3Bborder%2Dtop%2Dcolor%3A%20inherit%3Bborder%2Dright%2Dcolor%3A%20inherit%3Bborder%2Dbottom%2Dcolor%3A%20inherit%3B%7D50%25%20%7Bborder%2Dcolor%3A%20inherit%3Btransform%3A%20scale%281%29%3B%7D62%2E5%25%20%7Bborder%2Dcolor%3A%20inherit%3Btransform%3A%20scale%281%2E4%29%3B%7D75%25%20%7Bborder%2Dcolor%3A%20inherit%3Btransform%3A%20scale%281%29%3Bopacity%3A%201%3B%7D87%2E5%25%20%7Bborder%2Dcolor%3A%20inherit%3Btransform%3A%20scale%281%2E4%29%3B%7D100%25%20%7Bborder%2Dcolor%3A%20transparent%3Bborder%2Dtop%2Dcolor%3A%20inherit%3Btransform%3A%20scale%281%29%3B%7D%7D%2Efingerprint%2Dspinner%2C%20%2Efingerprint%2Dspinner%20%2A%20%7Bbox%2Dsizing%3A%20border%2Dbox%3B%7D%2Efingerprint%2Dspinner%20%7Bheight%3A%2064px%3Bwidth%3A%2064px%3Bpadding%3A%202px%3Boverflow%3A%20hidden%3Bposition%3A%20relative%3B%7D%2Efingerprint%2Dspinner%20%2Espinner%2Dring%20%7Bposition%3A%20absolute%3Bborder%2Dradius%3A%2050%25%3Bborder%3A%202px%20solid%20transparent%3Bborder%2Dtop%2Dcolor%3A%20%23ff1d5e%3Banimation%3A%20fingerprint%2Dspinner%2Danimation%201500ms%20cubic%2Dbezier%280%2E680%2C%20%2D0%2E750%2C%200%2E265%2C%201%2E750%29%20infinite%20forwards%3Bmargin%3A%20auto%3Bbottom%3A%200%3Bleft%3A%200%3Bright%3A%200%3Btop%3A%200%3B%7D%2Efingerprint%2Dspinner%20%2Espinner%2Dring%3Anth%2Dchild%281%29%20%7Bheight%3A%20calc%2860px%20%2F%209%20%2B%200%20%2A%2060px%20%2F%209%29%3Bwidth%3A%20calc%2860px%20%2F%209%20%2B%200%20%2A%2060px%20%2F%209%29%3Banimation%2Ddelay%3A%20calc%2850ms%20%2A%201%29%3B%7D%2Efingerprint%2Dspinner%20%2Espinner%2Dring%3Anth%2Dchild%282%29%20%7Bheight%3A%20calc%2860px%20%2F%209%20%2B%201%20%2A%2060px%20%2F%209%29%3Bwidth%3A%20calc%2860px%20%2F%209%20%2B%201%20%2A%2060px%20%2F%209%29%3Banimation%2Ddelay%3A%20calc%2850ms%20%2A%202%29%3B%7D%2Efingerprint%2Dspinner%20%2Espinner%2Dring%3Anth%2Dchild%283%29%20%7Bheight%3A%20calc%2860px%20%2F%209%20%2B%202%20%2A%2060px%20%2F%209%29%3Bwidth%3A%20calc%2860px%20%2F%209%20%2B%202%20%2A%2060px%20%2F%209%29%3Banimation%2Ddelay%3A%20calc%2850ms%20%2A%203%29%3B%7D%2Efingerprint%2Dspinner%20%2Espinner%2Dring%3Anth%2Dchild%284%29%20%7Bheight%3A%20calc%2860px%20%2F%209%20%2B%203%20%2A%2060px%20%2F%209%29%3Bwidth%3A%20calc%2860px%20%2F%209%20%2B%203%20%2A%2060px%20%2F%209%29%3Banimation%2Ddelay%3A%20calc%2850ms%20%2A%204%29%3B%7D%2Efingerprint%2Dspinner%20%2Espinner%2Dring%3Anth%2Dchild%285%29%20%7Bheight%3A%20calc%2860px%20%2F%209%20%2B%204%20%2A%2060px%20%2F%209%29%3Bwidth%3A%20calc%2860px%20%2F%209%20%2B%204%20%2A%2060px%20%2F%209%29%3Banimation%2Ddelay%3A%20calc%2850ms%20%2A%205%29%3B%7D%2Efingerprint%2Dspinner%20%2Espinner%2Dring%3Anth%2Dchild%286%29%20%7Bheight%3A%20calc%2860px%20%2F%209%20%2B%205%20%2A%2060px%20%2F%209%29%3Bwidth%3A%20calc%2860px%20%2F%209%20%2B%205%20%2A%2060px%20%2F%209%29%3Banimation%2Ddelay%3A%20calc%2850ms%20%2A%206%29%3B%7D%2Efingerprint%2Dspinner%20%2Espinner%2Dring%3Anth%2Dchild%287%29%20%7Bheight%3A%20calc%2860px%20%2F%209%20%2B%206%20%2A%2060px%20%2F%209%29%3Bwidth%3A%20calc%2860px%20%2F%209%20%2B%206%20%2A%2060px%20%2F%209%29%3Banimation%2Ddelay%3A%20calc%2850ms%20%2A%207%29%3B%7D%2Efingerprint%2Dspinner%20%2Espinner%2Dring%3Anth%2Dchild%288%29%20%7Bheight%3A%20calc%2860px%20%2F%209%20%2B%207%20%2A%2060px%20%2F%209%29%3Bwidth%3A%20calc%2860px%20%2F%209%20%2B%207%20%2A%2060px%20%2F%209%29%3Banimation%2Ddelay%3A%20calc%2850ms%20%2A%208%29%3B%7D%2Efingerprint%2Dspinner%20%2Espinner%2Dring%3Anth%2Dchild%289%29%20%7Bheight%3A%20calc%2860px%20%2F%209%20%2B%208%20%2A%2060px%20%2F%209%29%3Bwidth%3A%20calc%2860px%20%2F%209%20%2B%208%20%2A%2060px%20%2F%209%29%3Banimation%2Ddelay%3A%20calc%2850ms%20%2A%209%29%3B%7D%40keyframes%20fingerprint%2Dspinner%2Danimation%20%7B100%25%20%7Btransform%3A%20rotate%28%20360deg%20%29%3B%7D%7D%2Espring%2Dspinner%2C%20%2Espring%2Dspinner%20%2A%20%7Bbox%2Dsizing%3A%20border%2Dbox%3B%7D%2Espring%2Dspinner%20%7Bheight%3A%2060px%3Bwidth%3A%2060px%3B%7D%2Espring%2Dspinner%20%2Espring%2Dspinner%2Dpart%20%7Boverflow%3A%20hidden%3Bheight%3A%20calc%2860px%20%2F%202%29%3Bwidth%3A%2060px%3B%7D%2Espring%2Dspinner%20%2Espring%2Dspinner%2Dpart%2Ebottom%20%7Btransform%3A%20rotate%28180deg%29%20scale%28%2D1%2C%201%29%3B%7D%2Espring%2Dspinner%20%2Espring%2Dspinner%2Drotator%20%7Bwidth%3A%2060px%3Bheight%3A%2060px%3Bborder%3A%20calc%2860px%20%2F%207%29%20solid%20transparent%3Bborder%2Dright%2Dcolor%3A%20%23ff1d5e%3Bborder%2Dtop%2Dcolor%3A%20%23ff1d5e%3Bborder%2Dradius%3A%2050%25%3Bbox%2Dsizing%3A%20border%2Dbox%3Banimation%3A%20spring%2Dspinner%2Danimation%203s%20ease%2Din%2Dout%20infinite%3Btransform%3A%20rotate%28%2D200deg%29%3B%7D%40keyframes%20spring%2Dspinner%2Danimation%20%7B0%25%20%7Bborder%2Dwidth%3A%20calc%2860px%20%2F%207%29%3B%7D25%25%20%7Bborder%2Dwidth%3A%20calc%2860px%20%2F%2023%2E33%29%3B%7D50%25%20%7Btransform%3A%20rotate%28115deg%29%3Bborder%2Dwidth%3A%20calc%2860px%20%2F%207%29%3B%7D75%25%20%7Bborder%2Dwidth%3A%20calc%2860px%20%2F%2023%2E33%29%3B%7D100%25%20%7Bborder%2Dwidth%3A%20calc%2860px%20%2F%207%29%3B%7D%7D%2Eatom%2Dspinner%2C%20%2Eatom%2Dspinner%20%2A%20%7Bbox%2Dsizing%3A%20border%2Dbox%3B%7D%2Eatom%2Dspinner%20%7Bheight%3A%2060px%3Bwidth%3A%2060px%3Boverflow%3A%20hidden%3B%7D%2Eatom%2Dspinner%20%2Espinner%2Dinner%20%7Bposition%3A%20relative%3Bdisplay%3A%20block%3Bheight%3A%20100%25%3Bwidth%3A%20100%25%3B%7D%2Eatom%2Dspinner%20%2Espinner%2Dcircle%20%7Bdisplay%3A%20block%3Bposition%3A%20absolute%3Bcolor%3A%20%23ff1d5e%3Bfont%2Dsize%3A%20calc%2860px%20%2A%200%2E24%29%3Btop%3A%2050%25%3Bleft%3A%2050%25%3Btransform%3A%20translate%28%2D50%25%2C%20%2D50%25%29%3B%7D%2Eatom%2Dspinner%20%2Espinner%2Dline%20%7Bposition%3A%20absolute%3Bwidth%3A%20100%25%3Bheight%3A%20100%25%3Bborder%2Dradius%3A%2050%25%3Banimation%2Dduration%3A%201s%3Bborder%2Dleft%2Dwidth%3A%20calc%2860px%20%2F%2025%29%3Bborder%2Dtop%2Dwidth%3A%20calc%2860px%20%2F%2025%29%3Bborder%2Dleft%2Dcolor%3A%20%23ff1d5e%3Bborder%2Dleft%2Dstyle%3A%20solid%3Bborder%2Dtop%2Dstyle%3A%20solid%3Bborder%2Dtop%2Dcolor%3A%20transparent%3B%7D%2Eatom%2Dspinner%20%2Espinner%2Dline%3Anth%2Dchild%281%29%20%7Banimation%3A%20atom%2Dspinner%2Danimation%2D1%201s%20linear%20infinite%3Btransform%3A%20rotateZ%28120deg%29%20rotateX%2866deg%29%20rotateZ%280deg%29%3B%7D%2Eatom%2Dspinner%20%2Espinner%2Dline%3Anth%2Dchild%282%29%20%7Banimation%3A%20atom%2Dspinner%2Danimation%2D2%201s%20linear%20infinite%3Btransform%3A%20rotateZ%28240deg%29%20rotateX%2866deg%29%20rotateZ%280deg%29%3B%7D%2Eatom%2Dspinner%20%2Espinner%2Dline%3Anth%2Dchild%283%29%20%7Banimation%3A%20atom%2Dspinner%2Danimation%2D3%201s%20linear%20infinite%3Btransform%3A%20rotateZ%28360deg%29%20rotateX%2866deg%29%20rotateZ%280deg%29%3B%7D%40keyframes%20atom%2Dspinner%2Danimation%2D1%20%7B100%25%20%7Btransform%3A%20rotateZ%28120deg%29%20rotateX%2866deg%29%20rotateZ%28360deg%29%3B%7D%7D%40keyframes%20atom%2Dspinner%2Danimation%2D2%20%7B100%25%20%7Btransform%3A%20rotateZ%28240deg%29%20rotateX%2866deg%29%20rotateZ%28360deg%29%3B%7D%7D%40keyframes%20atom%2Dspinner%2Danimation%2D3%20%7B100%25%20%7Btransform%3A%20rotateZ%28360deg%29%20rotateX%2866deg%29%20rotateZ%28360deg%29%3B%7D%7D%2Elooping%2Drhombuses%2Dspinner%2C%20%2Elooping%2Drhombuses%2Dspinner%20%2A%20%7Bbox%2Dsizing%3A%20border%2Dbox%3B%7D%2Elooping%2Drhombuses%2Dspinner%20%7Bwidth%3A%20calc%2815px%20%2A%204%29%3Bheight%3A%2015px%3Bposition%3A%20relative%3B%7D%2Elooping%2Drhombuses%2Dspinner%20%2Erhombus%20%7Bheight%3A%2015px%3Bwidth%3A%2015px%3Bbackground%2Dcolor%3A%20%23ff1d5e%3Bleft%3A%20calc%2815px%20%2A%204%29%3Bposition%3A%20absolute%3Bmargin%3A%200%20auto%3Bborder%2Dradius%3A%202px%3Btransform%3A%20translateY%280%29%20rotate%2845deg%29%20scale%280%29%3Banimation%3A%20looping%2Drhombuses%2Dspinner%2Danimation%202500ms%20linear%20infinite%3B%7D%2Elooping%2Drhombuses%2Dspinner%20%2Erhombus%3Anth%2Dchild%281%29%20%7Banimation%2Ddelay%3A%20calc%282500ms%20%2A%201%20%2F%20%2D1%2E5%29%3B%7D%2Elooping%2Drhombuses%2Dspinner%20%2Erhombus%3Anth%2Dchild%282%29%20%7Banimation%2Ddelay%3A%20calc%282500ms%20%2A%202%20%2F%20%2D1%2E5%29%3B%7D%2Elooping%2Drhombuses%2Dspinner%20%2Erhombus%3Anth%2Dchild%283%29%20%7Banimation%2Ddelay%3A%20calc%282500ms%20%2A%203%20%2F%20%2D1%2E5%29%3B%7D%40keyframes%20looping%2Drhombuses%2Dspinner%2Danimation%20%7B0%25%20%7Btransform%3A%20translateX%280%29%20rotate%2845deg%29%20scale%280%29%3B%7D50%25%20%7Btransform%3A%20translateX%28%2D233%25%29%20rotate%2845deg%29%20scale%281%29%3B%7D100%25%20%7Btransform%3A%20translateX%28%2D466%25%29%20rotate%2845deg%29%20scale%280%29%3B%7D%7D%2Ebreeding%2Drhombus%2Dspinner%20%7Bheight%3A%2065px%3Bwidth%3A%2065px%3Bposition%3A%20relative%3Btransform%3A%20rotate%2845deg%29%3B%7D%2Ebreeding%2Drhombus%2Dspinner%2C%20%2Ebreeding%2Drhombus%2Dspinner%20%2A%20%7Bbox%2Dsizing%3A%20border%2Dbox%3B%7D%2Ebreeding%2Drhombus%2Dspinner%20%2Erhombus%20%7Bheight%3A%20calc%2865px%20%2F%207%2E5%29%3Bwidth%3A%20calc%2865px%20%2F%207%2E5%29%3Banimation%2Dduration%3A%202000ms%3Btop%3A%20calc%2865px%20%2F%202%2E3077%29%3Bleft%3A%20calc%2865px%20%2F%202%2E3077%29%3Bbackground%2Dcolor%3A%20%23ff1d5e%3Bposition%3A%20absolute%3Banimation%2Diteration%2Dcount%3A%20infinite%3B%7D%2Ebreeding%2Drhombus%2Dspinner%20%2Erhombus%3Anth%2Dchild%282n%2B0%29%20%7Bmargin%2Dright%3A%200%3B%7D%2Ebreeding%2Drhombus%2Dspinner%20%2Erhombus%2Echild%2D1%20%7Banimation%2Dname%3A%20breeding%2Drhombus%2Dspinner%2Danimation%2Dchild%2D1%3Banimation%2Ddelay%3A%20calc%28100ms%20%2A%201%29%3B%7D%2Ebreeding%2Drhombus%2Dspinner%20%2Erhombus%2Echild%2D2%20%7Banimation%2Dname%3A%20breeding%2Drhombus%2Dspinner%2Danimation%2Dchild%2D2%3Banimation%2Ddelay%3A%20calc%28100ms%20%2A%202%29%3B%7D%2Ebreeding%2Drhombus%2Dspinner%20%2Erhombus%2Echild%2D3%20%7Banimation%2Dname%3A%20breeding%2Drhombus%2Dspinner%2Danimation%2Dchild%2D3%3Banimation%2Ddelay%3A%20calc%28100ms%20%2A%203%29%3B%7D%2Ebreeding%2Drhombus%2Dspinner%20%2Erhombus%2Echild%2D4%20%7Banimation%2Dname%3A%20breeding%2Drhombus%2Dspinner%2Danimation%2Dchild%2D4%3Banimation%2Ddelay%3A%20calc%28100ms%20%2A%204%29%3B%7D%2Ebreeding%2Drhombus%2Dspinner%20%2Erhombus%2Echild%2D5%20%7Banimation%2Dname%3A%20breeding%2Drhombus%2Dspinner%2Danimation%2Dchild%2D5%3Banimation%2Ddelay%3A%20calc%28100ms%20%2A%205%29%3B%7D%2Ebreeding%2Drhombus%2Dspinner%20%2Erhombus%2Echild%2D6%20%7Banimation%2Dname%3A%20breeding%2Drhombus%2Dspinner%2Danimation%2Dchild%2D6%3Banimation%2Ddelay%3A%20calc%28100ms%20%2A%206%29%3B%7D%2Ebreeding%2Drhombus%2Dspinner%20%2Erhombus%2Echild%2D7%20%7Banimation%2Dname%3A%20breeding%2Drhombus%2Dspinner%2Danimation%2Dchild%2D7%3Banimation%2Ddelay%3A%20calc%28100ms%20%2A%207%29%3B%7D%2Ebreeding%2Drhombus%2Dspinner%20%2Erhombus%2Echild%2D8%20%7Banimation%2Dname%3A%20breeding%2Drhombus%2Dspinner%2Danimation%2Dchild%2D8%3Banimation%2Ddelay%3A%20calc%28100ms%20%2A%208%29%3B%7D%2Ebreeding%2Drhombus%2Dspinner%20%2Erhombus%2Ebig%20%7Bheight%3A%20calc%2865px%20%2F%203%29%3Bwidth%3A%20calc%2865px%20%2F%203%29%3Banimation%2Dduration%3A%202000ms%3Btop%3A%20calc%2865px%20%2F%203%29%3Bleft%3A%20calc%2865px%20%2F%203%29%3Bbackground%2Dcolor%3A%20%23ff1d5e%3Banimation%3A%20breeding%2Drhombus%2Dspinner%2Danimation%2Dchild%2Dbig%202s%20infinite%3Banimation%2Ddelay%3A%200%2E5s%3B%7D%40keyframes%20breeding%2Drhombus%2Dspinner%2Danimation%2Dchild%2D1%20%7B50%25%20%7Btransform%3A%20translate%28%2D325%25%2C%20%2D325%25%29%3B%7D%7D%40keyframes%20breeding%2Drhombus%2Dspinner%2Danimation%2Dchild%2D2%20%7B50%25%20%7Btransform%3A%20translate%280%2C%20%2D325%25%29%3B%7D%7D%40keyframes%20breeding%2Drhombus%2Dspinner%2Danimation%2Dchild%2D3%20%7B50%25%20%7Btransform%3A%20translate%28325%25%2C%20%2D325%25%29%3B%7D%7D%40keyframes%20breeding%2Drhombus%2Dspinner%2Danimation%2Dchild%2D4%20%7B50%25%20%7Btransform%3A%20translate%28325%25%2C%200%29%3B%7D%7D%40keyframes%20breeding%2Drhombus%2Dspinner%2Danimation%2Dchild%2D5%20%7B50%25%20%7Btransform%3A%20translate%28325%25%2C%20325%25%29%3B%7D%7D%40keyframes%20breeding%2Drhombus%2Dspinner%2Danimation%2Dchild%2D6%20%7B50%25%20%7Btransform%3A%20translate%280%2C%20325%25%29%3B%7D%7D%40keyframes%20breeding%2Drhombus%2Dspinner%2Danimation%2Dchild%2D7%20%7B50%25%20%7Btransform%3A%20translate%28%2D325%25%2C%20325%25%29%3B%7D%7D%40keyframes%20breeding%2Drhombus%2Dspinner%2Danimation%2Dchild%2D8%20%7B50%25%20%7Btransform%3A%20translate%28%2D325%25%2C%200%29%3B%7D%7D%40keyframes%20breeding%2Drhombus%2Dspinner%2Danimation%2Dchild%2Dbig%20%7B50%25%20%7Btransform%3A%20scale%280%2E5%29%3B%7D%7D" rel="stylesheet" />
-<link href="data:text/css,%40%2Dwebkit%2Dkeyframes%20sk%2Dbouncedelay%7B0%25%2C80%25%2Cto%7B%2Dwebkit%2Dtransform%3Ascale%280%29%7D40%25%7B%2Dwebkit%2Dtransform%3Ascale%281%29%7D%7D%40keyframes%20sk%2Dbouncedelay%7B0%25%2C80%25%2Cto%7B%2Dwebkit%2Dtransform%3Ascale%280%29%3Btransform%3Ascale%280%29%7D40%25%7B%2Dwebkit%2Dtransform%3Ascale%281%29%3Btransform%3Ascale%281%29%7D%7D%40%2Dwebkit%2Dkeyframes%20sk%2Drotate%7Bto%7B%2Dwebkit%2Dtransform%3Arotate%28360deg%29%7D%7D%40keyframes%20sk%2Drotate%7Bto%7Btransform%3Arotate%28360deg%29%3B%2Dwebkit%2Dtransform%3Arotate%28360deg%29%7D%7D%40%2Dwebkit%2Dkeyframes%20sk%2Dbounce%7B0%25%2Cto%7B%2Dwebkit%2Dtransform%3Ascale%280%29%7D50%25%7B%2Dwebkit%2Dtransform%3Ascale%281%29%7D%7D%40keyframes%20sk%2Dbounce%7B0%25%2Cto%7Btransform%3Ascale%280%29%3B%2Dwebkit%2Dtransform%3Ascale%280%29%7D50%25%7Btransform%3Ascale%281%29%3B%2Dwebkit%2Dtransform%3Ascale%281%29%7D%7D%40%2Dwebkit%2Dkeyframes%20sk%2DcubeGridScaleDelay%7B0%25%2C70%25%2Cto%7B%2Dwebkit%2Dtransform%3Ascale3D%281%2C1%2C1%29%3Btransform%3Ascale3D%281%2C1%2C1%29%7D35%25%7B%2Dwebkit%2Dtransform%3Ascale3D%280%2C0%2C1%29%3Btransform%3Ascale3D%280%2C0%2C1%29%7D%7D%40keyframes%20sk%2DcubeGridScaleDelay%7B0%25%2C70%25%2Cto%7B%2Dwebkit%2Dtransform%3Ascale3D%281%2C1%2C1%29%3Btransform%3Ascale3D%281%2C1%2C1%29%7D35%25%7B%2Dwebkit%2Dtransform%3Ascale3D%280%2C0%2C1%29%3Btransform%3Ascale3D%280%2C0%2C1%29%7D%7D%40%2Dwebkit%2Dkeyframes%20sk%2Dcubemove%7B25%25%7B%2Dwebkit%2Dtransform%3AtranslateX%2842px%29%20rotate%28%2D90deg%29%20scale%28%2E5%29%7D50%25%7B%2Dwebkit%2Dtransform%3AtranslateX%2842px%29%20translateY%2842px%29%20rotate%28%2D180deg%29%7D75%25%7B%2Dwebkit%2Dtransform%3AtranslateX%280%29%20translateY%2842px%29%20rotate%28%2D270deg%29%20scale%28%2E5%29%7Dto%7B%2Dwebkit%2Dtransform%3Arotate%28%2D360deg%29%7D%7D%40keyframes%20sk%2Dcubemove%7B25%25%7Btransform%3AtranslateX%2842px%29%20rotate%28%2D90deg%29%20scale%28%2E5%29%3B%2Dwebkit%2Dtransform%3AtranslateX%2842px%29%20rotate%28%2D90deg%29%20scale%28%2E5%29%7D50%25%7Btransform%3AtranslateX%2842px%29%20translateY%2842px%29%20rotate%28%2D179deg%29%3B%2Dwebkit%2Dtransform%3AtranslateX%2842px%29%20translateY%2842px%29%20rotate%28%2D179deg%29%7D50%2E1%25%7Btransform%3AtranslateX%2842px%29%20translateY%2842px%29%20rotate%28%2D180deg%29%3B%2Dwebkit%2Dtransform%3AtranslateX%2842px%29%20translateY%2842px%29%20rotate%28%2D180deg%29%7D75%25%7Btransform%3AtranslateX%280%29%20translateY%2842px%29%20rotate%28%2D270deg%29%20scale%28%2E5%29%3B%2Dwebkit%2Dtransform%3AtranslateX%280%29%20translateY%2842px%29%20rotate%28%2D270deg%29%20scale%28%2E5%29%7Dto%7Btransform%3Arotate%28%2D360deg%29%3B%2Dwebkit%2Dtransform%3Arotate%28%2D360deg%29%7D%7D%40%2Dwebkit%2Dkeyframes%20sk%2Drotateplane%7B0%25%7B%2Dwebkit%2Dtransform%3Aperspective%28120px%29%7D50%25%7B%2Dwebkit%2Dtransform%3Aperspective%28120px%29%20rotateY%28180deg%29%7Dto%7B%2Dwebkit%2Dtransform%3Aperspective%28120px%29%20rotateY%28180deg%29%20rotateX%28180deg%29%7D%7D%40keyframes%20sk%2Drotateplane%7B0%25%7Btransform%3Aperspective%28120px%29%20rotateX%280deg%29%20rotateY%280deg%29%3B%2Dwebkit%2Dtransform%3Aperspective%28120px%29%20rotateX%280deg%29%20rotateY%280deg%29%7D50%25%7Btransform%3Aperspective%28120px%29%20rotateX%28%2D180%2E1deg%29%20rotateY%280deg%29%3B%2Dwebkit%2Dtransform%3Aperspective%28120px%29%20rotateX%28%2D180%2E1deg%29%20rotateY%280deg%29%7Dto%7Btransform%3Aperspective%28120px%29%20rotateX%28%2D180deg%29%20rotateY%28%2D179%2E9deg%29%3B%2Dwebkit%2Dtransform%3Aperspective%28120px%29%20rotateX%28%2D180deg%29%20rotateY%28%2D179%2E9deg%29%7D%7D%40%2Dwebkit%2Dkeyframes%20sk%2DfoldCubeAngle%7B0%25%2C10%25%7B%2Dwebkit%2Dtransform%3Aperspective%28140px%29%20rotateX%28%2D180deg%29%3Btransform%3Aperspective%28140px%29%20rotateX%28%2D180deg%29%3Bopacity%3A0%7D25%25%2C75%25%7B%2Dwebkit%2Dtransform%3Aperspective%28140px%29%20rotateX%280deg%29%3Btransform%3Aperspective%28140px%29%20rotateX%280deg%29%3Bopacity%3A1%7D90%25%2Cto%7B%2Dwebkit%2Dtransform%3Aperspective%28140px%29%20rotateY%28180deg%29%3Btransform%3Aperspective%28140px%29%20rotateY%28180deg%29%3Bopacity%3A0%7D%7D%40keyframes%20sk%2DfoldCubeAngle%7B0%25%2C10%25%7B%2Dwebkit%2Dtransform%3Aperspective%28140px%29%20rotateX%28%2D180deg%29%3Btransform%3Aperspective%28140px%29%20rotateX%28%2D180deg%29%3Bopacity%3A0%7D25%25%2C75%25%7B%2Dwebkit%2Dtransform%3Aperspective%28140px%29%20rotateX%280deg%29%3Btransform%3Aperspective%28140px%29%20rotateX%280deg%29%3Bopacity%3A1%7D90%25%2Cto%7B%2Dwebkit%2Dtransform%3Aperspective%28140px%29%20rotateY%28180deg%29%3Btransform%3Aperspective%28140px%29%20rotateY%28180deg%29%3Bopacity%3A0%7D%7D%40%2Dwebkit%2Dkeyframes%20sk%2Dscaleout%7B0%25%7B%2Dwebkit%2Dtransform%3Ascale%280%29%7Dto%7B%2Dwebkit%2Dtransform%3Ascale%281%29%3Bopacity%3A0%7D%7D%40keyframes%20sk%2Dscaleout%7B0%25%7B%2Dwebkit%2Dtransform%3Ascale%280%29%3Btransform%3Ascale%280%29%7Dto%7B%2Dwebkit%2Dtransform%3Ascale%281%29%3Btransform%3Ascale%281%29%3Bopacity%3A0%7D%7D%40%2Dwebkit%2Dkeyframes%20sk%2DcircleBounceDelay%7B0%25%2C80%25%2Cto%7B%2Dwebkit%2Dtransform%3Ascale%280%29%3Btransform%3Ascale%280%29%7D40%25%7B%2Dwebkit%2Dtransform%3Ascale%281%29%3Btransform%3Ascale%281%29%7D%7D%40keyframes%20sk%2DcircleBounceDelay%7B0%25%2C80%25%2Cto%7B%2Dwebkit%2Dtransform%3Ascale%280%29%3Btransform%3Ascale%280%29%7D40%25%7B%2Dwebkit%2Dtransform%3Ascale%281%29%3Btransform%3Ascale%281%29%7D%7D%40%2Dwebkit%2Dkeyframes%20sk%2DcircleFadeDelay%7B0%25%2C39%25%2Cto%7Bopacity%3A0%7D40%25%7Bopacity%3A1%7D%7D%40keyframes%20sk%2DcircleFadeDelay%7B0%25%2C39%25%2Cto%7Bopacity%3A0%7D40%25%7Bopacity%3A1%7D%7D%2Edouble%2Dbounce1%2C%2Edouble%2Dbounce2%7Bwidth%3A100%25%3Bheight%3A100%25%3Bborder%2Dradius%3A50%25%3Bopacity%3A%2E6%3Bposition%3Aabsolute%3Btop%3A0%3Bleft%3A0%3B%2Dwebkit%2Danimation%3Ask%2Dbounce%202s%20infinite%20ease%2Din%2Dout%3Banimation%3Ask%2Dbounce%202s%20infinite%20ease%2Din%2Dout%7D%2Edouble%2Dbounce2%7B%2Dwebkit%2Danimation%2Ddelay%3A%2D1s%3Banimation%2Ddelay%3A%2D1s%7D%2Espinner%2Dbounce%2C%2Espinner%2Ddots%7Bwidth%3A100%25%3Btext%2Dalign%3Acenter%7D%2Espinner%2Dbounce%3Ediv%7Bwidth%3A18px%3Bheight%3A18px%3Bborder%2Dradius%3A100%25%3Bdisplay%3Ainline%2Dblock%3B%2Dwebkit%2Danimation%3Ask%2Dbouncedelay%201%2E4s%20infinite%20ease%2Din%2Dout%20both%3Banimation%3Ask%2Dbouncedelay%201%2E4s%20infinite%20ease%2Din%2Dout%20both%7D%2Espinner%2Dbounce%20%2Ebounce1%7B%2Dwebkit%2Danimation%2Ddelay%3A%2D%2E32s%3Banimation%2Ddelay%3A%2D%2E32s%7D%2Espinner%2Dbounce%20%2Ebounce2%7B%2Dwebkit%2Danimation%2Ddelay%3A%2D%2E16s%3Banimation%2Ddelay%3A%2D%2E16s%7D%2Espinner%2Ddots%7Bheight%3A100%25%3Bposition%3Arelative%3B%2Dwebkit%2Danimation%3Ask%2Drotate%202s%20infinite%20linear%3Banimation%3Ask%2Drotate%202s%20infinite%20linear%7D%2Edot1%2C%2Edot2%7Bwidth%3A60%25%3Bheight%3A60%25%3Bdisplay%3Ainline%2Dblock%3Bposition%3Aabsolute%3Btop%3A0%3Bbackground%2Dcolor%3A%23333%3Bborder%2Dradius%3A100%25%3B%2Dwebkit%2Danimation%3Ask%2Dbounce%202s%20infinite%20ease%2Din%2Dout%3Banimation%3Ask%2Dbounce%202s%20infinite%20ease%2Din%2Dout%7D%2Edot2%7Btop%3Aauto%3Bbottom%3A0%3B%2Dwebkit%2Danimation%2Ddelay%3A%2D1s%3Banimation%2Ddelay%3A%2D1s%7D%2Esk%2Dcube%2Dgrid%2C%2Espinner%2Dcube%7Bwidth%3A100%25%3Bheight%3A100%25%7D%2Esk%2Dcube%2Dgrid%20%2Esk%2Dcube%7Bwidth%3A33%25%3Bheight%3A33%25%3Bfloat%3Aleft%3B%2Dwebkit%2Danimation%3Ask%2DcubeGridScaleDelay%201%2E3s%20infinite%20ease%2Din%2Dout%3Banimation%3Ask%2DcubeGridScaleDelay%201%2E3s%20infinite%20ease%2Din%2Dout%7D%2Esk%2Dcube%2Dgrid%20%2Esk%2Dcube1%7B%2Dwebkit%2Danimation%2Ddelay%3A%2E2s%3Banimation%2Ddelay%3A%2E2s%7D%2Esk%2Dcube%2Dgrid%20%2Esk%2Dcube2%7B%2Dwebkit%2Danimation%2Ddelay%3A%2E3s%3Banimation%2Ddelay%3A%2E3s%7D%2Esk%2Dcube%2Dgrid%20%2Esk%2Dcube3%7B%2Dwebkit%2Danimation%2Ddelay%3A%2E4s%3Banimation%2Ddelay%3A%2E4s%7D%2Esk%2Dcube%2Dgrid%20%2Esk%2Dcube4%7B%2Dwebkit%2Danimation%2Ddelay%3A%2E1s%3Banimation%2Ddelay%3A%2E1s%7D%2Esk%2Dcube%2Dgrid%20%2Esk%2Dcube5%7B%2Dwebkit%2Danimation%2Ddelay%3A%2E2s%3Banimation%2Ddelay%3A%2E2s%7D%2Esk%2Dcube%2Dgrid%20%2Esk%2Dcube6%7B%2Dwebkit%2Danimation%2Ddelay%3A%2E3s%3Banimation%2Ddelay%3A%2E3s%7D%2Esk%2Dcube%2Dgrid%20%2Esk%2Dcube7%7B%2Dwebkit%2Danimation%2Ddelay%3A0s%3Banimation%2Ddelay%3A0s%7D%2Esk%2Dcube%2Dgrid%20%2Esk%2Dcube8%7B%2Dwebkit%2Danimation%2Ddelay%3A%2E1s%3Banimation%2Ddelay%3A%2E1s%7D%2Esk%2Dcube%2Dgrid%20%2Esk%2Dcube9%7B%2Dwebkit%2Danimation%2Ddelay%3A%2E2s%3Banimation%2Ddelay%3A%2E2s%7D%2Espinner%2Dcube%7Bposition%3Arelative%7D%2Ecube1%2C%2Ecube2%7Bbackground%2Dcolor%3A%23333%3Bwidth%3A30%25%3Bheight%3A30%25%3Bposition%3Aabsolute%3Btop%3A0%3Bleft%3A0%3B%2Dwebkit%2Danimation%3Ask%2Dcubemove%201%2E8s%20infinite%20ease%2Din%2Dout%3Banimation%3Ask%2Dcubemove%201%2E8s%20infinite%20ease%2Din%2Dout%7D%2Ecube2%7B%2Dwebkit%2Danimation%2Ddelay%3A%2D%2E9s%3Banimation%2Ddelay%3A%2D%2E9s%7D%2Erotating%2Dplane%7Bwidth%3A100%25%3Bheight%3A100%25%3B%2Dwebkit%2Danimation%3Ask%2Drotateplane%201%2E2s%20infinite%20ease%2Din%2Dout%3Banimation%3Ask%2Drotateplane%201%2E2s%20infinite%20ease%2Din%2Dout%7D%2Esk%2Dfolding%2Dcube%7Bwidth%3A100%25%3Bheight%3A100%25%3Bposition%3Arelative%3B%2Dwebkit%2Dtransform%3ArotateZ%2845deg%29%3Btransform%3ArotateZ%2845deg%29%7D%2Esk%2Dfolding%2Dcube%20%2Esk%2Dcube%7Bfloat%3Aleft%3Bwidth%3A50%25%3Bheight%3A50%25%3Bposition%3Arelative%3B%2Dwebkit%2Dtransform%3Ascale%281%2E1%29%3B%2Dms%2Dtransform%3Ascale%281%2E1%29%3Btransform%3Ascale%281%2E1%29%7D%2Esk%2Dfolding%2Dcube%20%2Esk%2Dcube%3Abefore%7Bcontent%3A%27%27%3Bposition%3Aabsolute%3Btop%3A0%3Bleft%3A0%3Bwidth%3A100%25%3Bheight%3A100%25%3B%2Dwebkit%2Danimation%3Ask%2DfoldCubeAngle%202%2E4s%20infinite%20linear%20both%3Banimation%3Ask%2DfoldCubeAngle%202%2E4s%20infinite%20linear%20both%3B%2Dwebkit%2Dtransform%2Dorigin%3A100%25%20100%25%3B%2Dms%2Dtransform%2Dorigin%3A100%25%20100%25%3Btransform%2Dorigin%3A100%25%20100%25%7D%2Esk%2Dfolding%2Dcube%20%2Esk%2Dcube2%7B%2Dwebkit%2Dtransform%3Ascale%281%2E1%29%20rotateZ%2890deg%29%3Btransform%3Ascale%281%2E1%29%20rotateZ%2890deg%29%7D%2Esk%2Dfolding%2Dcube%20%2Esk%2Dcube3%7B%2Dwebkit%2Dtransform%3Ascale%281%2E1%29%20rotateZ%28180deg%29%3Btransform%3Ascale%281%2E1%29%20rotateZ%28180deg%29%7D%2Esk%2Dfolding%2Dcube%20%2Esk%2Dcube4%7B%2Dwebkit%2Dtransform%3Ascale%281%2E1%29%20rotateZ%28270deg%29%3Btransform%3Ascale%281%2E1%29%20rotateZ%28270deg%29%7D%2Esk%2Dfolding%2Dcube%20%2Esk%2Dcube2%3Abefore%7B%2Dwebkit%2Danimation%2Ddelay%3A%2E3s%3Banimation%2Ddelay%3A%2E3s%7D%2Esk%2Dfolding%2Dcube%20%2Esk%2Dcube3%3Abefore%7B%2Dwebkit%2Danimation%2Ddelay%3A%2E6s%3Banimation%2Ddelay%3A%2E6s%7D%2Esk%2Dfolding%2Dcube%20%2Esk%2Dcube4%3Abefore%7B%2Dwebkit%2Danimation%2Ddelay%3A%2E9s%3Banimation%2Ddelay%3A%2E9s%7D%2Espinner2%7Bwidth%3A100%25%3Bheight%3A100%25%3Bbackground%2Dcolor%3A%23112446%3Bborder%2Dradius%3A100%25%3B%2Dwebkit%2Danimation%3Ask%2Dscaleout%201s%20infinite%20ease%2Din%2Dout%3Banimation%3Ask%2Dscaleout%201s%20infinite%20ease%2Din%2Dout%7D%2Esk%2Dcircle%2C%2Esk%2Dcircle%20%2Esk%2Dchild%2C%2Esk%2Dfading%2Dcircle%7Bwidth%3A100%25%3Bheight%3A100%25%3Bposition%3Arelative%7D%2Esk%2Dcircle%20%2Esk%2Dchild%7Bposition%3Aabsolute%3Bleft%3A0%3Btop%3A0%7D%2Esk%2Dcircle%20%2Esk%2Dchild%3Abefore%7Bcontent%3A%27%27%3Bdisplay%3Ablock%3Bmargin%3A0%20auto%3Bwidth%3A15%25%3Bheight%3A15%25%3Bborder%2Dradius%3A100%25%3B%2Dwebkit%2Danimation%3Ask%2DcircleBounceDelay%201%2E2s%20infinite%20ease%2Din%2Dout%20both%3Banimation%3Ask%2DcircleBounceDelay%201%2E2s%20infinite%20ease%2Din%2Dout%20both%7D%2Esk%2Dcircle%20%2Esk%2Dcircle2%7B%2Dwebkit%2Dtransform%3Arotate%2830deg%29%3B%2Dms%2Dtransform%3Arotate%2830deg%29%3Btransform%3Arotate%2830deg%29%7D%2Esk%2Dcircle%20%2Esk%2Dcircle3%7B%2Dwebkit%2Dtransform%3Arotate%2860deg%29%3B%2Dms%2Dtransform%3Arotate%2860deg%29%3Btransform%3Arotate%2860deg%29%7D%2Esk%2Dcircle%20%2Esk%2Dcircle4%7B%2Dwebkit%2Dtransform%3Arotate%2890deg%29%3B%2Dms%2Dtransform%3Arotate%2890deg%29%3Btransform%3Arotate%2890deg%29%7D%2Esk%2Dcircle%20%2Esk%2Dcircle5%7B%2Dwebkit%2Dtransform%3Arotate%28120deg%29%3B%2Dms%2Dtransform%3Arotate%28120deg%29%3Btransform%3Arotate%28120deg%29%7D%2Esk%2Dcircle%20%2Esk%2Dcircle6%7B%2Dwebkit%2Dtransform%3Arotate%28150deg%29%3B%2Dms%2Dtransform%3Arotate%28150deg%29%3Btransform%3Arotate%28150deg%29%7D%2Esk%2Dcircle%20%2Esk%2Dcircle7%7B%2Dwebkit%2Dtransform%3Arotate%28180deg%29%3B%2Dms%2Dtransform%3Arotate%28180deg%29%3Btransform%3Arotate%28180deg%29%7D%2Esk%2Dcircle%20%2Esk%2Dcircle8%7B%2Dwebkit%2Dtransform%3Arotate%28210deg%29%3B%2Dms%2Dtransform%3Arotate%28210deg%29%3Btransform%3Arotate%28210deg%29%7D%2Esk%2Dcircle%20%2Esk%2Dcircle9%7B%2Dwebkit%2Dtransform%3Arotate%28240deg%29%3B%2Dms%2Dtransform%3Arotate%28240deg%29%3Btransform%3Arotate%28240deg%29%7D%2Esk%2Dcircle%20%2Esk%2Dcircle10%7B%2Dwebkit%2Dtransform%3Arotate%28270deg%29%3B%2Dms%2Dtransform%3Arotate%28270deg%29%3Btransform%3Arotate%28270deg%29%7D%2Esk%2Dcircle%20%2Esk%2Dcircle11%7B%2Dwebkit%2Dtransform%3Arotate%28300deg%29%3B%2Dms%2Dtransform%3Arotate%28300deg%29%3Btransform%3Arotate%28300deg%29%7D%2Esk%2Dcircle%20%2Esk%2Dcircle12%7B%2Dwebkit%2Dtransform%3Arotate%28330deg%29%3B%2Dms%2Dtransform%3Arotate%28330deg%29%3Btransform%3Arotate%28330deg%29%7D%2Esk%2Dcircle%20%2Esk%2Dcircle2%3Abefore%7B%2Dwebkit%2Danimation%2Ddelay%3A%2D1%2E1s%3Banimation%2Ddelay%3A%2D1%2E1s%7D%2Esk%2Dcircle%20%2Esk%2Dcircle3%3Abefore%7B%2Dwebkit%2Danimation%2Ddelay%3A%2D1s%3Banimation%2Ddelay%3A%2D1s%7D%2Esk%2Dcircle%20%2Esk%2Dcircle4%3Abefore%7B%2Dwebkit%2Danimation%2Ddelay%3A%2D%2E9s%3Banimation%2Ddelay%3A%2D%2E9s%7D%2Esk%2Dcircle%20%2Esk%2Dcircle5%3Abefore%7B%2Dwebkit%2Danimation%2Ddelay%3A%2D%2E8s%3Banimation%2Ddelay%3A%2D%2E8s%7D%2Esk%2Dcircle%20%2Esk%2Dcircle6%3Abefore%7B%2Dwebkit%2Danimation%2Ddelay%3A%2D%2E7s%3Banimation%2Ddelay%3A%2D%2E7s%7D%2Esk%2Dcircle%20%2Esk%2Dcircle7%3Abefore%7B%2Dwebkit%2Danimation%2Ddelay%3A%2D%2E6s%3Banimation%2Ddelay%3A%2D%2E6s%7D%2Esk%2Dcircle%20%2Esk%2Dcircle8%3Abefore%7B%2Dwebkit%2Danimation%2Ddelay%3A%2D%2E5s%3Banimation%2Ddelay%3A%2D%2E5s%7D%2Esk%2Dcircle%20%2Esk%2Dcircle9%3Abefore%7B%2Dwebkit%2Danimation%2Ddelay%3A%2D%2E4s%3Banimation%2Ddelay%3A%2D%2E4s%7D%2Esk%2Dcircle%20%2Esk%2Dcircle10%3Abefore%7B%2Dwebkit%2Danimation%2Ddelay%3A%2D%2E3s%3Banimation%2Ddelay%3A%2D%2E3s%7D%2Esk%2Dcircle%20%2Esk%2Dcircle11%3Abefore%7B%2Dwebkit%2Danimation%2Ddelay%3A%2D%2E2s%3Banimation%2Ddelay%3A%2D%2E2s%7D%2Esk%2Dcircle%20%2Esk%2Dcircle12%3Abefore%7B%2Dwebkit%2Danimation%2Ddelay%3A%2D%2E1s%3Banimation%2Ddelay%3A%2D%2E1s%7D%2Esk%2Dfading%2Dcircle%20%2Esk%2Dcircle%7Bwidth%3A100%25%3Bheight%3A100%25%3Bposition%3Aabsolute%3Bleft%3A0%3Btop%3A0%7D%2Esk%2Dfading%2Dcircle%20%2Esk%2Dcircle%3Abefore%7Bcontent%3A%27%27%3Bdisplay%3Ablock%3Bmargin%3A0%20auto%3Bwidth%3A15%25%3Bheight%3A15%25%3Bborder%2Dradius%3A100%25%3B%2Dwebkit%2Danimation%3Ask%2DcircleFadeDelay%201%2E2s%20infinite%20ease%2Din%2Dout%20both%3Banimation%3Ask%2DcircleFadeDelay%201%2E2s%20infinite%20ease%2Din%2Dout%20both%7D%2Esk%2Dfading%2Dcircle%20%2Esk%2Dcircle2%7B%2Dwebkit%2Dtransform%3Arotate%2830deg%29%3B%2Dms%2Dtransform%3Arotate%2830deg%29%3Btransform%3Arotate%2830deg%29%7D%2Esk%2Dfading%2Dcircle%20%2Esk%2Dcircle3%7B%2Dwebkit%2Dtransform%3Arotate%2860deg%29%3B%2Dms%2Dtransform%3Arotate%2860deg%29%3Btransform%3Arotate%2860deg%29%7D%2Esk%2Dfading%2Dcircle%20%2Esk%2Dcircle4%7B%2Dwebkit%2Dtransform%3Arotate%2890deg%29%3B%2Dms%2Dtransform%3Arotate%2890deg%29%3Btransform%3Arotate%2890deg%29%7D%2Esk%2Dfading%2Dcircle%20%2Esk%2Dcircle5%7B%2Dwebkit%2Dtransform%3Arotate%28120deg%29%3B%2Dms%2Dtransform%3Arotate%28120deg%29%3Btransform%3Arotate%28120deg%29%7D%2Esk%2Dfading%2Dcircle%20%2Esk%2Dcircle6%7B%2Dwebkit%2Dtransform%3Arotate%28150deg%29%3B%2Dms%2Dtransform%3Arotate%28150deg%29%3Btransform%3Arotate%28150deg%29%7D%2Esk%2Dfading%2Dcircle%20%2Esk%2Dcircle7%7B%2Dwebkit%2Dtransform%3Arotate%28180deg%29%3B%2Dms%2Dtransform%3Arotate%28180deg%29%3Btransform%3Arotate%28180deg%29%7D%2Esk%2Dfading%2Dcircle%20%2Esk%2Dcircle8%7B%2Dwebkit%2Dtransform%3Arotate%28210deg%29%3B%2Dms%2Dtransform%3Arotate%28210deg%29%3Btransform%3Arotate%28210deg%29%7D%2Esk%2Dfading%2Dcircle%20%2Esk%2Dcircle9%7B%2Dwebkit%2Dtransform%3Arotate%28240deg%29%3B%2Dms%2Dtransform%3Arotate%28240deg%29%3Btransform%3Arotate%28240deg%29%7D%2Esk%2Dfading%2Dcircle%20%2Esk%2Dcircle10%7B%2Dwebkit%2Dtransform%3Arotate%28270deg%29%3B%2Dms%2Dtransform%3Arotate%28270deg%29%3Btransform%3Arotate%28270deg%29%7D%2Esk%2Dfading%2Dcircle%20%2Esk%2Dcircle11%7B%2Dwebkit%2Dtransform%3Arotate%28300deg%29%3B%2Dms%2Dtransform%3Arotate%28300deg%29%3Btransform%3Arotate%28300deg%29%7D%2Esk%2Dfading%2Dcircle%20%2Esk%2Dcircle12%7B%2Dwebkit%2Dtransform%3Arotate%28330deg%29%3B%2Dms%2Dtransform%3Arotate%28330deg%29%3Btransform%3Arotate%28330deg%29%7D%2Esk%2Dfading%2Dcircle%20%2Esk%2Dcircle2%3Abefore%7B%2Dwebkit%2Danimation%2Ddelay%3A%2D1%2E1s%3Banimation%2Ddelay%3A%2D1%2E1s%7D%2Esk%2Dfading%2Dcircle%20%2Esk%2Dcircle3%3Abefore%7B%2Dwebkit%2Danimation%2Ddelay%3A%2D1s%3Banimation%2Ddelay%3A%2D1s%7D%2Esk%2Dfading%2Dcircle%20%2Esk%2Dcircle4%3Abefore%7B%2Dwebkit%2Danimation%2Ddelay%3A%2D%2E9s%3Banimation%2Ddelay%3A%2D%2E9s%7D%2Esk%2Dfading%2Dcircle%20%2Esk%2Dcircle5%3Abefore%7B%2Dwebkit%2Danimation%2Ddelay%3A%2D%2E8s%3Banimation%2Ddelay%3A%2D%2E8s%7D%2Esk%2Dfading%2Dcircle%20%2Esk%2Dcircle6%3Abefore%7B%2Dwebkit%2Danimation%2Ddelay%3A%2D%2E7s%3Banimation%2Ddelay%3A%2D%2E7s%7D%2Esk%2Dfading%2Dcircle%20%2Esk%2Dcircle7%3Abefore%7B%2Dwebkit%2Danimation%2Ddelay%3A%2D%2E6s%3Banimation%2Ddelay%3A%2D%2E6s%7D%2Esk%2Dfading%2Dcircle%20%2Esk%2Dcircle8%3Abefore%7B%2Dwebkit%2Danimation%2Ddelay%3A%2D%2E5s%3Banimation%2Ddelay%3A%2D%2E5s%7D%2Esk%2Dfading%2Dcircle%20%2Esk%2Dcircle9%3Abefore%7B%2Dwebkit%2Danimation%2Ddelay%3A%2D%2E4s%3Banimation%2Ddelay%3A%2D%2E4s%7D%2Esk%2Dfading%2Dcircle%20%2Esk%2Dcircle10%3Abefore%7B%2Dwebkit%2Danimation%2Ddelay%3A%2D%2E3s%3Banimation%2Ddelay%3A%2D%2E3s%7D%2Esk%2Dfading%2Dcircle%20%2Esk%2Dcircle11%3Abefore%7B%2Dwebkit%2Danimation%2Ddelay%3A%2D%2E2s%3Banimation%2Ddelay%3A%2D%2E2s%7D%2Esk%2Dfading%2Dcircle%20%2Esk%2Dcircle12%3Abefore%7B%2Dwebkit%2Danimation%2Ddelay%3A%2D%2E1s%3Banimation%2Ddelay%3A%2D%2E1s%7D" rel="stylesheet" />
+<script>// Pandoc 2.9 adds attributes on both header and div. We remove the former (to
+// be compatible with the behavior of Pandoc < 2.8).
+document.addEventListener('DOMContentLoaded', function(e) {
+  var hs = document.querySelectorAll("div.section[class*='level'] > :first-child");
+  var i, h, a;
+  for (i = 0; i < hs.length; i++) {
+    h = hs[i];
+    if (!/^h[1-6]$/i.test(h.tagName)) continue;  // it should be a header h1-h6
+    a = h.attributes;
+    while (a.length > 0) h.removeAttribute(a[0].name);
+  }
+});
+</script>
+<style type="text/css">
+
+
+
+.flower-spinner,
+.flower-spinner * {
+box-sizing: border-box;
+}
+.flower-spinner {
+height: 70px;
+width: 70px;
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: center;
+}
+.flower-spinner .dots-container {
+height: calc(70px / 7);
+width: calc(70px / 7);
+}
+.flower-spinner .smaller-dot {
+background: #ff1d5e;
+height: 100%;
+width: 100%;
+border-radius: 50%;
+animation: flower-spinner-smaller-dot-animation 2.5s 0s infinite both;
+}
+.flower-spinner .bigger-dot {
+background: #ff1d5e;
+height: 100%;
+width: 100%;
+padding: 10%;
+border-radius: 50%;
+animation: flower-spinner-bigger-dot-animation 2.5s 0s infinite both;
+}
+@keyframes flower-spinner-bigger-dot-animation {
+0%, 100% {
+box-shadow: 0px 0px 0px, 0px 0px 0px, 0px 0px 0px, 0px 0px 0px, 0px 0px 0px, 0px 0px 0px, 0px 0px 0px, 0px 0px 0px;
+}
+50% {
+transform: rotate(180deg);
+}
+25%,
+75% {
+box-shadow: 26px 0px 0px, -26px 0px 0px, 0px 26px 0px, 0px -26px 0px, 19px -19px 0px, 19px 19px 0px, -19px -19px 0px, -19px 19px 0px;
+}
+100% {
+transform: rotate(360deg);
+box-shadow: 0px 0px 0px, 0px 0px 0px, 0px 0px 0px, 0px 0px 0px, 0px 0px 0px, 0px 0px 0px, 0px 0px 0px, 0px 0px 0px;
+}
+}
+@keyframes flower-spinner-smaller-dot-animation {
+0%, 100% {
+box-shadow: 0px 0px 0px, 0px 0px 0px, 0px 0px 0px, 0px 0px 0px, 0px 0px 0px, 0px 0px 0px, 0px 0px 0px, 0px 0px 0px;
+}
+25%,
+75% {
+box-shadow: 14px 0px 0px, -14px 0px 0px, 0px 14px 0px, 0px -14px 0px, 10px -10px 0px, 10px 10px 0px, -10px -10px 0px, -10px 10px 0px;
+}
+100% {
+box-shadow: 0px 0px 0px, 0px 0px 0px, 0px 0px 0px, 0px 0px 0px, 0px 0px 0px, 0px 0px 0px, 0px 0px 0px, 0px 0px 0px;
+}
+}
+
+.pixel-spinner,
+.pixel-spinner * {
+box-sizing: border-box;
+}
+.pixel-spinner {
+height: 70px;
+width: 70px;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+}
+.pixel-spinner .pixel-spinner-inner {
+width: calc(70px / 7);
+height: calc(70px / 7);
+background-color: #ff1d5e;
+color: #ff1d5e;
+box-shadow: 15px 15px 0 0, -15px -15px 0 0, 15px -15px 0 0, -15px 15px 0 0, 0 15px 0 0, 15px 0 0 0, -15px 0 0 0, 0 -15px 0 0;
+animation: pixel-spinner-animation 2000ms linear infinite;
+}
+@keyframes pixel-spinner-animation {
+50% {
+box-shadow: 20px 20px 0px 0px, -20px -20px 0px 0px, 20px -20px 0px 0px, -20px 20px 0px 0px, 0px 10px 0px 0px, 10px 0px 0px 0px, -10px 0px 0px 0px, 0px -10px 0px 0px;
+}
+75% {
+box-shadow: 20px 20px 0px 0px, -20px -20px 0px 0px, 20px -20px 0px 0px, -20px 20px 0px 0px, 0px 10px 0px 0px, 10px 0px 0px 0px, -10px 0px 0px 0px, 0px -10px 0px 0px;
+}
+100% {
+transform: rotate(360deg);
+}
+}
+
+.hollow-dots-spinner,
+.hollow-dots-spinner * {
+box-sizing: border-box;
+}
+.hollow-dots-spinner {
+height: 15px;
+width: calc(30px * 3);
+}
+.hollow-dots-spinner .dot {
+width: 15px;
+height: 15px;
+margin: 0 calc(15px / 2);
+border: calc(15px / 5) solid #ff1d5e;
+border-radius: 50%;
+float: left;
+transform: scale(0);
+animation: hollow-dots-spinner-animation 1000ms ease infinite 0ms;
+}
+.hollow-dots-spinner .dot:nth-child(1) {
+animation-delay: calc(300ms * 1);
+}
+.hollow-dots-spinner .dot:nth-child(2) {
+animation-delay: calc(300ms * 2);
+}
+.hollow-dots-spinner .dot:nth-child(3) {
+animation-delay: calc(300ms * 3);
+}
+@keyframes hollow-dots-spinner-animation {
+50% {
+transform: scale(1);
+opacity: 1;
+}
+100% {
+opacity: 0;
+}
+}
+
+.intersecting-circles-spinner,
+.intersecting-circles-spinner * {
+box-sizing: border-box;
+}
+.intersecting-circles-spinner {
+height: 70px;
+width: 70px;
+position: relative;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+}
+.intersecting-circles-spinner .spinnerBlock {
+animation: intersecting-circles-spinners-animation 1200ms linear infinite;
+transform-origin: center;
+display: block;
+height: 35px;
+width: 35px;
+}
+.intersecting-circles-spinner .circle {
+display: block;
+border: 2px solid #ff1d5e;
+border-radius: 50%;
+height: 100%;
+width: 100%;
+position: absolute;
+left: 0;
+top: 0;
+}
+.intersecting-circles-spinner .circle:nth-child(1) {
+left: 0;
+top: 0;
+}
+.intersecting-circles-spinner .circle:nth-child(2) {
+left: calc(35px * -0.36);
+top: calc(35px * 0.2);
+}
+.intersecting-circles-spinner .circle:nth-child(3) {
+left: calc(35px * -0.36);
+top: calc(35px * -0.2);
+}
+.intersecting-circles-spinner .circle:nth-child(4) {
+left: 0;
+top: calc(35px * -0.36);
+}
+.intersecting-circles-spinner .circle:nth-child(5) {
+left: calc(35px * 0.36);
+top: calc(35px * -0.2);
+}
+.intersecting-circles-spinner .circle:nth-child(6) {
+left: calc(35px * 0.36);
+top: calc(35px * 0.2);
+}
+.intersecting-circles-spinner .circle:nth-child(7) {
+left: 0;
+top: calc(35px * 0.36);
+}
+@keyframes intersecting-circles-spinners-animation {
+from {
+transform: rotate(0deg);
+}
+to {
+transform: rotate(360deg);
+}
+}
+
+.orbit-spinner,
+.orbit-spinner * {
+box-sizing: border-box;
+}
+.orbit-spinner {
+height: 55px;
+width: 55px;
+border-radius: 50%;
+perspective: 800px;
+}
+.orbit-spinner .orbit {
+position: absolute;
+box-sizing: border-box;
+width: 100%;
+height: 100%;
+border-radius: 50%;
+}
+.orbit-spinner .orbit:nth-child(1) {
+left: 0%;
+top: 0%;
+animation: orbit-spinner-orbit-one-animation 1200ms linear infinite;
+border-bottom: 3px solid #ff1d5e;
+}
+.orbit-spinner .orbit:nth-child(2) {
+right: 0%;
+top: 0%;
+animation: orbit-spinner-orbit-two-animation 1200ms linear infinite;
+border-right: 3px solid #ff1d5e;
+}
+.orbit-spinner .orbit:nth-child(3) {
+right: 0%;
+bottom: 0%;
+animation: orbit-spinner-orbit-three-animation 1200ms linear infinite;
+border-top: 3px solid #ff1d5e;
+}
+@keyframes orbit-spinner-orbit-one-animation {
+0% {
+transform: rotateX(35deg) rotateY(-45deg) rotateZ(0deg);
+}
+100% {
+transform: rotateX(35deg) rotateY(-45deg) rotateZ(360deg);
+}
+}
+@keyframes orbit-spinner-orbit-two-animation {
+0% {
+transform: rotateX(50deg) rotateY(10deg) rotateZ(0deg);
+}
+100% {
+transform: rotateX(50deg) rotateY(10deg) rotateZ(360deg);
+}
+}
+@keyframes orbit-spinner-orbit-three-animation {
+0% {
+transform: rotateX(35deg) rotateY(55deg) rotateZ(0deg);
+}
+100% {
+transform: rotateX(35deg) rotateY(55deg) rotateZ(360deg);
+}
+}
+
+.radar-spinner, .radar-spinner * {
+box-sizing: border-box;
+}
+.radar-spinner {
+height: 60px;
+width: 60px;
+position: relative;
+}
+.radar-spinner .circle {
+position: absolute;
+height: 100%;
+width: 100%;
+top: 0;
+left: 0;
+animation: radar-spinner-animation 2s infinite;
+}
+.radar-spinner .circle:nth-child(1) {
+padding: calc(60px * 5 * 2 * 0 / 110);
+animation-delay: 300ms;
+}
+.radar-spinner .circle:nth-child(2) {
+padding: calc(60px * 5 * 2 * 1 / 110);
+animation-delay: 300ms;
+}
+.radar-spinner .circle:nth-child(3) {
+padding: calc(60px * 5 * 2 * 2 / 110);
+animation-delay: 300ms;
+}
+.radar-spinner .circle:nth-child(4) {
+padding: calc(60px * 5 * 2 * 3 / 110);
+animation-delay: 0ms;
+}
+.radar-spinner .circle-inner, .radar-spinner .circle-inner-container {
+height: 100%;
+width: 100%;
+border-radius: 50%;
+border: calc(60px * 5 / 110) solid transparent;
+}
+.radar-spinner .circle-inner {
+border-left-color: #ff1d5e;
+border-right-color: #ff1d5e;
+}
+@keyframes radar-spinner-animation {
+50% {
+transform: rotate(180deg);
+}
+100% {
+transform: rotate(0deg);
+}
+}
+
+.scaling-squares-spinner, .scaling-squares-spinner * {
+box-sizing: border-box;
+}
+.scaling-squares-spinner {
+height: 65px;
+width: 65px;
+position: relative;
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: center;
+animation: scaling-squares-animation 1250ms;
+animation-iteration-count: infinite;
+transform: rotate(0deg);
+}
+.scaling-squares-spinner .square {
+height: calc(65px * 0.25 / 1.3);
+width: calc(65px * 0.25 / 1.3);
+margin-right: auto;
+margin-left: auto;
+border: calc(65px * 0.04 / 1.3) solid #ff1d5e;
+position: absolute;
+animation-duration: 1250ms;
+animation-iteration-count: infinite;
+}
+.scaling-squares-spinner .square:nth-child(1) {
+animation-name: scaling-squares-spinner-animation-child-1;
+}
+.scaling-squares-spinner .square:nth-child(2) {
+animation-name: scaling-squares-spinner-animation-child-2;
+}
+.scaling-squares-spinner .square:nth-child(3) {
+animation-name: scaling-squares-spinner-animation-child-3;
+}
+.scaling-squares-spinner .square:nth-child(4) {
+animation-name: scaling-squares-spinner-animation-child-4;
+}
+@keyframes scaling-squares-animation {
+50% {
+transform: rotate(90deg);
+}
+100% {
+transform: rotate(180deg);
+}
+}
+@keyframes scaling-squares-spinner-animation-child-1 {
+50% {
+transform: translate(150%,150%) scale(2,2);
+}
+}
+@keyframes scaling-squares-spinner-animation-child-2 {
+50% {
+transform: translate(-150%,150%) scale(2,2);
+}
+}
+@keyframes scaling-squares-spinner-animation-child-3 {
+50% {
+transform: translate(-150%,-150%) scale(2,2);
+}
+}
+@keyframes scaling-squares-spinner-animation-child-4 {
+50% {
+transform: translate(150%,-150%) scale(2,2);
+}
+}
+
+.half-circle-spinner, .half-circle-spinner * {
+box-sizing: border-box;
+}
+.half-circle-spinner {
+width: 60px;
+height: 60px;
+border-radius: 100%;
+position: relative;
+}
+.half-circle-spinner .circle {
+content: "";
+position: absolute;
+width: 100%;
+height: 100%;
+border-radius: 100%;
+border: calc(60px / 10) solid transparent;
+}
+.half-circle-spinner .circle.circle-1 {
+border-top-color: #ff1d5e;
+animation: half-circle-spinner-animation 1s infinite;
+}
+.half-circle-spinner .circle.circle-2 {
+border-bottom-color: #ff1d5e;
+animation: half-circle-spinner-animation 1s infinite alternate;
+}
+@keyframes half-circle-spinner-animation {
+0% {
+transform: rotate(0deg);
+}
+100% {
+transform: rotate(360deg);
+}
+}
+
+.trinity-rings-spinner, .trinity-rings-spinner * {
+box-sizing: border-box;
+}
+.trinity-rings-spinner {
+height: 66px;
+width: 66px;
+padding: 3px;
+position: relative;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: row;
+overflow: hidden;
+box-sizing: border-box;
+}
+.trinity-rings-spinner .circle {
+position: absolute;
+display: block;
+border-radius: 50%;
+border: 3px solid #ff1d5e;
+opacity: 1;
+}
+.trinity-rings-spinner .circle:nth-child(1) {
+height: 60px;
+width: 60px;
+animation: trinity-rings-spinner-circle1-animation 1.5s infinite linear;
+border-width: 3px;
+}
+.trinity-rings-spinner .circle:nth-child(2) {
+height: calc(60px * 0.65);
+width: calc(60px * 0.65);
+animation: trinity-rings-spinner-circle2-animation 1.5s infinite linear;
+border-width: 2px;
+}
+.trinity-rings-spinner .circle:nth-child(3) {
+height: calc(60px * 0.1);
+width: calc(60px * 0.1);
+animation: trinity-rings-spinner-circle3-animation 1.5s infinite linear;
+border-width: 1px;
+}
+@keyframes trinity-rings-spinner-circle1-animation {
+0% {
+transform: rotateZ(20deg) rotateY(0deg);
+}
+100% {
+transform: rotateZ(100deg) rotateY(360deg);
+}
+}
+@keyframes trinity-rings-spinner-circle2-animation {
+0% {
+transform: rotateZ(100deg) rotateX(0deg);
+}
+100% {
+transform: rotateZ(0deg) rotateX(360deg);
+}
+}
+@keyframes trinity-rings-spinner-circle3-animation {
+0% {
+transform: rotateZ(100deg) rotateX(-360deg);
+}
+100% {
+transform: rotateZ(-360deg) rotateX(360deg);
+}
+}
+
+.fulfilling-square-spinner , .fulfilling-square-spinner * {
+box-sizing: border-box;
+}
+.fulfilling-square-spinner {
+height: 50px;
+width: 50px;
+position: relative;
+border: 4px solid #ff1d5e;
+animation: fulfilling-square-spinner-animation 4s infinite ease;
+}
+.fulfilling-square-spinner .spinner-inner {
+vertical-align: top;
+display: inline-block;
+background-color: #ff1d5e;
+width: 100%;
+opacity: 1;
+animation: fulfilling-square-spinner-inner-animation 4s infinite ease-in;
+}
+@keyframes fulfilling-square-spinner-animation {
+0% {
+transform: rotate(0deg);
+}
+25% {
+transform: rotate(180deg);
+}
+50% {
+transform: rotate(180deg);
+}
+75% {
+transform: rotate(360deg);
+}
+100% {
+transform: rotate(360deg);
+}
+}
+@keyframes fulfilling-square-spinner-inner-animation {
+0% {
+height: 0%;
+}
+25% {
+height: 0%;
+}
+50% {
+height: 100%;
+}
+75% {
+height: 100%;
+}
+100% {
+height: 0%;
+}
+}
+
+.circles-to-rhombuses-spinner, .circles-to-rhombuses-spinner * {
+box-sizing: border-box;
+}
+.circles-to-rhombuses-spinner {
+height: 15px;
+width: calc( (15px + 15px * 1.125) * 3);
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.circles-to-rhombuses-spinner .circle {
+height: 15px;
+width: 15px;
+margin-left: calc(15px * 1.125);
+transform: rotate(45deg);
+border-radius: 10%;
+border: 3px solid #ff1d5e;
+overflow: hidden;
+background: transparent;
+animation: circles-to-rhombuses-animation 1200ms linear infinite;
+}
+.circles-to-rhombuses-spinner .circle:nth-child(1) {
+animation-delay: calc(150ms * 1);
+margin-left: 0;
+}
+.circles-to-rhombuses-spinner .circle:nth-child(2) {
+animation-delay: calc(150ms * 2);
+}
+.circles-to-rhombuses-spinner .circle:nth-child(3) {
+animation-delay: calc(150ms * 3);
+}
+@keyframes circles-to-rhombuses-animation {
+0% {
+border-radius: 10%;
+}
+17.5% {
+border-radius: 10%;
+}
+50% {
+border-radius: 100%;
+}
+93.5% {
+border-radius: 10%;
+}
+100% {
+border-radius: 10%;
+}
+}
+@keyframes circles-to-rhombuses-background-animation {
+50% {
+opacity: 0.4;
+}
+}
+
+.semipolar-spinner, .semipolar-spinner * {
+box-sizing: border-box;
+}
+.semipolar-spinner {
+height: 65px;
+width: 65px;
+position: relative;
+}
+.semipolar-spinner .ring {
+border-radius: 50%;
+position: absolute;
+border: calc(65px * 0.05) solid transparent;
+border-top-color: #ff1d5e;
+border-left-color: #ff1d5e;
+animation: semipolar-spinner-animation 2s infinite;
+}
+.semipolar-spinner .ring:nth-child(1) {
+height: calc(65px - 65px * 0.2 * 0);
+width: calc(65px - 65px * 0.2 * 0);
+top: calc(65px * 0.1 * 0);
+left: calc(65px * 0.1 * 0);
+animation-delay: calc(2000ms * 0.1 * 4);
+z-index: 5;
+}
+.semipolar-spinner .ring:nth-child(2) {
+height: calc(65px - 65px * 0.2 * 1);
+width: calc(65px - 65px * 0.2 * 1);
+top: calc(65px * 0.1 * 1);
+left: calc(65px * 0.1 * 1);
+animation-delay: calc(2000ms * 0.1 * 3);
+z-index: 4;
+}
+.semipolar-spinner .ring:nth-child(3) {
+height: calc(65px - 65px * 0.2 * 2);
+width: calc(65px - 65px * 0.2 * 2);
+top: calc(65px * 0.1 * 2);
+left: calc(65px * 0.1 * 2);
+animation-delay: calc(2000ms * 0.1 * 2);
+z-index: 3;
+}
+.semipolar-spinner .ring:nth-child(4) {
+height: calc(65px - 65px * 0.2 * 3);
+width: calc(65px - 65px * 0.2 * 3);
+top: calc(65px * 0.1 * 3);
+left: calc(65px * 0.1 * 3);
+animation-delay: calc(2000ms * 0.1 * 1);
+z-index: 2;
+}
+.semipolar-spinner .ring:nth-child(5) {
+height: calc(65px - 65px * 0.2 * 4);
+width: calc(65px - 65px * 0.2 * 4);
+top: calc(65px * 0.1 * 4);
+left: calc(65px * 0.1 * 4);
+animation-delay: calc(2000ms * 0.1 * 0);
+z-index: 1;
+}
+@keyframes semipolar-spinner-animation {
+50% {
+transform: rotate(360deg) scale(0.7);
+}
+}
+
+.self-building-square-spinner, .self-building-square-spinner * {
+box-sizing: border-box;
+}
+.self-building-square-spinner {
+height: 40px;
+width: 40px;
+top: calc( -10px * 2 / 3);
+}
+.self-building-square-spinner .square {
+height: 10px;
+width: 10px;
+top: calc( -10px * 2 / 3);
+margin-right: calc(10px / 3);
+margin-top: calc(10px / 3);
+background: #ff1d5e;
+float: left;
+position: relative;
+opacity: 0;
+animation: self-building-square-spinner 6s infinite;
+}
+.self-building-square-spinner .square:nth-child(1) {
+animation-delay: calc(300ms * 6);
+}
+.self-building-square-spinner .square:nth-child(2) {
+animation-delay: calc(300ms * 7);
+}
+.self-building-square-spinner .square:nth-child(3) {
+animation-delay: calc(300ms * 8);
+}
+.self-building-square-spinner .square:nth-child(4) {
+animation-delay: calc(300ms * 3);
+}
+.self-building-square-spinner .square:nth-child(5) {
+animation-delay: calc(300ms * 4);
+}
+.self-building-square-spinner .square:nth-child(6) {
+animation-delay: calc(300ms * 5);
+}
+.self-building-square-spinner .square:nth-child(7) {
+animation-delay: calc(300ms * 0);
+}
+.self-building-square-spinner .square:nth-child(8) {
+animation-delay: calc(300ms * 1);
+}
+.self-building-square-spinner .square:nth-child(9) {
+animation-delay: calc(300ms * 2);
+}
+.self-building-square-spinner .clear {
+clear: both;
+}
+@keyframes self-building-square-spinner {
+0% {
+opacity: 0;
+}
+5% {
+opacity: 1;
+top: 0;
+}
+50.9% {
+opacity: 1;
+top: 0;
+}
+55.9% {
+opacity: 0;
+top: inherit;
+}
+}
+
+.swapping-squares-spinner, .swapping-squares-spinner * {
+box-sizing: border-box;
+}
+.swapping-squares-spinner {
+height: 65px;
+width: 65px;
+position: relative;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+}
+.swapping-squares-spinner .square {
+height: calc(65px * 0.25 / 1.3);
+width: calc(65px * 0.25 / 1.3);
+animation-duration: 1000ms;
+border: calc(65px * 0.04 / 1.3) solid #ff1d5e;
+margin-right: auto;
+margin-left: auto;
+position: absolute;
+animation-iteration-count: infinite;
+}
+.swapping-squares-spinner .square:nth-child(1) {
+animation-name: swapping-squares-animation-child-1;
+animation-delay: 500ms;
+}
+.swapping-squares-spinner .square:nth-child(2) {
+animation-name: swapping-squares-animation-child-2;
+animation-delay: 0ms;
+}
+.swapping-squares-spinner .square:nth-child(3) {
+animation-name: swapping-squares-animation-child-3;
+animation-delay: 500ms;
+}
+.swapping-squares-spinner .square:nth-child(4) {
+animation-name: swapping-squares-animation-child-4;
+animation-delay: 0ms;
+}
+@keyframes swapping-squares-animation-child-1 {
+50% {
+transform: translate(150%,150%) scale(2,2);
+}
+}
+@keyframes swapping-squares-animation-child-2 {
+50% {
+transform: translate(-150%,150%) scale(2,2);
+}
+}
+@keyframes swapping-squares-animation-child-3 {
+50% {
+transform: translate(-150%,-150%) scale(2,2);
+}
+}
+@keyframes swapping-squares-animation-child-4 {
+50% {
+transform: translate(150%,-150%) scale(2,2);
+}
+}
+
+.fulfilling-bouncing-circle-spinner, .fulfilling-bouncing-circle-spinner * {
+box-sizing: border-box;
+}
+.fulfilling-bouncing-circle-spinner {
+height: 60px;
+width: 60px;
+position: relative;
+animation: fulfilling-bouncing-circle-spinner-animation infinite 4000ms ease;
+}
+.fulfilling-bouncing-circle-spinner .orbit {
+height: 60px;
+width: 60px;
+position: absolute;
+top: 0;
+left: 0;
+border-radius: 50%;
+border: calc(60px * 0.03) solid #ff1d5e;
+animation: fulfilling-bouncing-circle-spinner-orbit-animation infinite 4000ms ease;
+}
+.fulfilling-bouncing-circle-spinner .circle {
+height: 60px;
+width: 60px;
+color: #ff1d5e;
+display: block;
+border-radius: 50%;
+position: relative;
+border: calc(60px * 0.1) solid #ff1d5e;
+animation: fulfilling-bouncing-circle-spinner-circle-animation infinite 4000ms ease;
+transform: rotate(0deg) scale(1);
+}
+@keyframes fulfilling-bouncing-circle-spinner-animation {
+0% {
+transform: rotate(0deg);
+}
+100% {
+transform: rotate(360deg);
+}
+}
+@keyframes fulfilling-bouncing-circle-spinner-orbit-animation {
+0% {
+transform: scale(1);
+}
+50% {
+transform: scale(1);
+}
+62.5% {
+transform: scale(0.8);
+}
+75% {
+transform: scale(1);
+}
+87.5% {
+transform: scale(0.8);
+}
+100% {
+transform: scale(1);
+}
+}
+@keyframes fulfilling-bouncing-circle-spinner-circle-animation {
+0% {
+transform: scale(1);
+border-color: transparent;
+border-top-color: inherit;
+}
+16.7% {
+border-color: transparent;
+border-top-color: initial;
+border-right-color: initial;
+}
+33.4% {
+border-color: transparent;
+border-top-color: inherit;
+border-right-color: inherit;
+border-bottom-color: inherit;
+}
+50% {
+border-color: inherit;
+transform: scale(1);
+}
+62.5% {
+border-color: inherit;
+transform: scale(1.4);
+}
+75% {
+border-color: inherit;
+transform: scale(1);
+opacity: 1;
+}
+87.5% {
+border-color: inherit;
+transform: scale(1.4);
+}
+100% {
+border-color: transparent;
+border-top-color: inherit;
+transform: scale(1);
+}
+}
+
+.fingerprint-spinner, .fingerprint-spinner * {
+box-sizing: border-box;
+}
+.fingerprint-spinner {
+height: 64px;
+width: 64px;
+padding: 2px;
+overflow: hidden;
+position: relative;
+}
+.fingerprint-spinner .spinner-ring {
+position: absolute;
+border-radius: 50%;
+border: 2px solid transparent;
+border-top-color: #ff1d5e;
+animation: fingerprint-spinner-animation 1500ms cubic-bezier(0.680, -0.750, 0.265, 1.750) infinite forwards;
+margin: auto;
+bottom: 0;
+left: 0;
+right: 0;
+top: 0;
+}
+.fingerprint-spinner .spinner-ring:nth-child(1) {
+height: calc(60px / 9 + 0 * 60px / 9);
+width: calc(60px / 9 + 0 * 60px / 9);
+animation-delay: calc(50ms * 1);
+}
+.fingerprint-spinner .spinner-ring:nth-child(2) {
+height: calc(60px / 9 + 1 * 60px / 9);
+width: calc(60px / 9 + 1 * 60px / 9);
+animation-delay: calc(50ms * 2);
+}
+.fingerprint-spinner .spinner-ring:nth-child(3) {
+height: calc(60px / 9 + 2 * 60px / 9);
+width: calc(60px / 9 + 2 * 60px / 9);
+animation-delay: calc(50ms * 3);
+}
+.fingerprint-spinner .spinner-ring:nth-child(4) {
+height: calc(60px / 9 + 3 * 60px / 9);
+width: calc(60px / 9 + 3 * 60px / 9);
+animation-delay: calc(50ms * 4);
+}
+.fingerprint-spinner .spinner-ring:nth-child(5) {
+height: calc(60px / 9 + 4 * 60px / 9);
+width: calc(60px / 9 + 4 * 60px / 9);
+animation-delay: calc(50ms * 5);
+}
+.fingerprint-spinner .spinner-ring:nth-child(6) {
+height: calc(60px / 9 + 5 * 60px / 9);
+width: calc(60px / 9 + 5 * 60px / 9);
+animation-delay: calc(50ms * 6);
+}
+.fingerprint-spinner .spinner-ring:nth-child(7) {
+height: calc(60px / 9 + 6 * 60px / 9);
+width: calc(60px / 9 + 6 * 60px / 9);
+animation-delay: calc(50ms * 7);
+}
+.fingerprint-spinner .spinner-ring:nth-child(8) {
+height: calc(60px / 9 + 7 * 60px / 9);
+width: calc(60px / 9 + 7 * 60px / 9);
+animation-delay: calc(50ms * 8);
+}
+.fingerprint-spinner .spinner-ring:nth-child(9) {
+height: calc(60px / 9 + 8 * 60px / 9);
+width: calc(60px / 9 + 8 * 60px / 9);
+animation-delay: calc(50ms * 9);
+}
+@keyframes fingerprint-spinner-animation {
+100% {
+transform: rotate( 360deg );
+}
+}
+
+.spring-spinner, .spring-spinner * {
+box-sizing: border-box;
+}
+.spring-spinner {
+height: 60px;
+width: 60px;
+}
+.spring-spinner .spring-spinner-part {
+overflow: hidden;
+height: calc(60px / 2);
+width: 60px;
+}
+.spring-spinner .spring-spinner-part.bottom {
+transform: rotate(180deg) scale(-1, 1);
+}
+.spring-spinner .spring-spinner-rotator {
+width: 60px;
+height: 60px;
+border: calc(60px / 7) solid transparent;
+border-right-color: #ff1d5e;
+border-top-color: #ff1d5e;
+border-radius: 50%;
+box-sizing: border-box;
+animation: spring-spinner-animation 3s ease-in-out infinite;
+transform: rotate(-200deg);
+}
+@keyframes spring-spinner-animation {
+0% {
+border-width: calc(60px / 7);
+}
+25% {
+border-width: calc(60px / 23.33);
+}
+50% {
+transform: rotate(115deg);
+border-width: calc(60px / 7);
+}
+75% {
+border-width: calc(60px / 23.33);
+}
+100% {
+border-width: calc(60px / 7);
+}
+}
+
+.atom-spinner, .atom-spinner * {
+box-sizing: border-box;
+}
+.atom-spinner {
+height: 60px;
+width: 60px;
+overflow: hidden;
+}
+.atom-spinner .spinner-inner {
+position: relative;
+display: block;
+height: 100%;
+width: 100%;
+}
+.atom-spinner .spinner-circle {
+display: block;
+position: absolute;
+color: #ff1d5e;
+font-size: calc(60px * 0.24);
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+}
+.atom-spinner .spinner-line {
+position: absolute;
+width: 100%;
+height: 100%;
+border-radius: 50%;
+animation-duration: 1s;
+border-left-width: calc(60px / 25);
+border-top-width: calc(60px / 25);
+border-left-color: #ff1d5e;
+border-left-style: solid;
+border-top-style: solid;
+border-top-color: transparent;
+}
+.atom-spinner .spinner-line:nth-child(1) {
+animation: atom-spinner-animation-1 1s linear infinite;
+transform: rotateZ(120deg) rotateX(66deg) rotateZ(0deg);
+}
+.atom-spinner .spinner-line:nth-child(2) {
+animation: atom-spinner-animation-2 1s linear infinite;
+transform: rotateZ(240deg) rotateX(66deg) rotateZ(0deg);
+}
+.atom-spinner .spinner-line:nth-child(3) {
+animation: atom-spinner-animation-3 1s linear infinite;
+transform: rotateZ(360deg) rotateX(66deg) rotateZ(0deg);
+}
+@keyframes atom-spinner-animation-1 {
+100% {
+transform: rotateZ(120deg) rotateX(66deg) rotateZ(360deg);
+}
+}
+@keyframes atom-spinner-animation-2 {
+100% {
+transform: rotateZ(240deg) rotateX(66deg) rotateZ(360deg);
+}
+}
+@keyframes atom-spinner-animation-3 {
+100% {
+transform: rotateZ(360deg) rotateX(66deg) rotateZ(360deg);
+}
+}
+
+.looping-rhombuses-spinner, .looping-rhombuses-spinner * {
+box-sizing: border-box;
+}
+.looping-rhombuses-spinner {
+width: calc(15px * 4);
+height: 15px;
+position: relative;
+}
+.looping-rhombuses-spinner .rhombus {
+height: 15px;
+width: 15px;
+background-color: #ff1d5e;
+left: calc(15px * 4);
+position: absolute;
+margin: 0 auto;
+border-radius: 2px;
+transform: translateY(0) rotate(45deg) scale(0);
+animation: looping-rhombuses-spinner-animation 2500ms linear infinite;
+}
+.looping-rhombuses-spinner .rhombus:nth-child(1) {
+animation-delay: calc(2500ms * 1 / -1.5);
+}
+.looping-rhombuses-spinner .rhombus:nth-child(2) {
+animation-delay: calc(2500ms * 2 / -1.5);
+}
+.looping-rhombuses-spinner .rhombus:nth-child(3) {
+animation-delay: calc(2500ms * 3 / -1.5);
+}
+@keyframes looping-rhombuses-spinner-animation {
+0% {
+transform: translateX(0) rotate(45deg) scale(0);
+}
+50% {
+transform: translateX(-233%) rotate(45deg) scale(1);
+}
+100% {
+transform: translateX(-466%) rotate(45deg) scale(0);
+}
+}
+
+.breeding-rhombus-spinner {
+height: 65px;
+width: 65px;
+position: relative;
+transform: rotate(45deg);
+}
+.breeding-rhombus-spinner, .breeding-rhombus-spinner * {
+box-sizing: border-box;
+}
+.breeding-rhombus-spinner .rhombus {
+height: calc(65px / 7.5);
+width: calc(65px / 7.5);
+animation-duration: 2000ms;
+top: calc(65px / 2.3077);
+left: calc(65px / 2.3077);
+background-color: #ff1d5e;
+position: absolute;
+animation-iteration-count: infinite;
+}
+.breeding-rhombus-spinner .rhombus:nth-child(2n+0) {
+margin-right: 0;
+}
+.breeding-rhombus-spinner .rhombus.child-1 {
+animation-name: breeding-rhombus-spinner-animation-child-1;
+animation-delay: calc(100ms * 1);
+}
+.breeding-rhombus-spinner .rhombus.child-2 {
+animation-name: breeding-rhombus-spinner-animation-child-2;
+animation-delay: calc(100ms * 2);
+}
+.breeding-rhombus-spinner .rhombus.child-3 {
+animation-name: breeding-rhombus-spinner-animation-child-3;
+animation-delay: calc(100ms * 3);
+}
+.breeding-rhombus-spinner .rhombus.child-4 {
+animation-name: breeding-rhombus-spinner-animation-child-4;
+animation-delay: calc(100ms * 4);
+}
+.breeding-rhombus-spinner .rhombus.child-5 {
+animation-name: breeding-rhombus-spinner-animation-child-5;
+animation-delay: calc(100ms * 5);
+}
+.breeding-rhombus-spinner .rhombus.child-6 {
+animation-name: breeding-rhombus-spinner-animation-child-6;
+animation-delay: calc(100ms * 6);
+}
+.breeding-rhombus-spinner .rhombus.child-7 {
+animation-name: breeding-rhombus-spinner-animation-child-7;
+animation-delay: calc(100ms * 7);
+}
+.breeding-rhombus-spinner .rhombus.child-8 {
+animation-name: breeding-rhombus-spinner-animation-child-8;
+animation-delay: calc(100ms * 8);
+}
+.breeding-rhombus-spinner .rhombus.big {
+height: calc(65px / 3);
+width: calc(65px / 3);
+animation-duration: 2000ms;
+top: calc(65px / 3);
+left: calc(65px / 3);
+background-color: #ff1d5e;
+animation: breeding-rhombus-spinner-animation-child-big 2s infinite;
+animation-delay: 0.5s;
+}
+@keyframes breeding-rhombus-spinner-animation-child-1 {
+50% {
+transform: translate(-325%, -325%);
+}
+}
+@keyframes breeding-rhombus-spinner-animation-child-2 {
+50% {
+transform: translate(0, -325%);
+}
+}
+@keyframes breeding-rhombus-spinner-animation-child-3 {
+50% {
+transform: translate(325%, -325%);
+}
+}
+@keyframes breeding-rhombus-spinner-animation-child-4 {
+50% {
+transform: translate(325%, 0);
+}
+}
+@keyframes breeding-rhombus-spinner-animation-child-5 {
+50% {
+transform: translate(325%, 325%);
+}
+}
+@keyframes breeding-rhombus-spinner-animation-child-6 {
+50% {
+transform: translate(0, 325%);
+}
+}
+@keyframes breeding-rhombus-spinner-animation-child-7 {
+50% {
+transform: translate(-325%, 325%);
+}
+}
+@keyframes breeding-rhombus-spinner-animation-child-8 {
+50% {
+transform: translate(-325%, 0);
+}
+}
+@keyframes breeding-rhombus-spinner-animation-child-big {
+50% {
+transform: scale(0.5);
+}
+}
+</style>
+<style type="text/css">@-webkit-keyframes sk-bouncedelay{0%,80%,to{-webkit-transform:scale(0)}40%{-webkit-transform:scale(1)}}@keyframes sk-bouncedelay{0%,80%,to{-webkit-transform:scale(0);transform:scale(0)}40%{-webkit-transform:scale(1);transform:scale(1)}}@-webkit-keyframes sk-rotate{to{-webkit-transform:rotate(360deg)}}@keyframes sk-rotate{to{transform:rotate(360deg);-webkit-transform:rotate(360deg)}}@-webkit-keyframes sk-bounce{0%,to{-webkit-transform:scale(0)}50%{-webkit-transform:scale(1)}}@keyframes sk-bounce{0%,to{transform:scale(0);-webkit-transform:scale(0)}50%{transform:scale(1);-webkit-transform:scale(1)}}@-webkit-keyframes sk-cubeGridScaleDelay{0%,70%,to{-webkit-transform:scale3D(1,1,1);transform:scale3D(1,1,1)}35%{-webkit-transform:scale3D(0,0,1);transform:scale3D(0,0,1)}}@keyframes sk-cubeGridScaleDelay{0%,70%,to{-webkit-transform:scale3D(1,1,1);transform:scale3D(1,1,1)}35%{-webkit-transform:scale3D(0,0,1);transform:scale3D(0,0,1)}}@-webkit-keyframes sk-cubemove{25%{-webkit-transform:translateX(42px) rotate(-90deg) scale(.5)}50%{-webkit-transform:translateX(42px) translateY(42px) rotate(-180deg)}75%{-webkit-transform:translateX(0) translateY(42px) rotate(-270deg) scale(.5)}to{-webkit-transform:rotate(-360deg)}}@keyframes sk-cubemove{25%{transform:translateX(42px) rotate(-90deg) scale(.5);-webkit-transform:translateX(42px) rotate(-90deg) scale(.5)}50%{transform:translateX(42px) translateY(42px) rotate(-179deg);-webkit-transform:translateX(42px) translateY(42px) rotate(-179deg)}50.1%{transform:translateX(42px) translateY(42px) rotate(-180deg);-webkit-transform:translateX(42px) translateY(42px) rotate(-180deg)}75%{transform:translateX(0) translateY(42px) rotate(-270deg) scale(.5);-webkit-transform:translateX(0) translateY(42px) rotate(-270deg) scale(.5)}to{transform:rotate(-360deg);-webkit-transform:rotate(-360deg)}}@-webkit-keyframes sk-rotateplane{0%{-webkit-transform:perspective(120px)}50%{-webkit-transform:perspective(120px) rotateY(180deg)}to{-webkit-transform:perspective(120px) rotateY(180deg) rotateX(180deg)}}@keyframes sk-rotateplane{0%{transform:perspective(120px) rotateX(0deg) rotateY(0deg);-webkit-transform:perspective(120px) rotateX(0deg) rotateY(0deg)}50%{transform:perspective(120px) rotateX(-180.1deg) rotateY(0deg);-webkit-transform:perspective(120px) rotateX(-180.1deg) rotateY(0deg)}to{transform:perspective(120px) rotateX(-180deg) rotateY(-179.9deg);-webkit-transform:perspective(120px) rotateX(-180deg) rotateY(-179.9deg)}}@-webkit-keyframes sk-foldCubeAngle{0%,10%{-webkit-transform:perspective(140px) rotateX(-180deg);transform:perspective(140px) rotateX(-180deg);opacity:0}25%,75%{-webkit-transform:perspective(140px) rotateX(0deg);transform:perspective(140px) rotateX(0deg);opacity:1}90%,to{-webkit-transform:perspective(140px) rotateY(180deg);transform:perspective(140px) rotateY(180deg);opacity:0}}@keyframes sk-foldCubeAngle{0%,10%{-webkit-transform:perspective(140px) rotateX(-180deg);transform:perspective(140px) rotateX(-180deg);opacity:0}25%,75%{-webkit-transform:perspective(140px) rotateX(0deg);transform:perspective(140px) rotateX(0deg);opacity:1}90%,to{-webkit-transform:perspective(140px) rotateY(180deg);transform:perspective(140px) rotateY(180deg);opacity:0}}@-webkit-keyframes sk-scaleout{0%{-webkit-transform:scale(0)}to{-webkit-transform:scale(1);opacity:0}}@keyframes sk-scaleout{0%{-webkit-transform:scale(0);transform:scale(0)}to{-webkit-transform:scale(1);transform:scale(1);opacity:0}}@-webkit-keyframes sk-circleBounceDelay{0%,80%,to{-webkit-transform:scale(0);transform:scale(0)}40%{-webkit-transform:scale(1);transform:scale(1)}}@keyframes sk-circleBounceDelay{0%,80%,to{-webkit-transform:scale(0);transform:scale(0)}40%{-webkit-transform:scale(1);transform:scale(1)}}@-webkit-keyframes sk-circleFadeDelay{0%,39%,to{opacity:0}40%{opacity:1}}@keyframes sk-circleFadeDelay{0%,39%,to{opacity:0}40%{opacity:1}}.double-bounce1,.double-bounce2{width:100%;height:100%;border-radius:50%;opacity:.6;position:absolute;top:0;left:0;-webkit-animation:sk-bounce 2s infinite ease-in-out;animation:sk-bounce 2s infinite ease-in-out}.double-bounce2{-webkit-animation-delay:-1s;animation-delay:-1s}.spinner-bounce,.spinner-dots{width:100%;text-align:center}.spinner-bounce>div{width:18px;height:18px;border-radius:100%;display:inline-block;-webkit-animation:sk-bouncedelay 1.4s infinite ease-in-out both;animation:sk-bouncedelay 1.4s infinite ease-in-out both}.spinner-bounce .bounce1{-webkit-animation-delay:-.32s;animation-delay:-.32s}.spinner-bounce .bounce2{-webkit-animation-delay:-.16s;animation-delay:-.16s}.spinner-dots{height:100%;position:relative;-webkit-animation:sk-rotate 2s infinite linear;animation:sk-rotate 2s infinite linear}.dot1,.dot2{width:60%;height:60%;display:inline-block;position:absolute;top:0;background-color:#333;border-radius:100%;-webkit-animation:sk-bounce 2s infinite ease-in-out;animation:sk-bounce 2s infinite ease-in-out}.dot2{top:auto;bottom:0;-webkit-animation-delay:-1s;animation-delay:-1s}.sk-cube-grid,.spinner-cube{width:100%;height:100%}.sk-cube-grid .sk-cube{width:33%;height:33%;float:left;-webkit-animation:sk-cubeGridScaleDelay 1.3s infinite ease-in-out;animation:sk-cubeGridScaleDelay 1.3s infinite ease-in-out}.sk-cube-grid .sk-cube1{-webkit-animation-delay:.2s;animation-delay:.2s}.sk-cube-grid .sk-cube2{-webkit-animation-delay:.3s;animation-delay:.3s}.sk-cube-grid .sk-cube3{-webkit-animation-delay:.4s;animation-delay:.4s}.sk-cube-grid .sk-cube4{-webkit-animation-delay:.1s;animation-delay:.1s}.sk-cube-grid .sk-cube5{-webkit-animation-delay:.2s;animation-delay:.2s}.sk-cube-grid .sk-cube6{-webkit-animation-delay:.3s;animation-delay:.3s}.sk-cube-grid .sk-cube7{-webkit-animation-delay:0s;animation-delay:0s}.sk-cube-grid .sk-cube8{-webkit-animation-delay:.1s;animation-delay:.1s}.sk-cube-grid .sk-cube9{-webkit-animation-delay:.2s;animation-delay:.2s}.spinner-cube{position:relative}.cube1,.cube2{background-color:#333;width:30%;height:30%;position:absolute;top:0;left:0;-webkit-animation:sk-cubemove 1.8s infinite ease-in-out;animation:sk-cubemove 1.8s infinite ease-in-out}.cube2{-webkit-animation-delay:-.9s;animation-delay:-.9s}.rotating-plane{width:100%;height:100%;-webkit-animation:sk-rotateplane 1.2s infinite ease-in-out;animation:sk-rotateplane 1.2s infinite ease-in-out}.sk-folding-cube{width:100%;height:100%;position:relative;-webkit-transform:rotateZ(45deg);transform:rotateZ(45deg)}.sk-folding-cube .sk-cube{float:left;width:50%;height:50%;position:relative;-webkit-transform:scale(1.1);-ms-transform:scale(1.1);transform:scale(1.1)}.sk-folding-cube .sk-cube:before{content:'';position:absolute;top:0;left:0;width:100%;height:100%;-webkit-animation:sk-foldCubeAngle 2.4s infinite linear both;animation:sk-foldCubeAngle 2.4s infinite linear both;-webkit-transform-origin:100% 100%;-ms-transform-origin:100% 100%;transform-origin:100% 100%}.sk-folding-cube .sk-cube2{-webkit-transform:scale(1.1) rotateZ(90deg);transform:scale(1.1) rotateZ(90deg)}.sk-folding-cube .sk-cube3{-webkit-transform:scale(1.1) rotateZ(180deg);transform:scale(1.1) rotateZ(180deg)}.sk-folding-cube .sk-cube4{-webkit-transform:scale(1.1) rotateZ(270deg);transform:scale(1.1) rotateZ(270deg)}.sk-folding-cube .sk-cube2:before{-webkit-animation-delay:.3s;animation-delay:.3s}.sk-folding-cube .sk-cube3:before{-webkit-animation-delay:.6s;animation-delay:.6s}.sk-folding-cube .sk-cube4:before{-webkit-animation-delay:.9s;animation-delay:.9s}.spinner2{width:100%;height:100%;background-color:#112446;border-radius:100%;-webkit-animation:sk-scaleout 1s infinite ease-in-out;animation:sk-scaleout 1s infinite ease-in-out}.sk-circle,.sk-circle .sk-child,.sk-fading-circle{width:100%;height:100%;position:relative}.sk-circle .sk-child{position:absolute;left:0;top:0}.sk-circle .sk-child:before{content:'';display:block;margin:0 auto;width:15%;height:15%;border-radius:100%;-webkit-animation:sk-circleBounceDelay 1.2s infinite ease-in-out both;animation:sk-circleBounceDelay 1.2s infinite ease-in-out both}.sk-circle .sk-circle2{-webkit-transform:rotate(30deg);-ms-transform:rotate(30deg);transform:rotate(30deg)}.sk-circle .sk-circle3{-webkit-transform:rotate(60deg);-ms-transform:rotate(60deg);transform:rotate(60deg)}.sk-circle .sk-circle4{-webkit-transform:rotate(90deg);-ms-transform:rotate(90deg);transform:rotate(90deg)}.sk-circle .sk-circle5{-webkit-transform:rotate(120deg);-ms-transform:rotate(120deg);transform:rotate(120deg)}.sk-circle .sk-circle6{-webkit-transform:rotate(150deg);-ms-transform:rotate(150deg);transform:rotate(150deg)}.sk-circle .sk-circle7{-webkit-transform:rotate(180deg);-ms-transform:rotate(180deg);transform:rotate(180deg)}.sk-circle .sk-circle8{-webkit-transform:rotate(210deg);-ms-transform:rotate(210deg);transform:rotate(210deg)}.sk-circle .sk-circle9{-webkit-transform:rotate(240deg);-ms-transform:rotate(240deg);transform:rotate(240deg)}.sk-circle .sk-circle10{-webkit-transform:rotate(270deg);-ms-transform:rotate(270deg);transform:rotate(270deg)}.sk-circle .sk-circle11{-webkit-transform:rotate(300deg);-ms-transform:rotate(300deg);transform:rotate(300deg)}.sk-circle .sk-circle12{-webkit-transform:rotate(330deg);-ms-transform:rotate(330deg);transform:rotate(330deg)}.sk-circle .sk-circle2:before{-webkit-animation-delay:-1.1s;animation-delay:-1.1s}.sk-circle .sk-circle3:before{-webkit-animation-delay:-1s;animation-delay:-1s}.sk-circle .sk-circle4:before{-webkit-animation-delay:-.9s;animation-delay:-.9s}.sk-circle .sk-circle5:before{-webkit-animation-delay:-.8s;animation-delay:-.8s}.sk-circle .sk-circle6:before{-webkit-animation-delay:-.7s;animation-delay:-.7s}.sk-circle .sk-circle7:before{-webkit-animation-delay:-.6s;animation-delay:-.6s}.sk-circle .sk-circle8:before{-webkit-animation-delay:-.5s;animation-delay:-.5s}.sk-circle .sk-circle9:before{-webkit-animation-delay:-.4s;animation-delay:-.4s}.sk-circle .sk-circle10:before{-webkit-animation-delay:-.3s;animation-delay:-.3s}.sk-circle .sk-circle11:before{-webkit-animation-delay:-.2s;animation-delay:-.2s}.sk-circle .sk-circle12:before{-webkit-animation-delay:-.1s;animation-delay:-.1s}.sk-fading-circle .sk-circle{width:100%;height:100%;position:absolute;left:0;top:0}.sk-fading-circle .sk-circle:before{content:'';display:block;margin:0 auto;width:15%;height:15%;border-radius:100%;-webkit-animation:sk-circleFadeDelay 1.2s infinite ease-in-out both;animation:sk-circleFadeDelay 1.2s infinite ease-in-out both}.sk-fading-circle .sk-circle2{-webkit-transform:rotate(30deg);-ms-transform:rotate(30deg);transform:rotate(30deg)}.sk-fading-circle .sk-circle3{-webkit-transform:rotate(60deg);-ms-transform:rotate(60deg);transform:rotate(60deg)}.sk-fading-circle .sk-circle4{-webkit-transform:rotate(90deg);-ms-transform:rotate(90deg);transform:rotate(90deg)}.sk-fading-circle .sk-circle5{-webkit-transform:rotate(120deg);-ms-transform:rotate(120deg);transform:rotate(120deg)}.sk-fading-circle .sk-circle6{-webkit-transform:rotate(150deg);-ms-transform:rotate(150deg);transform:rotate(150deg)}.sk-fading-circle .sk-circle7{-webkit-transform:rotate(180deg);-ms-transform:rotate(180deg);transform:rotate(180deg)}.sk-fading-circle .sk-circle8{-webkit-transform:rotate(210deg);-ms-transform:rotate(210deg);transform:rotate(210deg)}.sk-fading-circle .sk-circle9{-webkit-transform:rotate(240deg);-ms-transform:rotate(240deg);transform:rotate(240deg)}.sk-fading-circle .sk-circle10{-webkit-transform:rotate(270deg);-ms-transform:rotate(270deg);transform:rotate(270deg)}.sk-fading-circle .sk-circle11{-webkit-transform:rotate(300deg);-ms-transform:rotate(300deg);transform:rotate(300deg)}.sk-fading-circle .sk-circle12{-webkit-transform:rotate(330deg);-ms-transform:rotate(330deg);transform:rotate(330deg)}.sk-fading-circle .sk-circle2:before{-webkit-animation-delay:-1.1s;animation-delay:-1.1s}.sk-fading-circle .sk-circle3:before{-webkit-animation-delay:-1s;animation-delay:-1s}.sk-fading-circle .sk-circle4:before{-webkit-animation-delay:-.9s;animation-delay:-.9s}.sk-fading-circle .sk-circle5:before{-webkit-animation-delay:-.8s;animation-delay:-.8s}.sk-fading-circle .sk-circle6:before{-webkit-animation-delay:-.7s;animation-delay:-.7s}.sk-fading-circle .sk-circle7:before{-webkit-animation-delay:-.6s;animation-delay:-.6s}.sk-fading-circle .sk-circle8:before{-webkit-animation-delay:-.5s;animation-delay:-.5s}.sk-fading-circle .sk-circle9:before{-webkit-animation-delay:-.4s;animation-delay:-.4s}.sk-fading-circle .sk-circle10:before{-webkit-animation-delay:-.3s;animation-delay:-.3s}.sk-fading-circle .sk-circle11:before{-webkit-animation-delay:-.2s;animation-delay:-.2s}.sk-fading-circle .sk-circle12:before{-webkit-animation-delay:-.1s;animation-delay:-.1s}
+</style>
 
 <style type="text/css">
-  code{white-space: pre-wrap;}
-  span.smallcaps{font-variant: small-caps;}
-  span.underline{text-decoration: underline;}
-  div.column{display: inline-block; vertical-align: top; width: 50%;}
-  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
-  ul.task-list{list-style: none;}
-    </style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+span.underline{text-decoration: underline;}
+div.column{display: inline-block; vertical-align: top; width: 50%;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+</style>
 
 
 
 <style type="text/css">
-  code {
-    white-space: pre;
-  }
-  .sourceCode {
-    overflow: visible;
-  }
+code {
+white-space: pre;
+}
+.sourceCode {
+overflow: visible;
+}
 </style>
 <style type="text/css" data-origin="pandoc">
 pre > code.sourceCode { white-space: pre; position: relative; }
@@ -53,55 +1268,54 @@ pre > code.sourceCode { white-space: pre-wrap; }
 pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
 }
 pre.numberSource code
-  { counter-reset: source-line 0; }
+{ counter-reset: source-line 0; }
 pre.numberSource code > span
-  { position: relative; left: -4em; counter-increment: source-line; }
+{ position: relative; left: -4em; counter-increment: source-line; }
 pre.numberSource code > span > a:first-child::before
-  { content: counter(source-line);
-    position: relative; left: -1em; text-align: right; vertical-align: baseline;
-    border: none; display: inline-block;
-    -webkit-touch-callout: none; -webkit-user-select: none;
-    -khtml-user-select: none; -moz-user-select: none;
-    -ms-user-select: none; user-select: none;
-    padding: 0 4px; width: 4em;
-    color: #aaaaaa;
-  }
-pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+{ content: counter(source-line);
+position: relative; left: -1em; text-align: right; vertical-align: baseline;
+border: none; display: inline-block;
+-webkit-touch-callout: none; -webkit-user-select: none;
+-khtml-user-select: none; -moz-user-select: none;
+-ms-user-select: none; user-select: none;
+padding: 0 4px; width: 4em;
+color: #aaaaaa;
+}
+pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa; padding-left: 4px; }
 div.sourceCode
-  {   }
+{ }
 @media screen {
 pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
-code span.al { color: #ff0000; font-weight: bold; } /* Alert */
-code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
-code span.at { color: #7d9029; } /* Attribute */
-code span.bn { color: #40a070; } /* BaseN */
-code span.bu { } /* BuiltIn */
-code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
-code span.ch { color: #4070a0; } /* Char */
-code span.cn { color: #880000; } /* Constant */
-code span.co { color: #60a0b0; font-style: italic; } /* Comment */
-code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
-code span.do { color: #ba2121; font-style: italic; } /* Documentation */
-code span.dt { color: #902000; } /* DataType */
-code span.dv { color: #40a070; } /* DecVal */
-code span.er { color: #ff0000; font-weight: bold; } /* Error */
-code span.ex { } /* Extension */
-code span.fl { color: #40a070; } /* Float */
-code span.fu { color: #06287e; } /* Function */
-code span.im { } /* Import */
-code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
-code span.kw { color: #007020; font-weight: bold; } /* Keyword */
-code span.op { color: #666666; } /* Operator */
-code span.ot { color: #007020; } /* Other */
-code span.pp { color: #bc7a00; } /* Preprocessor */
-code span.sc { color: #4070a0; } /* SpecialChar */
-code span.ss { color: #bb6688; } /* SpecialString */
-code span.st { color: #4070a0; } /* String */
-code span.va { color: #19177c; } /* Variable */
-code span.vs { color: #4070a0; } /* VerbatimString */
-code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
-
+code span.al { color: #ff0000; font-weight: bold; } 
+code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } 
+code span.at { color: #7d9029; } 
+code span.bn { color: #40a070; } 
+code span.bu { color: #008000; } 
+code span.cf { color: #007020; font-weight: bold; } 
+code span.ch { color: #4070a0; } 
+code span.cn { color: #880000; } 
+code span.co { color: #60a0b0; font-style: italic; } 
+code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } 
+code span.do { color: #ba2121; font-style: italic; } 
+code span.dt { color: #902000; } 
+code span.dv { color: #40a070; } 
+code span.er { color: #ff0000; font-weight: bold; } 
+code span.ex { } 
+code span.fl { color: #40a070; } 
+code span.fu { color: #06287e; } 
+code span.im { color: #008000; font-weight: bold; } 
+code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } 
+code span.kw { color: #007020; font-weight: bold; } 
+code span.op { color: #666666; } 
+code span.ot { color: #007020; } 
+code span.pp { color: #bc7a00; } 
+code span.sc { color: #4070a0; } 
+code span.ss { color: #bb6688; } 
+code span.st { color: #4070a0; } 
+code span.va { color: #19177c; } 
+code span.vs { color: #4070a0; } 
+code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } 
 </style>
 <script>
 // apply pandoc div.sourceCode style to pre.sourceCode instead
@@ -110,13 +1324,20 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
   for (var i = 0; i < sheets.length; i++) {
     if (sheets[i].ownerNode.dataset["origin"] !== "pandoc") continue;
     try { var rules = sheets[i].cssRules; } catch (e) { continue; }
-    for (var j = 0; j < rules.length; j++) {
+    var j = 0;
+    while (j < rules.length) {
       var rule = rules[j];
       // check if there is a div.sourceCode rule
-      if (rule.type !== rule.STYLE_RULE || rule.selectorText !== "div.sourceCode") continue;
+      if (rule.type !== rule.STYLE_RULE || rule.selectorText !== "div.sourceCode") {
+        j++;
+        continue;
+      }
       var style = rule.style.cssText;
       // check if color or background-color is set
-      if (rule.style.color === '' && rule.style.backgroundColor === '') continue;
+      if (rule.style.color === '' && rule.style.backgroundColor === '') {
+        j++;
+        continue;
+      }
       // replace div.sourceCode by a pre.sourceCode rule
       sheets[i].deleteRule(j);
       sheets[i].insertRule('pre.sourceCode{' + style + '}', j);
@@ -128,7 +1349,187 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 
 
 
-<link rel="stylesheet" href="data:text/css,body%20%7B%0Abackground%2Dcolor%3A%20%23fff%3B%0Amargin%3A%201em%20auto%3B%0Amax%2Dwidth%3A%20700px%3B%0Aoverflow%3A%20visible%3B%0Apadding%2Dleft%3A%202em%3B%0Apadding%2Dright%3A%202em%3B%0Afont%2Dfamily%3A%20%22Open%20Sans%22%2C%20%22Helvetica%20Neue%22%2C%20Helvetica%2C%20Arial%2C%20sans%2Dserif%3B%0Afont%2Dsize%3A%2014px%3B%0Aline%2Dheight%3A%201%2E35%3B%0A%7D%0A%23TOC%20%7B%0Aclear%3A%20both%3B%0Amargin%3A%200%200%2010px%2010px%3B%0Apadding%3A%204px%3B%0Awidth%3A%20400px%3B%0Aborder%3A%201px%20solid%20%23CCCCCC%3B%0Aborder%2Dradius%3A%205px%3B%0Abackground%2Dcolor%3A%20%23f6f6f6%3B%0Afont%2Dsize%3A%2013px%3B%0Aline%2Dheight%3A%201%2E3%3B%0A%7D%0A%23TOC%20%2Etoctitle%20%7B%0Afont%2Dweight%3A%20bold%3B%0Afont%2Dsize%3A%2015px%3B%0Amargin%2Dleft%3A%205px%3B%0A%7D%0A%23TOC%20ul%20%7B%0Apadding%2Dleft%3A%2040px%3B%0Amargin%2Dleft%3A%20%2D1%2E5em%3B%0Amargin%2Dtop%3A%205px%3B%0Amargin%2Dbottom%3A%205px%3B%0A%7D%0A%23TOC%20ul%20ul%20%7B%0Amargin%2Dleft%3A%20%2D2em%3B%0A%7D%0A%23TOC%20li%20%7B%0Aline%2Dheight%3A%2016px%3B%0A%7D%0Atable%20%7B%0Amargin%3A%201em%20auto%3B%0Aborder%2Dwidth%3A%201px%3B%0Aborder%2Dcolor%3A%20%23DDDDDD%3B%0Aborder%2Dstyle%3A%20outset%3B%0Aborder%2Dcollapse%3A%20collapse%3B%0A%7D%0Atable%20th%20%7B%0Aborder%2Dwidth%3A%202px%3B%0Apadding%3A%205px%3B%0Aborder%2Dstyle%3A%20inset%3B%0A%7D%0Atable%20td%20%7B%0Aborder%2Dwidth%3A%201px%3B%0Aborder%2Dstyle%3A%20inset%3B%0Aline%2Dheight%3A%2018px%3B%0Apadding%3A%205px%205px%3B%0A%7D%0Atable%2C%20table%20th%2C%20table%20td%20%7B%0Aborder%2Dleft%2Dstyle%3A%20none%3B%0Aborder%2Dright%2Dstyle%3A%20none%3B%0A%7D%0Atable%20thead%2C%20table%20tr%2Eeven%20%7B%0Abackground%2Dcolor%3A%20%23f7f7f7%3B%0A%7D%0Ap%20%7B%0Amargin%3A%200%2E5em%200%3B%0A%7D%0Ablockquote%20%7B%0Abackground%2Dcolor%3A%20%23f6f6f6%3B%0Apadding%3A%200%2E25em%200%2E75em%3B%0A%7D%0Ahr%20%7B%0Aborder%2Dstyle%3A%20solid%3B%0Aborder%3A%20none%3B%0Aborder%2Dtop%3A%201px%20solid%20%23777%3B%0Amargin%3A%2028px%200%3B%0A%7D%0Adl%20%7B%0Amargin%2Dleft%3A%200%3B%0A%7D%0Adl%20dd%20%7B%0Amargin%2Dbottom%3A%2013px%3B%0Amargin%2Dleft%3A%2013px%3B%0A%7D%0Adl%20dt%20%7B%0Afont%2Dweight%3A%20bold%3B%0A%7D%0Aul%20%7B%0Amargin%2Dtop%3A%200%3B%0A%7D%0Aul%20li%20%7B%0Alist%2Dstyle%3A%20circle%20outside%3B%0A%7D%0Aul%20ul%20%7B%0Amargin%2Dbottom%3A%200%3B%0A%7D%0Apre%2C%20code%20%7B%0Abackground%2Dcolor%3A%20%23f7f7f7%3B%0Aborder%2Dradius%3A%203px%3B%0Acolor%3A%20%23333%3B%0Awhite%2Dspace%3A%20pre%2Dwrap%3B%20%0A%7D%0Apre%20%7B%0Aborder%2Dradius%3A%203px%3B%0Amargin%3A%205px%200px%2010px%200px%3B%0Apadding%3A%2010px%3B%0A%7D%0Apre%3Anot%28%5Bclass%5D%29%20%7B%0Abackground%2Dcolor%3A%20%23f7f7f7%3B%0A%7D%0Acode%20%7B%0Afont%2Dfamily%3A%20Consolas%2C%20Monaco%2C%20%27Courier%20New%27%2C%20monospace%3B%0Afont%2Dsize%3A%2085%25%3B%0A%7D%0Ap%20%3E%20code%2C%20li%20%3E%20code%20%7B%0Apadding%3A%202px%200px%3B%0A%7D%0Adiv%2Efigure%20%7B%0Atext%2Dalign%3A%20center%3B%0A%7D%0Aimg%20%7B%0Abackground%2Dcolor%3A%20%23FFFFFF%3B%0Apadding%3A%202px%3B%0Aborder%3A%201px%20solid%20%23DDDDDD%3B%0Aborder%2Dradius%3A%203px%3B%0Aborder%3A%201px%20solid%20%23CCCCCC%3B%0Amargin%3A%200%205px%3B%0A%7D%0Ah1%20%7B%0Amargin%2Dtop%3A%200%3B%0Afont%2Dsize%3A%2035px%3B%0Aline%2Dheight%3A%2040px%3B%0A%7D%0Ah2%20%7B%0Aborder%2Dbottom%3A%204px%20solid%20%23f7f7f7%3B%0Apadding%2Dtop%3A%2010px%3B%0Apadding%2Dbottom%3A%202px%3B%0Afont%2Dsize%3A%20145%25%3B%0A%7D%0Ah3%20%7B%0Aborder%2Dbottom%3A%202px%20solid%20%23f7f7f7%3B%0Apadding%2Dtop%3A%2010px%3B%0Afont%2Dsize%3A%20120%25%3B%0A%7D%0Ah4%20%7B%0Aborder%2Dbottom%3A%201px%20solid%20%23f7f7f7%3B%0Amargin%2Dleft%3A%208px%3B%0Afont%2Dsize%3A%20105%25%3B%0A%7D%0Ah5%2C%20h6%20%7B%0Aborder%2Dbottom%3A%201px%20solid%20%23ccc%3B%0Afont%2Dsize%3A%20105%25%3B%0A%7D%0Aa%20%7B%0Acolor%3A%20%230033dd%3B%0Atext%2Ddecoration%3A%20none%3B%0A%7D%0Aa%3Ahover%20%7B%0Acolor%3A%20%236666ff%3B%20%7D%0Aa%3Avisited%20%7B%0Acolor%3A%20%23800080%3B%20%7D%0Aa%3Avisited%3Ahover%20%7B%0Acolor%3A%20%23BB00BB%3B%20%7D%0Aa%5Bhref%5E%3D%22http%3A%22%5D%20%7B%0Atext%2Ddecoration%3A%20underline%3B%20%7D%0Aa%5Bhref%5E%3D%22https%3A%22%5D%20%7B%0Atext%2Ddecoration%3A%20underline%3B%20%7D%0A%0Acode%20%3E%20span%2Ekw%20%7B%20color%3A%20%23555%3B%20font%2Dweight%3A%20bold%3B%20%7D%20%0Acode%20%3E%20span%2Edt%20%7B%20color%3A%20%23902000%3B%20%7D%20%0Acode%20%3E%20span%2Edv%20%7B%20color%3A%20%2340a070%3B%20%7D%20%0Acode%20%3E%20span%2Ebn%20%7B%20color%3A%20%23d14%3B%20%7D%20%0Acode%20%3E%20span%2Efl%20%7B%20color%3A%20%23d14%3B%20%7D%20%0Acode%20%3E%20span%2Ech%20%7B%20color%3A%20%23d14%3B%20%7D%20%0Acode%20%3E%20span%2Est%20%7B%20color%3A%20%23d14%3B%20%7D%20%0Acode%20%3E%20span%2Eco%20%7B%20color%3A%20%23888888%3B%20font%2Dstyle%3A%20italic%3B%20%7D%20%0Acode%20%3E%20span%2Eot%20%7B%20color%3A%20%23007020%3B%20%7D%20%0Acode%20%3E%20span%2Eal%20%7B%20color%3A%20%23ff0000%3B%20font%2Dweight%3A%20bold%3B%20%7D%20%0Acode%20%3E%20span%2Efu%20%7B%20color%3A%20%23900%3B%20font%2Dweight%3A%20bold%3B%20%7D%20%0Acode%20%3E%20span%2Eer%20%7B%20color%3A%20%23a61717%3B%20background%2Dcolor%3A%20%23e3d2d2%3B%20%7D%20%0A" type="text/css" />
+<style type="text/css">body {
+background-color: #fff;
+margin: 1em auto;
+max-width: 700px;
+overflow: visible;
+padding-left: 2em;
+padding-right: 2em;
+font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+font-size: 14px;
+line-height: 1.35;
+}
+#TOC {
+clear: both;
+margin: 0 0 10px 10px;
+padding: 4px;
+width: 400px;
+border: 1px solid #CCCCCC;
+border-radius: 5px;
+background-color: #f6f6f6;
+font-size: 13px;
+line-height: 1.3;
+}
+#TOC .toctitle {
+font-weight: bold;
+font-size: 15px;
+margin-left: 5px;
+}
+#TOC ul {
+padding-left: 40px;
+margin-left: -1.5em;
+margin-top: 5px;
+margin-bottom: 5px;
+}
+#TOC ul ul {
+margin-left: -2em;
+}
+#TOC li {
+line-height: 16px;
+}
+table {
+margin: 1em auto;
+border-width: 1px;
+border-color: #DDDDDD;
+border-style: outset;
+border-collapse: collapse;
+}
+table th {
+border-width: 2px;
+padding: 5px;
+border-style: inset;
+}
+table td {
+border-width: 1px;
+border-style: inset;
+line-height: 18px;
+padding: 5px 5px;
+}
+table, table th, table td {
+border-left-style: none;
+border-right-style: none;
+}
+table thead, table tr.even {
+background-color: #f7f7f7;
+}
+p {
+margin: 0.5em 0;
+}
+blockquote {
+background-color: #f6f6f6;
+padding: 0.25em 0.75em;
+}
+hr {
+border-style: solid;
+border: none;
+border-top: 1px solid #777;
+margin: 28px 0;
+}
+dl {
+margin-left: 0;
+}
+dl dd {
+margin-bottom: 13px;
+margin-left: 13px;
+}
+dl dt {
+font-weight: bold;
+}
+ul {
+margin-top: 0;
+}
+ul li {
+list-style: circle outside;
+}
+ul ul {
+margin-bottom: 0;
+}
+pre, code {
+background-color: #f7f7f7;
+border-radius: 3px;
+color: #333;
+white-space: pre-wrap; 
+}
+pre {
+border-radius: 3px;
+margin: 5px 0px 10px 0px;
+padding: 10px;
+}
+pre:not([class]) {
+background-color: #f7f7f7;
+}
+code {
+font-family: Consolas, Monaco, 'Courier New', monospace;
+font-size: 85%;
+}
+p > code, li > code {
+padding: 2px 0px;
+}
+div.figure {
+text-align: center;
+}
+img {
+background-color: #FFFFFF;
+padding: 2px;
+border: 1px solid #DDDDDD;
+border-radius: 3px;
+border: 1px solid #CCCCCC;
+margin: 0 5px;
+}
+h1 {
+margin-top: 0;
+font-size: 35px;
+line-height: 40px;
+}
+h2 {
+border-bottom: 4px solid #f7f7f7;
+padding-top: 10px;
+padding-bottom: 2px;
+font-size: 145%;
+}
+h3 {
+border-bottom: 2px solid #f7f7f7;
+padding-top: 10px;
+font-size: 120%;
+}
+h4 {
+border-bottom: 1px solid #f7f7f7;
+margin-left: 8px;
+font-size: 105%;
+}
+h5, h6 {
+border-bottom: 1px solid #ccc;
+font-size: 105%;
+}
+a {
+color: #0033dd;
+text-decoration: none;
+}
+a:hover {
+color: #6666ff; }
+a:visited {
+color: #800080; }
+a:visited:hover {
+color: #BB00BB; }
+a[href^="http:"] {
+text-decoration: underline; }
+a[href^="https:"] {
+text-decoration: underline; }
+
+code > span.kw { color: #555; font-weight: bold; } 
+code > span.dt { color: #902000; } 
+code > span.dv { color: #40a070; } 
+code > span.bn { color: #d14; } 
+code > span.fl { color: #d14; } 
+code > span.ch { color: #d14; } 
+code > span.st { color: #d14; } 
+code > span.co { color: #888888; font-style: italic; } 
+code > span.ot { color: #007020; } 
+code > span.al { color: #ff0000; font-weight: bold; } 
+code > span.fu { color: #900; font-weight: bold; } 
+code > span.er { color: #a61717; background-color: #e3d2d2; } 
+</style>
 
 
 
@@ -144,8 +1545,9 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 
 
 
-<div class="sourceCode" id="cb1"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(shinybusy)</span></code></pre></div>
-<p>Available spinners are listed below. You can use spinners with following functions :</p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" tabindex="-1"></a><span class="fu">library</span>(shinybusy)</span></code></pre></div>
+<p>Available spinners are listed below. You can use spinners with
+following functions :</p>
 <ul>
 <li><code>add_busy_spinner()</code></li>
 <li><code>use_busy_spinner()</code></li>
@@ -153,7 +1555,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 </ul>
 <div id="epic-spinners" class="section level2">
 <h2>Epic spinners</h2>
-<div class="sourceCode" id="cb2"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="fu">spin_epic</span>(<span class="st">&quot;flower&quot;</span>)</span></code></pre></div>
+<div class="sourceCode" id="cb2"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" tabindex="-1"></a><span class="fu">spin_epic</span>(<span class="st">&quot;flower&quot;</span>)</span></code></pre></div>
 <div class="flower-spinner">
 <div class="dots-container">
 <div class="bigger-dot" style="background:#112446; color:#112446;">
@@ -161,17 +1563,17 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 </div>
 </div>
 </div>
-<div class="sourceCode" id="cb3"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="fu">spin_epic</span>(<span class="st">&quot;pixel&quot;</span>)</span></code></pre></div>
+<div class="sourceCode" id="cb3"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" tabindex="-1"></a><span class="fu">spin_epic</span>(<span class="st">&quot;pixel&quot;</span>)</span></code></pre></div>
 <div class="pixel-spinner">
 <div class="pixel-spinner-inner" style="background:#112446; color:#112446;"></div>
 </div>
-<div class="sourceCode" id="cb4"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="fu">spin_epic</span>(<span class="st">&quot;hollow-dots&quot;</span>)</span></code></pre></div>
+<div class="sourceCode" id="cb4"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1" tabindex="-1"></a><span class="fu">spin_epic</span>(<span class="st">&quot;hollow-dots&quot;</span>)</span></code></pre></div>
 <div class="hollow-dots-spinner">
 <div class="dot" style="border-color:#112446;"></div>
 <div class="dot" style="border-color:#112446;"></div>
 <div class="dot" style="border-color:#112446;"></div>
 </div>
-<div class="sourceCode" id="cb5"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="fu">spin_epic</span>(<span class="st">&quot;intersecting-circles&quot;</span>)</span></code></pre></div>
+<div class="sourceCode" id="cb5"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb5-1"><a href="#cb5-1" tabindex="-1"></a><span class="fu">spin_epic</span>(<span class="st">&quot;intersecting-circles&quot;</span>)</span></code></pre></div>
 <div class="intersecting-circles-spinner">
 <div class="spinnerBlock">
 <span class="circle" style="border-color:#112446;"></span>
@@ -183,13 +1585,13 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <span class="circle" style="border-color:#112446;"></span>
 </div>
 </div>
-<div class="sourceCode" id="cb6"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="fu">spin_epic</span>(<span class="st">&quot;orbit&quot;</span>)</span></code></pre></div>
+<div class="sourceCode" id="cb6"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb6-1"><a href="#cb6-1" tabindex="-1"></a><span class="fu">spin_epic</span>(<span class="st">&quot;orbit&quot;</span>)</span></code></pre></div>
 <div class="orbit-spinner">
 <div class="orbit" style="border-bottom-color:#112446;"></div>
 <div class="orbit" style="border-right-color:#112446;"></div>
 <div class="orbit" style="border-top-color:#112446;"></div>
 </div>
-<div class="sourceCode" id="cb7"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="fu">spin_epic</span>(<span class="st">&quot;radar&quot;</span>)</span></code></pre></div>
+<div class="sourceCode" id="cb7"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb7-1"><a href="#cb7-1" tabindex="-1"></a><span class="fu">spin_epic</span>(<span class="st">&quot;radar&quot;</span>)</span></code></pre></div>
 <div class="radar-spinner">
 <div class="circle">
 <div class="circle-inner-container">
@@ -212,35 +1614,35 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 </div>
 </div>
 </div>
-<div class="sourceCode" id="cb8"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a><span class="fu">spin_epic</span>(<span class="st">&quot;scaling-squares&quot;</span>)</span></code></pre></div>
+<div class="sourceCode" id="cb8"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb8-1"><a href="#cb8-1" tabindex="-1"></a><span class="fu">spin_epic</span>(<span class="st">&quot;scaling-squares&quot;</span>)</span></code></pre></div>
 <div class="scaling-squares-spinner">
 <div class="square" style="border-color:#112446;"></div>
 <div class="square" style="border-color:#112446;"></div>
 <div class="square" style="border-color:#112446;"></div>
 <div class="square" style="border-color:#112446;"></div>
 </div>
-<div class="sourceCode" id="cb9"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a><span class="fu">spin_epic</span>(<span class="st">&quot;half-circle&quot;</span>)</span></code></pre></div>
+<div class="sourceCode" id="cb9"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb9-1"><a href="#cb9-1" tabindex="-1"></a><span class="fu">spin_epic</span>(<span class="st">&quot;half-circle&quot;</span>)</span></code></pre></div>
 <div class="half-circle-spinner">
 <div class="circle circle-1" style="border-top-color:#112446;"></div>
 <div class="circle circle-2" style="border-bottom-color:#112446;"></div>
 </div>
-<div class="sourceCode" id="cb10"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a><span class="fu">spin_epic</span>(<span class="st">&quot;trinity-rings&quot;</span>)</span></code></pre></div>
+<div class="sourceCode" id="cb10"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb10-1"><a href="#cb10-1" tabindex="-1"></a><span class="fu">spin_epic</span>(<span class="st">&quot;trinity-rings&quot;</span>)</span></code></pre></div>
 <div class="trinity-rings-spinner">
 <div class="circle" style="border-color:#112446;"></div>
 <div class="circle" style="border-color:#112446;"></div>
 <div class="circle" style="border-color:#112446;"></div>
 </div>
-<div class="sourceCode" id="cb11"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a><span class="fu">spin_epic</span>(<span class="st">&quot;fulfilling-square&quot;</span>)</span></code></pre></div>
+<div class="sourceCode" id="cb11"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb11-1"><a href="#cb11-1" tabindex="-1"></a><span class="fu">spin_epic</span>(<span class="st">&quot;fulfilling-square&quot;</span>)</span></code></pre></div>
 <div class="fulfilling-square-spinner" style="border-color:#112446;">
 <div class="spinner-inner" style="background:#112446;"></div>
 </div>
-<div class="sourceCode" id="cb12"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a><span class="fu">spin_epic</span>(<span class="st">&quot;circles-to-rhombuses&quot;</span>)</span></code></pre></div>
+<div class="sourceCode" id="cb12"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb12-1"><a href="#cb12-1" tabindex="-1"></a><span class="fu">spin_epic</span>(<span class="st">&quot;circles-to-rhombuses&quot;</span>)</span></code></pre></div>
 <div class="circles-to-rhombuses-spinner">
 <div class="circle" style="border-color:#112446;"></div>
 <div class="circle" style="border-color:#112446;"></div>
 <div class="circle" style="border-color:#112446;"></div>
 </div>
-<div class="sourceCode" id="cb13"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb13-1"><a href="#cb13-1" aria-hidden="true" tabindex="-1"></a><span class="fu">spin_epic</span>(<span class="st">&quot;semipolar&quot;</span>)</span></code></pre></div>
+<div class="sourceCode" id="cb13"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb13-1"><a href="#cb13-1" tabindex="-1"></a><span class="fu">spin_epic</span>(<span class="st">&quot;semipolar&quot;</span>)</span></code></pre></div>
 <div class="semipolar-spinner">
 <div class="ring" style="border-left-color: #112446; border-top-color: #112446;"></div>
 <div class="ring" style="border-left-color: #112446; border-top-color: #112446;"></div>
@@ -248,7 +1650,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <div class="ring" style="border-left-color: #112446; border-top-color: #112446;"></div>
 <div class="ring" style="border-left-color: #112446; border-top-color: #112446;"></div>
 </div>
-<div class="sourceCode" id="cb14"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb14-1"><a href="#cb14-1" aria-hidden="true" tabindex="-1"></a><span class="fu">spin_epic</span>(<span class="st">&quot;self-building-square&quot;</span>)</span></code></pre></div>
+<div class="sourceCode" id="cb14"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb14-1"><a href="#cb14-1" tabindex="-1"></a><span class="fu">spin_epic</span>(<span class="st">&quot;self-building-square&quot;</span>)</span></code></pre></div>
 <div class="self-building-square-spinner">
 <div class="square" style="background:#112446;"></div>
 <div class="square" style="background:#112446;"></div>
@@ -260,19 +1662,19 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <div class="square" style="background:#112446;"></div>
 <div class="square" style="background:#112446;"></div>
 </div>
-<div class="sourceCode" id="cb15"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb15-1"><a href="#cb15-1" aria-hidden="true" tabindex="-1"></a><span class="fu">spin_epic</span>(<span class="st">&quot;swapping-squares&quot;</span>)</span></code></pre></div>
+<div class="sourceCode" id="cb15"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb15-1"><a href="#cb15-1" tabindex="-1"></a><span class="fu">spin_epic</span>(<span class="st">&quot;swapping-squares&quot;</span>)</span></code></pre></div>
 <div class="swapping-squares-spinner">
 <div class="square" style="border-color:#112446;"></div>
 <div class="square" style="border-color:#112446;"></div>
 <div class="square" style="border-color:#112446;"></div>
 <div class="square" style="border-color:#112446;"></div>
 </div>
-<div class="sourceCode" id="cb16"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb16-1"><a href="#cb16-1" aria-hidden="true" tabindex="-1"></a><span class="fu">spin_epic</span>(<span class="st">&quot;fulfilling-bouncing-circle&quot;</span>)</span></code></pre></div>
+<div class="sourceCode" id="cb16"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb16-1"><a href="#cb16-1" tabindex="-1"></a><span class="fu">spin_epic</span>(<span class="st">&quot;fulfilling-bouncing-circle&quot;</span>)</span></code></pre></div>
 <div class="fulfilling-bouncing-circle-spinner">
 <div class="circle" style="color:#112446;"></div>
 <div class="orbit" style="border-color:#112446;"></div>
 </div>
-<div class="sourceCode" id="cb17"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb17-1"><a href="#cb17-1" aria-hidden="true" tabindex="-1"></a><span class="fu">spin_epic</span>(<span class="st">&quot;fingerprint&quot;</span>)</span></code></pre></div>
+<div class="sourceCode" id="cb17"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb17-1"><a href="#cb17-1" tabindex="-1"></a><span class="fu">spin_epic</span>(<span class="st">&quot;fingerprint&quot;</span>)</span></code></pre></div>
 <div class="fingerprint-spinner">
 <div class="spinner-ring" style="border-top-color: #112446;"></div>
 <div class="spinner-ring" style="border-top-color: #112446;"></div>
@@ -283,7 +1685,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <div class="spinner-ring" style="border-top-color: #112446;"></div>
 <div class="spinner-ring" style="border-top-color: #112446;"></div>
 </div>
-<div class="sourceCode" id="cb18"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb18-1"><a href="#cb18-1" aria-hidden="true" tabindex="-1"></a><span class="fu">spin_epic</span>(<span class="st">&quot;spring&quot;</span>)</span></code></pre></div>
+<div class="sourceCode" id="cb18"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb18-1"><a href="#cb18-1" tabindex="-1"></a><span class="fu">spin_epic</span>(<span class="st">&quot;spring&quot;</span>)</span></code></pre></div>
 <div class="spring-spinner">
 <div class="spring-spinner-part top">
 <div class="spring-spinner-rotator" style="border-right-color: #112446; border-top-color: #112446;"></div>
@@ -292,7 +1694,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <div class="spring-spinner-rotator" style="border-right-color: #112446; border-top-color: #112446;"></div>
 </div>
 </div>
-<div class="sourceCode" id="cb19"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb19-1"><a href="#cb19-1" aria-hidden="true" tabindex="-1"></a><span class="fu">spin_epic</span>(<span class="st">&quot;atom&quot;</span>)</span></code></pre></div>
+<div class="sourceCode" id="cb19"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb19-1"><a href="#cb19-1" tabindex="-1"></a><span class="fu">spin_epic</span>(<span class="st">&quot;atom&quot;</span>)</span></code></pre></div>
 <div class="atom-spinner">
 <div class="spinner-inner">
 <div class="spinner-line" style="border-left-color: #112446;"></div>
@@ -301,13 +1703,13 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <div class="spinner-circle" style="color:#112446;">●</div>
 </div>
 </div>
-<div class="sourceCode" id="cb20"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb20-1"><a href="#cb20-1" aria-hidden="true" tabindex="-1"></a><span class="fu">spin_epic</span>(<span class="st">&quot;looping-rhombuses&quot;</span>)</span></code></pre></div>
+<div class="sourceCode" id="cb20"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb20-1"><a href="#cb20-1" tabindex="-1"></a><span class="fu">spin_epic</span>(<span class="st">&quot;looping-rhombuses&quot;</span>)</span></code></pre></div>
 <div class="looping-rhombuses-spinner">
 <div class="rhombus" style="background:#112446;"></div>
 <div class="rhombus" style="background:#112446;"></div>
 <div class="rhombus" style="background:#112446;"></div>
 </div>
-<div class="sourceCode" id="cb21"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb21-1"><a href="#cb21-1" aria-hidden="true" tabindex="-1"></a><span class="fu">spin_epic</span>(<span class="st">&quot;breeding-rhombus&quot;</span>)</span></code></pre></div>
+<div class="sourceCode" id="cb21"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb21-1"><a href="#cb21-1" tabindex="-1"></a><span class="fu">spin_epic</span>(<span class="st">&quot;breeding-rhombus&quot;</span>)</span></code></pre></div>
 <div class="breeding-rhombus-spinner">
 <div class="rhombus child-1" style="background:#112446;"></div>
 <div class="rhombus child-2" style="background:#112446;"></div>
@@ -322,31 +1724,31 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 </div>
 <div id="spin-kit" class="section level2">
 <h2>Spin kit</h2>
-<div class="sourceCode" id="cb22"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb22-1"><a href="#cb22-1" aria-hidden="true" tabindex="-1"></a>style <span class="ot">&lt;-</span> <span class="st">&quot;position: relative; height: 50px; width: 50px;&quot;</span></span>
-<span id="cb22-2"><a href="#cb22-2" aria-hidden="true" tabindex="-1"></a><span class="fu">spin_kit</span>(<span class="st">&quot;double-bounce&quot;</span>, <span class="at">style =</span> style)</span></code></pre></div>
+<div class="sourceCode" id="cb22"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb22-1"><a href="#cb22-1" tabindex="-1"></a>style <span class="ot">&lt;-</span> <span class="st">&quot;position: relative; height: 50px; width: 50px;&quot;</span></span>
+<span id="cb22-2"><a href="#cb22-2" tabindex="-1"></a><span class="fu">spin_kit</span>(<span class="st">&quot;double-bounce&quot;</span>, <span class="at">style =</span> style)</span></code></pre></div>
 <div style="position: relative; height: 50px; width: 50px;">
 <div class="double-bounce1" style="background-color: #112446;"></div>
 <div class="double-bounce2" style="background-color: #112446;"></div>
 </div>
-<div class="sourceCode" id="cb23"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb23-1"><a href="#cb23-1" aria-hidden="true" tabindex="-1"></a><span class="fu">spin_kit</span>(<span class="st">&quot;circle&quot;</span>, <span class="at">style =</span> style)</span></code></pre></div>
+<div class="sourceCode" id="cb23"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb23-1"><a href="#cb23-1" tabindex="-1"></a><span class="fu">spin_kit</span>(<span class="st">&quot;circle&quot;</span>, <span class="at">style =</span> style)</span></code></pre></div>
 <div style="position: relative; height: 50px; width: 50px;">
-<style>.sk-circle .sk-child-pefenhypyzmq:before {background-color: #112446;}</style>
+<style>.sk-circle .sk-child-javnpnwrbtsc:before {background-color: #112446;}</style>
 <div class="sk-circle">
-<div class="sk-circle1 sk-child sk-child-pefenhypyzmq"></div>
-<div class="sk-circle2 sk-child sk-child-pefenhypyzmq"></div>
-<div class="sk-circle3 sk-child sk-child-pefenhypyzmq"></div>
-<div class="sk-circle4 sk-child sk-child-pefenhypyzmq"></div>
-<div class="sk-circle5 sk-child sk-child-pefenhypyzmq"></div>
-<div class="sk-circle6 sk-child sk-child-pefenhypyzmq"></div>
-<div class="sk-circle7 sk-child sk-child-pefenhypyzmq"></div>
-<div class="sk-circle8 sk-child sk-child-pefenhypyzmq"></div>
-<div class="sk-circle9 sk-child sk-child-pefenhypyzmq"></div>
-<div class="sk-circle10 sk-child sk-child-pefenhypyzmq"></div>
-<div class="sk-circle11 sk-child sk-child-pefenhypyzmq"></div>
-<div class="sk-circle12 sk-child sk-child-pefenhypyzmq"></div>
+<div class="sk-circle1 sk-child sk-child-javnpnwrbtsc"></div>
+<div class="sk-circle2 sk-child sk-child-javnpnwrbtsc"></div>
+<div class="sk-circle3 sk-child sk-child-javnpnwrbtsc"></div>
+<div class="sk-circle4 sk-child sk-child-javnpnwrbtsc"></div>
+<div class="sk-circle5 sk-child sk-child-javnpnwrbtsc"></div>
+<div class="sk-circle6 sk-child sk-child-javnpnwrbtsc"></div>
+<div class="sk-circle7 sk-child sk-child-javnpnwrbtsc"></div>
+<div class="sk-circle8 sk-child sk-child-javnpnwrbtsc"></div>
+<div class="sk-circle9 sk-child sk-child-javnpnwrbtsc"></div>
+<div class="sk-circle10 sk-child sk-child-javnpnwrbtsc"></div>
+<div class="sk-circle11 sk-child sk-child-javnpnwrbtsc"></div>
+<div class="sk-circle12 sk-child sk-child-javnpnwrbtsc"></div>
 </div>
 </div>
-<div class="sourceCode" id="cb24"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb24-1"><a href="#cb24-1" aria-hidden="true" tabindex="-1"></a><span class="fu">spin_kit</span>(<span class="st">&quot;bounce&quot;</span>, <span class="at">style =</span> style)</span></code></pre></div>
+<div class="sourceCode" id="cb24"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb24-1"><a href="#cb24-1" tabindex="-1"></a><span class="fu">spin_kit</span>(<span class="st">&quot;bounce&quot;</span>, <span class="at">style =</span> style)</span></code></pre></div>
 <div style="position: relative; height: 50px; width: 50px;">
 <div class="spinner-bounce">
 <div style="background-color: #112446;" class="bounce1"></div>
@@ -354,21 +1756,21 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <div style="background-color: #112446;" class="bounce3"></div>
 </div>
 </div>
-<div class="sourceCode" id="cb25"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb25-1"><a href="#cb25-1" aria-hidden="true" tabindex="-1"></a><span class="fu">spin_kit</span>(<span class="st">&quot;folding-cube&quot;</span>, <span class="at">style =</span> style)</span></code></pre></div>
+<div class="sourceCode" id="cb25"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb25-1"><a href="#cb25-1" tabindex="-1"></a><span class="fu">spin_kit</span>(<span class="st">&quot;folding-cube&quot;</span>, <span class="at">style =</span> style)</span></code></pre></div>
 <div style="position: relative; height: 50px; width: 50px;">
-<style>.sk-folding-cube .sk-cube-xndfzmozures:before {background-color: #112446;}</style>
+<style>.sk-folding-cube .sk-cube-uhngonyyzlyk:before {background-color: #112446;}</style>
 <div class="sk-folding-cube">
-<div class="sk-cube1 sk-cube sk-cube-xndfzmozures"></div>
-<div class="sk-cube2 sk-cube sk-cube-xndfzmozures"></div>
-<div class="sk-cube4 sk-cube sk-cube-xndfzmozures"></div>
-<div class="sk-cube3 sk-cube sk-cube-xndfzmozures"></div>
+<div class="sk-cube1 sk-cube sk-cube-uhngonyyzlyk"></div>
+<div class="sk-cube2 sk-cube sk-cube-uhngonyyzlyk"></div>
+<div class="sk-cube4 sk-cube sk-cube-uhngonyyzlyk"></div>
+<div class="sk-cube3 sk-cube sk-cube-uhngonyyzlyk"></div>
 </div>
 </div>
-<div class="sourceCode" id="cb26"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb26-1"><a href="#cb26-1" aria-hidden="true" tabindex="-1"></a><span class="fu">spin_kit</span>(<span class="st">&quot;rotating-plane&quot;</span>, <span class="at">style =</span> style)</span></code></pre></div>
+<div class="sourceCode" id="cb26"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb26-1"><a href="#cb26-1" tabindex="-1"></a><span class="fu">spin_kit</span>(<span class="st">&quot;rotating-plane&quot;</span>, <span class="at">style =</span> style)</span></code></pre></div>
 <div style="position: relative; height: 50px; width: 50px;">
 <div class="rotating-plane" style="background-color: #112446;"></div>
 </div>
-<div class="sourceCode" id="cb27"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb27-1"><a href="#cb27-1" aria-hidden="true" tabindex="-1"></a><span class="fu">spin_kit</span>(<span class="st">&quot;cube-grid&quot;</span>, <span class="at">style =</span> style)</span></code></pre></div>
+<div class="sourceCode" id="cb27"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb27-1"><a href="#cb27-1" tabindex="-1"></a><span class="fu">spin_kit</span>(<span class="st">&quot;cube-grid&quot;</span>, <span class="at">style =</span> style)</span></code></pre></div>
 <div style="position: relative; height: 50px; width: 50px;">
 <div class="sk-cube-grid">
 <div style="background-color: #112446;" class="sk-cube sk-cube1"></div>
@@ -382,32 +1784,32 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <div style="background-color: #112446;" class="sk-cube sk-cube9"></div>
 </div>
 </div>
-<div class="sourceCode" id="cb28"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb28-1"><a href="#cb28-1" aria-hidden="true" tabindex="-1"></a><span class="fu">spin_kit</span>(<span class="st">&quot;fading-circle&quot;</span>, <span class="at">style =</span> style)</span></code></pre></div>
+<div class="sourceCode" id="cb28"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb28-1"><a href="#cb28-1" tabindex="-1"></a><span class="fu">spin_kit</span>(<span class="st">&quot;fading-circle&quot;</span>, <span class="at">style =</span> style)</span></code></pre></div>
 <div style="position: relative; height: 50px; width: 50px;">
-<style>.sk-fading-circle .sk-circle-uxorsxiushgk:before {background-color: #112446;}</style>
+<style>.sk-fading-circle .sk-circle-wtzxrpxxckww:before {background-color: #112446;}</style>
 <div class="sk-fading-circle">
-<div class="sk-circle1 sk-circle sk-circle-uxorsxiushgk"></div>
-<div class="sk-circle2 sk-circle sk-circle-uxorsxiushgk"></div>
-<div class="sk-circle3 sk-circle sk-circle-uxorsxiushgk"></div>
-<div class="sk-circle4 sk-circle sk-circle-uxorsxiushgk"></div>
-<div class="sk-circle5 sk-circle sk-circle-uxorsxiushgk"></div>
-<div class="sk-circle6 sk-circle sk-circle-uxorsxiushgk"></div>
-<div class="sk-circle7 sk-circle sk-circle-uxorsxiushgk"></div>
-<div class="sk-circle8 sk-circle sk-circle-uxorsxiushgk"></div>
-<div class="sk-circle9 sk-circle sk-circle-uxorsxiushgk"></div>
-<div class="sk-circle10 sk-circle sk-circle-uxorsxiushgk"></div>
-<div class="sk-circle11 sk-circle sk-circle-uxorsxiushgk"></div>
-<div class="sk-circle12 sk-circle sk-circle-uxorsxiushgk"></div>
+<div class="sk-circle1 sk-circle sk-circle-wtzxrpxxckww"></div>
+<div class="sk-circle2 sk-circle sk-circle-wtzxrpxxckww"></div>
+<div class="sk-circle3 sk-circle sk-circle-wtzxrpxxckww"></div>
+<div class="sk-circle4 sk-circle sk-circle-wtzxrpxxckww"></div>
+<div class="sk-circle5 sk-circle sk-circle-wtzxrpxxckww"></div>
+<div class="sk-circle6 sk-circle sk-circle-wtzxrpxxckww"></div>
+<div class="sk-circle7 sk-circle sk-circle-wtzxrpxxckww"></div>
+<div class="sk-circle8 sk-circle sk-circle-wtzxrpxxckww"></div>
+<div class="sk-circle9 sk-circle sk-circle-wtzxrpxxckww"></div>
+<div class="sk-circle10 sk-circle sk-circle-wtzxrpxxckww"></div>
+<div class="sk-circle11 sk-circle sk-circle-wtzxrpxxckww"></div>
+<div class="sk-circle12 sk-circle sk-circle-wtzxrpxxckww"></div>
 </div>
 </div>
-<div class="sourceCode" id="cb29"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb29-1"><a href="#cb29-1" aria-hidden="true" tabindex="-1"></a><span class="fu">spin_kit</span>(<span class="st">&quot;dots&quot;</span>, <span class="at">style =</span> style)</span></code></pre></div>
+<div class="sourceCode" id="cb29"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb29-1"><a href="#cb29-1" tabindex="-1"></a><span class="fu">spin_kit</span>(<span class="st">&quot;dots&quot;</span>, <span class="at">style =</span> style)</span></code></pre></div>
 <div style="position: relative; height: 50px; width: 50px;">
 <div class="spinner-dots">
 <div style="background-color: #112446;" class="dot1"></div>
 <div style="background-color: #112446;" class="dot2"></div>
 </div>
 </div>
-<div class="sourceCode" id="cb30"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb30-1"><a href="#cb30-1" aria-hidden="true" tabindex="-1"></a><span class="fu">spin_kit</span>(<span class="st">&quot;cube&quot;</span>, <span class="at">style =</span> style)</span></code></pre></div>
+<div class="sourceCode" id="cb30"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb30-1"><a href="#cb30-1" tabindex="-1"></a><span class="fu">spin_kit</span>(<span class="st">&quot;cube&quot;</span>, <span class="at">style =</span> style)</span></code></pre></div>
 <div style="position: relative; height: 50px; width: 50px;">
 <div class="spinner-cube">
 <div style="background-color: #112446;" class="cube1"></div>
