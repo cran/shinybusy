@@ -24,7 +24,7 @@ unblock(
 \arguments{
 \item{id}{Id of the element to block, for exemple an \code{outputId}.}
 
-\item{text}{Text displayed below the blocking indicator.}
+\item{text}{Text displayed below the blocking indicator. Must be a single character string.}
 
 \item{type}{Type of blocking indicator.}
 
@@ -47,10 +47,7 @@ library(shinybusy)
 library(shiny)
 
 ui <- fluidPage(
-
   tags$h3("Block Output"),
-
-
   fluidRow(
     column(
       width = 6,
@@ -63,7 +60,6 @@ ui <- fluidPage(
       actionButton("block_reac", "Block when calculating in reactive()")
     )
   )
-
 )
 
 server <- function(input, output, session) {
